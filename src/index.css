@@ -1,0 +1,41 @@
+@font-face {
+  font-family: Arca Majora3;
+  font-style: normal;
+  src:
+    local(Arca Majora3),
+    local(arcamajora),
+    url("./components/fonts/arcamajora.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Futura Medium Italic;
+  font-style: normal;
+  src:
+    local(Futura Medium Italic),
+    local(futuramediumitalic),
+    url("./components/fonts/futuramediumitalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Futura Thin;
+  font-style: normal;
+  src:
+    local(Futura Thin),
+    local(futurathin),
+    url("./components/fonts/futurathin.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: River Jade;
+  font-style: normal;
+  src:
+    local(River Jade),
+    local(riverjade),
+    url("./components/fonts/riverjade.ttf") format("truetype");
+}
+
+
+
+html {
+  font-family: Arca Majora3;
+}

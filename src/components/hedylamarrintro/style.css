@@ -1,0 +1,27 @@
+.hedylamarrpicturebox {
+  margin-top: 200px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  height: 100px;
+  width: 100%;
+  font-family: Arca Majora3;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+#hedylamarrpicture {
+  background-image: url(../images/hedyfaceweb.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-size: 60%;
+  z-index: -1;
+}
+
+#hedylamarrtext {
+  font-family: River Jade;
+  padding-top: 700px;
+  font-size: 90px;
+}

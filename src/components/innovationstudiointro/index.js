@@ -7,6 +7,8 @@ class Innovationstudiointro extends React.Component {
       <div>
           <div className="whatwedoheadertext">
             <h1>INNOVATION STUDIO</h1>
+          </div>
+          <div>
             <p className="whatwedosmalltext">We invest management skills,
                 time and money in tech startups
                 that contributes to solve at least

@@ -9,9 +9,11 @@
 .tellmemorebutton {
   margin: auto;
   font-size: 30px;
-  width: 30%;
+  width: 35%;
   color: #F8ECE4;
   background-color: #051C26;
   padding: 20px;
   border-radius: 35px;
+  font-family: Arca Majora3;
+  letter-spacing: 5px;
 }

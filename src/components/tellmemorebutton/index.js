@@ -6,7 +6,7 @@ class Tellmemorebutton extends React.Component {
     return (
       <div>
           <div className="tellmemorebuttonbox">
-            <button className="tellmemorebutton">tell me more</button>
+            <button className="tellmemorebutton">TELL ME MORE</button>
           </div>
       </div>
     )

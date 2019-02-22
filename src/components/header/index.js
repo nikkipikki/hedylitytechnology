@@ -1,11 +1,17 @@
 import React from "react"
-// import "./style.css"
+import "./style.css"
+import Hamburgermenu from "../hamburgermenu"
 
 class Header extends React.Component {
   render() {
     return (
       <div>
-        <h1>ARCA MAJORA</h1>
+        <div className="menuboarddiv">
+          <Hamburgermenu/>
+        </div>
+          <div className="header">
+            <h1>HEDYLITY TECHNOLOGY</h1>
+          </div>
       </div>
     )
   }

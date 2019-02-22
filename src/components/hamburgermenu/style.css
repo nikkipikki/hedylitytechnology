@@ -2,27 +2,18 @@
   box-sizing: border-box;
 }
 
-.menu {
-  margin: 0;
-  text-align: center;
-  height: 20;
-}
-
-.menuboarddiv {
+/* .menuboarddiv {
   position: fixed;
-  background-color: transparent;
-  /* background-color: #ffda3e; */
-  height: 90px;
+  background-color: #ffda3e;
+  height: 100px;
   width: 100%;
-}
+} */
 
 .boxbehindhamburger {
-
-  
   background-color: transparent;
   /* background-color: #ffda3e; */
-  height: 60px;
-  width: 200px;
+  height: 80px;
+  width: 100%;
   /* margin-left: -65px; */
   z-index: 1;
 }
@@ -54,22 +45,24 @@
   font-size: 20px;
   position: absolute;
   width: 700px;
-  margin: -100px 0 0 -100px;
-  padding-left: 200px;
-  padding-top: 50px;
+  margin: -100px 0 0 -700px;
+  /* padding-left: 200px; */
+  /* padding-top: 50px; */
+  top:10vw;
   display: flex;
+  flex-flow: column;
   justify-content: space-between;
   z-index: -10;
   /* color: white; */
 
-  background: transparent;
+  background: yellow;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
 
   transform-origin: 0% 0%;
-  transform: translate(-100%, 0);
+  transform: translate(0%, -300%);
 
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+  transition: transform 0.5s;
 }
 
 #menu li
@@ -82,7 +75,8 @@
   display: block;
   position: absolute;
   top: 1.5vw;
-  left: 5vw;
+  /* left: 1vw; */
+  right: 1vw;
   z-index: 1;
   -webkit-user-select: none;
   user-select: none;
@@ -107,12 +101,13 @@
 
 #menuToggle span {
   display: block;
-  width: 5vw;
-  height: 0.5vw;
+  width: 8vw;
+  height: 1vw;
   margin-bottom: 5px;
   position: relative;
+  margin: 15px;
 
-  background: black;
+  background: #FE7E83;
   border-radius: 3px;
 
   z-index: 1;
@@ -134,8 +129,8 @@
 
 #menuToggle input:checked ~ span {
   opacity: 1;
-  transform: rotate(45deg) translate(-2px, -1px);
-  background: black;
+  transform: rotate(40deg) translate(-10px, -1px);
+  background: #FE7E83;
 }
 
 #menuToggle input:checked ~ span:nth-last-child(3) {
@@ -145,7 +140,7 @@
 
 #menuToggle input:checked ~ span:nth-last-child(2) {
   opacity: 1;
-  transform: rotate(-45deg) translate(0, -1px);
+  transform: rotate(-40deg) translate(-6px, 1px);
 }
 
 #menuToggle input:checked ~ ul {

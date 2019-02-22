@@ -2,7 +2,7 @@ import React from "react"
 import Greeting from "./greeting"
 import Loadingpage from "./loadingpage"
 import Header from "./header"
-import Hamburgermenu from "./hamburgermenu"
+import Introbox from "./introbox"
 
 //start array
 const names = [
@@ -16,8 +16,8 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <Hamburgermenu/>
         <Header/>
+        <Introbox/>
         <Loadingpage/>
       </div>
     )

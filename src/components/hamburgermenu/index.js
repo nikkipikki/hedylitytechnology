@@ -1,11 +1,11 @@
 import React from "react"
-// import "./style.css"
+import "./style.css"
 
 class Hamburgermenu extends React.Component {
   render() {
     return (
       <div>
-      <div>
+      <div className="menuboarddiv">
         <div className="boxbehindhamburger" id="menuToggle">
           <nav role='navigation'>
             <div id="menuToggle">
@@ -23,7 +23,6 @@ class Hamburgermenu extends React.Component {
           {/* {!this.state.isHidden && <Menudropdown />} */}
         </div>
       </div>
-        <h1>hamburgermenu</h1>
       </div>
     )
   }

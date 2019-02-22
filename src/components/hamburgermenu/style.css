@@ -99,7 +99,7 @@
 
 #menuToggle input:checked ~ span {
   opacity: 1;
-  transform: rotate(40deg) translate(-10px, -1px);
+  transform: rotate(50deg) translate(-2px, -1px);
   background: #FE7E83;
 }
 
@@ -110,7 +110,7 @@
 
 #menuToggle input:checked ~ span:nth-last-child(2) {
   opacity: 1;
-  transform: rotate(-40deg) translate(-6px, 1px);
+  transform: rotate(-50deg) translate(-0px, 1px);
 }
 
 #menuToggle input:checked ~ ul {

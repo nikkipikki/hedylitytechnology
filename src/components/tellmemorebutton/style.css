@@ -1,0 +1,17 @@
+.tellmemorebuttonbox {
+  margin-top: 100px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.tellmemorebutton {
+  margin: auto;
+  font-size: 30px;
+  width: 30%;
+  color: #F8ECE4;
+  background-color: #051C26;
+  padding: 20px;
+  border-radius: 35px;
+}

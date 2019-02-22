@@ -1,0 +1,13 @@
+.whatwedobox {
+  margin-top: 200px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  background-color: #051C26;
+  height: 400px;
+  width: 100%;
+  font-family: River Jade;
+  color: #F8ECE4;
+  font-size: 70px;
+  text-align: center;
+}

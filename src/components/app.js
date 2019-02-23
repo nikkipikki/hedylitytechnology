@@ -1,5 +1,7 @@
 import React from "react"
+import { BrowserRouter, Route, Link } from "react-router-dom"
 import Loadingpage from "./loadingpage"
+import Servicespage from "./servicespage"
 
 //start array
 const names = [
@@ -12,9 +14,18 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>
-        <Loadingpage/>
-      </div>
+      <BrowserRouter>
+        <div>
+          <Route
+            exact
+            path="/"
+            component={Loadingpage} />
+            <Route
+              path="/servicespage"
+              component={Servicespage} />
+        </div>
+      </BrowserRouter>
+
     )
   }
 

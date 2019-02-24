@@ -5,7 +5,8 @@ import Servicespage from "./servicespage"
 import Academypage from "./academypage"
 import Innovationstudiopage from "./innovationstudiopage"
 import Aboutpage from "./aboutpage"
-
+import Hedypage from "./hedypage"
+import Teampage from "./teampage"
 
 
 //start array
@@ -37,6 +38,12 @@ class App extends React.Component {
           <Route
             path="/about"
             component={Aboutpage} />
+          <Route
+            path="/hedy"
+            component={Hedypage} />
+          <Route
+            path="/team"
+            component={Teampage} />
         </div>
       </BrowserRouter>
 

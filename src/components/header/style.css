@@ -1,15 +1,80 @@
 .header {
-  padding-top: 200px;
-  margin: auto;
+  /* padding-top: 400px; */
+  margin-top: 400px;
+  margin-bottom: 100px;
+  /* margin: auto; */
   height: 500px;
   text-align: center;
   font-size: 25px;
   letter-spacing: 5px;
 }
 
-.menuboarddiv {
-  /* position: fixed; */
-  background-color: #051C26;
-  height: 200px;
+.hedylitytechnologytext {
+  margin-bottom: 400px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  height: 100px;
   width: 100%;
+  font-family: Arca Majora3;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+.callushedytext {
+  margin-top: -30px;
+  font-family: River Jade;
+  letter-spacing: 0;
+  font-size: 80px;
+  /* font-size: 50px; */
+
+
+}
+
+#blackhylogo {
+  background-image: url(../images/svarthy.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-size: 15%;
+}
+
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0;
+  animation:
+    typing 4.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: transparent; }
+}
+
+mark.pink {
+    color:#FE7E83;
+    background: none;
+}
+
+.fadeinclass {
+  animation-name: test;
+  animation-timing-function: ease-in;
+  animation-duration: 10s;
+}
+
+@-webkit-keyframes test {
+  0% { opacity: 0; }
+  50%,100% { opacity: 1; }
 }

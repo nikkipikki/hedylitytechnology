@@ -6,6 +6,9 @@ class Hamburgermenu extends React.Component {
     return (
       <div>
       <div className="menuboarddiv">
+        <div className="hedylogotext">
+          <p>Hedy</p>
+        </div>
         <div className="boxbehindhamburger" id="menuToggle">
           <nav role='navigation'>
             <div id="menuToggle">

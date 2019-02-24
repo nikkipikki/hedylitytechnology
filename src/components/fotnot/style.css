@@ -1,0 +1,31 @@
+.menuboarddivfotnot {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  background-color: #051C26;
+  height: 200px;
+  width: 100%;
+}
+
+.logobox {
+  width: 100px;
+  height: 100px;
+}
+
+#linkedinlogo {
+  background-image: url(../images/linkedin.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-size: 100%;
+  z-index: 1;
+}
+
+#instagramlogo {
+  background-image: url(../images/instagram.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-size: 70%;
+  z-index: 1;
+}

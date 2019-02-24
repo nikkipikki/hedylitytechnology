@@ -3,18 +3,40 @@
 }
 
 
-/* .boxbehindhamburger {
+.boxbehindhamburger {
   background-color: transparent;
   height: 80px;
   width: 100%;
   z-index: 1;
-} */
+}
 
+.menuboarddiv {
+  /* margin-top: -400px; */
+  /* position: fixed; */
+  position:fixed;
+  top:0;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  background-color: #051C26;
+  /* height: 200px; */
+  width: 100%;
+}
+
+.hedylogotext {
+  font-family: River jade;
+  text-align: left;
+  font-size: 70px;
+  color: white;
+  margin-left: 30px;
+  color: #FE7E83;
+}
 
 #menu {
   font-size: 40px;
-  position: absolute;
-  width: 800px;
+  position: relative;
+  width: 100%;
+  /* width: 800px; */
   margin: 0 0 0 -750px;
   text-align: left;
   color:#FE7E83;
@@ -22,7 +44,7 @@
   display: flex;
   flex-flow: column;
   justify-content: space-between;
-  z-index: -10;
+  z-index: -50;
   /* color: white; */
 
   background: #051C26;
@@ -42,6 +64,7 @@
 }
 
   #menuToggle {
+    margin-top: 15px;
   display: block;
   position: absolute;
   top: 1.5vw;

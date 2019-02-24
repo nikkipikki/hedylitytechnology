@@ -6,12 +6,18 @@ class Header extends React.Component {
   render() {
     return (
       <div>
-        <div className="menuboarddiv">
+        <div>
           <Hamburgermenu/>
         </div>
-          <div className="header">
-            <h1>HEDYLITY TECHNOLOGY</h1>
+        <div className="header" id="blackhylogo"/>
+        <div className="hedylitytechnologytext">
+        <div className="typewriter">
+          <h1>HEDYLITY TECHNOLOGY</h1>
           </div>
+        <div className="fadeinclass">
+          <h1 className="callushedytext">But you can call us <mark class="pink">Hedy</mark></h1>
+          </div>
+        </div>
       </div>
     )
   }

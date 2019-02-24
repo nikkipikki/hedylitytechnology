@@ -10,6 +10,7 @@ import Tellmemorebutton from "../tellmemorebutton"
 import Teamintro from "../teamintro"
 import Wearehedytext from "../wearehedytext"
 import Hedylamarrintro from "../hedylamarrintro"
+import Fotnot from "../fotnot"
 
 class Loadingpage extends React.Component {
   render() {
@@ -27,6 +28,7 @@ class Loadingpage extends React.Component {
         <Teamintro/>
         <Wearehedytext/>
         <Hedylamarrintro/>
+        <Fotnot/>
       </div>
     )
   }

@@ -8,13 +8,12 @@ class Hedylamarrintro extends React.Component {
         <div className="hedylamarrpicturebox">
           <h1>OUR MUSE</h1>
         </div>
-          <div id="hedylamarrpicture">
-            <h1 id="hedylamarrtext">Hedy lamarr</h1>
+        <div id="hedylamarrpicture">
+          <h1 id="hedylamarrtext">Hedy lamarr</h1>
         </div>
       </div>
     )
   }
-
 }
 
 export default Hedylamarrintro

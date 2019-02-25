@@ -27,23 +27,26 @@ class Loadingpage extends React.Component {
         <Link
           style={{ textDecoration: "none", color: "black" }}
           to="/academy">
-        <Academyintro/>
-        <Tellmemorebutton/>
-        </Link>
+          <Academyintro/>
+          <Tellmemorebutton/>
+          </Link>
 
-        <Link
-          style={{ textDecoration: "none", color: "black" }}
-          to="/innovationstudio">
-        <Innovationstudiointro/>
-        <Tellmemorebutton/>
-        </Link>
+          <Link
+            style={{ textDecoration: "none", color: "black" }}
+            to="/innovationstudio">
+            <Innovationstudiointro/>
+            <Tellmemorebutton/>
+            </Link>
 
-        <Link
-          style={{ textDecoration: "none", color: "black" }}
-          to="/services">
-        <Servicesintro/>
-        <Tellmemorebutton/>
-        </Link>
+            <Link
+            style={{ textDecoration: "none", color: "black" }}
+            to="/services">
+            <Servicesintro/>
+              <Tellmemorebutton/>
+              </Link>
+
+
+
 
         <Link
           style={{ textDecoration: "none", color: "black" }}

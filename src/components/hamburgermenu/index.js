@@ -35,6 +35,11 @@ class Hamburgermenu extends React.Component {
                 <p>CONTACT</p>
                 <Link
                   style={{ textDecoration: "none", color: "#FE7E83" }}
+                  to="/">
+                <p>HOME</p>
+                </Link>
+                <Link
+                  style={{ textDecoration: "none", color: "#FE7E83" }}
                   to="/innovationstudio">
                 <p>INNOVATION STUDIO</p>
                 </Link>

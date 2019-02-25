@@ -50,3 +50,21 @@
   background-size: 70%;
   z-index: 1;
 }
+
+@media (max-width: 1000px) {
+
+
+}
+
+
+@media (min-width: 1000px) {
+  .menuboarddivfotnot {
+    background-color: #051C26;
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+  }
+
+}

@@ -48,3 +48,79 @@
   font-size: 20px;
   margin-top: 300px;
 }
+@media (max-width: 1000px) {
+  .hedypagewebbox {
+    display: none;
+  }
+}
+
+
+@media (min-width: 1000px) {
+  #hedyhandsvartbeige {
+    background-size: 40%;
+  }
+
+  .hedypicturebox {
+    height: 400px;
+    width: 40%;
+  }
+
+  .hedypagewebbox {
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .hedylamarrtext {
+    font-family: Futura Thin;
+    text-align: left;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 20px;
+    margin-top: 170px;
+    width: 50%;
+  }
+
+  .abouttextthinleft {
+    width: 50%;
+  }
+
+  #hedylamarrquote {
+    padding-top: 10px;
+    font-size: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .hedyquotesmalltext {
+    margin-top: -20px;
+    font-family: Futura Medium Italic;
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 15px;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  #hedyhandsvartbeige {
+    background-image: url(../images/hedyhandsvartbeige.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-size: 70%;
+    z-index: -1;
+  }
+
+
+
+
+
+
+
+  }

@@ -5,10 +5,11 @@ class Academyintro extends React.Component {
   render() {
     return (
       <div>
+        <p className="hedytexttiltacademy">Hedy</p>
           <div className="whatwedoheadertext">
             <h1>ACADEMY</h1>
           </div>
-          <div> 
+          <div>
             <p className="whatwedosmalltext">The aim is to close the gap
                between tech and business and
                bring out new tech talents of

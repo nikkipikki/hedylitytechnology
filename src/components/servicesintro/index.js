@@ -5,6 +5,7 @@ class Servicesintro extends React.Component {
   render() {
     return (
       <div>
+        <p className="hedytexttiltservices">Hedy</p>
           <div className="whatwedoheadertext">
             <h1>SERVICES</h1>
           </div>

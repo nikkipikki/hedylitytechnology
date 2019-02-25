@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom"
 import "./style.css"
 import Header from "../header"
 import Introbox from "../introbox"
@@ -17,18 +18,48 @@ class Loadingpage extends React.Component {
     return (
       <div>
         <Header/>
+
         <Introbox/>
+
         <Whatwedo/>
+
+        <Link
+          style={{ textDecoration: "none", color: "black" }}
+          to="/academy">
         <Academyintro/>
         <Tellmemorebutton/>
+        </Link>
+
+        <Link
+          style={{ textDecoration: "none", color: "black" }}
+          to="/innovationstudio">
         <Innovationstudiointro/>
         <Tellmemorebutton/>
+        </Link>
+
+        <Link
+          style={{ textDecoration: "none", color: "black" }}
+          to="/services">
         <Servicesintro/>
         <Tellmemorebutton/>
+        </Link>
+
+        <Link
+          style={{ textDecoration: "none", color: "black" }}
+          to="/team">
         <Teamintro/>
+        </Link>
+
         <Wearehedytext/>
+
+        <Link
+          style={{ textDecoration: "none", color: "black" }}
+          to="/hedy">
         <Hedylamarrintro/>
+        </Link>
+
         <Fotnot/>
+        
       </div>
     )
   }

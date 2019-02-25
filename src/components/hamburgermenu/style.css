@@ -21,6 +21,7 @@
   background-color: #051C26;
   /* height: 200px; */
   width: 100%;
+  z-index: 1000;
 }
 
 .hedylogotext {

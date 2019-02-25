@@ -1,10 +1,30 @@
 .menuboarddivfotnot {
+  background-color: #051C26;
+  height: 400px;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.fotnotlogos {
+  padding-top: 100px;
   display: flex;
   flex-flow: wrap;
   justify-content: center;
   background-color: #051C26;
   height: 200px;
+  width: 100%
+}
+
+.fotnotcontact {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  background-color: #051C26;
+  height: 200px;
   width: 100%;
+  font-family: Futura Medium Italic;
+  font-size: 30px;
 }
 
 .logobox {

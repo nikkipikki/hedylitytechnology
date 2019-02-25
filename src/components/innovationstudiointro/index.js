@@ -5,6 +5,7 @@ class Innovationstudiointro extends React.Component {
   render() {
     return (
       <div>
+        <p className="hedytexttiltinnovation">Hedy</p>
           <div className="whatwedoheadertext">
             <h1>INNOVATION STUDIO</h1>
           </div>

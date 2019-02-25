@@ -58,13 +58,29 @@
 
 
 @media (min-width: 1000px) {
+  .fotnotlogos {
+    padding-top: 50px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    background-color: #051C26;
+    height: 100px;
+    width: 100%
+  }
+
   .menuboarddivfotnot {
     background-color: #051C26;
-    height: 400px;
+    height: 200px;
     width: 100%;
     text-align: center;
     color: white;
     margin-top: 50px;
   }
+
+  #smallfont {
+    font-size: 15px;
+    margin: 0;
+  }
+
 
 }

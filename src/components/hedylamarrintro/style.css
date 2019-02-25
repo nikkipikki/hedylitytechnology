@@ -27,3 +27,27 @@
   text-align: center;
   margin-top: 0;
 }
+
+@media (min-width: 1000px) {
+  .hedylamarrpicturebox {
+    margin-top: 200px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    height: 100px;
+    width: 100%;
+    font-family: Arca Majora3;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 5px;
+  }
+
+  #hedylamarrpicture {
+    background-image: url(../images/hedyfaceweb1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-size: 40%;
+    z-index: -1;
+  }
+}

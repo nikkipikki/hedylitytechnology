@@ -11,6 +11,9 @@ class Academypage extends React.Component {
     return (
       <div className="fadeinclass">
         <ScrollToTopOnMount/>
+
+
+
       <div className="mobile">
         <div className="pagemargin">
 
@@ -48,6 +51,8 @@ class Academypage extends React.Component {
       </div>
 
 
+
+
         <div className="hedypagewebbox">
         <div className="whatwedoheadertext">
           <h1>HEDY LAMARR</h1>
@@ -70,16 +75,12 @@ class Academypage extends React.Component {
         <h1 className="hedyquotesmalltext">Hedy Lamarr (1914 – 2000)</h1>
         </div>
 
-
-
         <div className="hedypicturebox" id="hedyhandsvartbeige"/>
         <div className="whatwedosmalltext">
           <p>Just as Hedy, Hedylity Technology wants to
           make a tech imprint for a better world</p>
         </div>
       </div>
-
-
 
       </div>
     )

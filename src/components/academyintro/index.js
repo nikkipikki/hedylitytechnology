@@ -10,10 +10,11 @@ class Academyintro extends React.Component {
             <h1>ACADEMY</h1>
           </div>
           <div>
-            <p className="whatwedosmalltext">The aim is to close the gap
-               between tech and business and
-               bring out new tech talents of
-               people within other areas of expertise.</p>
+            <p className="whatwedosmalltext">
+            We provide high quality education to close
+            the gap between tech and business, and build
+            the skills we need to face a future where
+            technology will be the main actor.</p>
           </div>
       </div>
     )

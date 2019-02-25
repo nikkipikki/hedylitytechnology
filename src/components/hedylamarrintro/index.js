@@ -7,7 +7,7 @@ class Hedylamarrintro extends React.Component {
     return (
       <div>
         <div className="hedylamarrpicturebox">
-          <h1>OUR MUSE</h1>
+          <h1>THE WOMAN BEHIND THE NAME</h1>
         </div>
         <div id="hedylamarrpicture">
           <h1 id="hedylamarrtext">Hedy lamarr</h1>

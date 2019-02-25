@@ -10,10 +10,9 @@ class Servicesintro extends React.Component {
             <h1>SERVICES</h1>
           </div>
           <div className="whatwedosmalltext">
-            <p>We got a great team and we want
-            to share it with you! We provide companies with expertise in AI,
-            IOT, web/app development,
-            Talent Management and Digital Transformation.</p>
+            <p>We support start-ups, mid- sized and larger
+            companies in their ambition to build a
+            profitable and successful business.</p>
           </div>
       </div>
     )

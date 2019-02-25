@@ -24,6 +24,15 @@ class Loadingpage extends React.Component {
 
         <Whatwedo/>
 
+        <div className="mobileonly">
+
+        <Link
+        style={{ textDecoration: "none", color: "black" }}
+        to="/services">
+        <Servicesintro/>
+          <Tellmemorebutton/>
+          </Link>
+          
         <Link
           style={{ textDecoration: "none", color: "black" }}
           to="/academy">
@@ -38,14 +47,8 @@ class Loadingpage extends React.Component {
             <Tellmemorebutton/>
             </Link>
 
-            <Link
-            style={{ textDecoration: "none", color: "black" }}
-            to="/services">
-            <Servicesintro/>
-              <Tellmemorebutton/>
-              </Link>
 
-
+            </div>
 
 
         <Link

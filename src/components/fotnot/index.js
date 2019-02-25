@@ -18,7 +18,7 @@ class Fotnot extends React.Component {
           <a href="mailto:hello@hedy.tech" style={{ textDecoration: "none", color: "white" }}>
             <p>hello@hedy.tech</p>
           </a>
-            <p>Hedylity Technology / Lästmakargatan 18 / 111 44 Stockholm</p>
+            <p id="smallfont">Hedylity Technology / Lästmakargatan 18 / 111 44 Stockholm</p>
           </div>
         </div>
       </div>

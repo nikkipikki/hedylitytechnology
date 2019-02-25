@@ -245,18 +245,6 @@ mark.italic {
     height: auto;
   }
 
-  .hedytexttiltacademy {
-    display: none;
-  }
-
-  .hedytexttiltinnovation {
-    display: none;
-  }
-
-  .hedytexttiltservices {
-    display: none;
-  }
-
   .whatwedoheadertext {
     margin-top: 100px;
     display: flex;
@@ -277,7 +265,6 @@ mark.italic {
     padding-right: 0px;
     font-size: 20px;
     margin-top: 220px;
-
   }
 
 

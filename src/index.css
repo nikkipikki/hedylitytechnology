@@ -1,3 +1,14 @@
+.fadeinclass {
+  animation-name: test;
+  animation-duration: 5s;
+}
+
+@-webkit-keyframes test {
+  0% { opacity: 0; }
+  50%,100% { opacity: 1; }
+}
+
+
 @font-face {
   font-family: Arca Majora3;
   font-style: normal;
@@ -103,4 +114,13 @@ body {
   letter-spacing: 0;
   color: #FE7E83;
   font-size: 100px;
+}
+
+mark.pink {
+    color:#FE7E83;
+    background: none;
+}
+
+.pagemargin {
+  margin-top: 400px;
 }

@@ -6,10 +6,12 @@ import Hamburgermenu from "../hamburgermenu"
 class Aboutpage extends React.Component {
   render() {
     return (
-      <div>
+      <div className="fadeinclass">
         <div>
           <Hamburgermenu/>
         </div>
+        <div className="pagemargin">
+
         <div className="whatwedoheadertext">
           <h1>ABOUT HEDY</h1>
         </div>
@@ -53,6 +55,7 @@ class Aboutpage extends React.Component {
         </div>
         <div className="whatwedoheadertext">
           <h1>Hanna & Emelie</h1>
+        </div>
         </div>
       </div>
     )

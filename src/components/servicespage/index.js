@@ -1,15 +1,20 @@
 import React from "react"
 import "./style.css"
 import Hamburgermenu from "../hamburgermenu"
+import ScrollToTopOnMount from "../scrolltotoponmount"
+
 
 
 class Servicespage extends React.Component {
   render() {
     return (
-      <div>
+      <div className="fadeinclass">
+      <ScrollToTopOnMount/>
+
         <div>
           <Hamburgermenu/>
         </div>
+        <div className="pagemargin">
         <div className="whatwedoheadertext">
           <h1>SERVICES</h1>
         </div>
@@ -20,7 +25,21 @@ class Servicespage extends React.Component {
           <p>With forefront technology skills and strategic minds
           Hedy supports small, mid-sized and large companies in
           their aspiration to make a successful digitalization
-          journey and bui3ld a profitable business.</p>
+          journey and build a profitable business.</p>
+        </div>
+        <div className="whatwedoheadertext">
+          <h1>ROLES WE HAVE TAKEN</h1>
+        </div>
+        <div className="roleswehavetakentext">
+          <p>Quality Assurance, <mark className="pink">Tech architect, Agile coach,</mark> Tech educator, Brand developer,
+          <mark className="pink">Growth hacker,</mark> Backend developer,
+          Kotlin developer, <mark className="pink">Board member,</mark>
+          Java developer, Business advisor,
+          <mark className="pink">Android developer,</mark>  Graphical designer,
+          Tech lead, Investment manager, <mark className="pink">Frontend developer,</mark>
+          UX/UI developer, <mark className="pink">CEO,</mark>  Digital strategist,
+          Managing Director,<mark className="pink"> Product owner,</mark> <mark className="pink">Project lead,</mark>
+          Concept developer, Sales leader <mark className="pink">and many more.</mark></p>
         </div>
         <div className="whatwedoheadertext">
           <h1>WHAT WE DO</h1>
@@ -59,6 +78,9 @@ class Servicespage extends React.Component {
           <p>Depends on the assignments length, scope and need.
           We have booth fixed pricing and hourly rate</p>
         </div>
+        </div>
+
+
       </div>
     )
   }

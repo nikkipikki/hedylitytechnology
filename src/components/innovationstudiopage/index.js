@@ -1,15 +1,19 @@
 import React from "react"
 import "./style.css"
 import Hamburgermenu from "../hamburgermenu"
+import ScrollToTopOnMount from "../scrolltotoponmount"
+
 
 
 class Innovationstudiopage extends React.Component {
   render() {
     return (
-      <div>
+      <div className="fadeinclass">
+        <ScrollToTopOnMount/>
         <div>
           <Hamburgermenu/>
         </div>
+        <div className="pagemargin">
         <div className="whatwedoheadertext">
           <h1>INNOVATION STUDIO</h1>
         </div>
@@ -47,6 +51,7 @@ class Innovationstudiopage extends React.Component {
           <p>We start off with a 4-week Tech Imprint Potential (TIP)
           review to scan the business, tech stack and the potential.
           Based on the outcome, we set a roadmap and make a decision on the way forward</p>
+        </div>
         </div>
       </div>
     )

@@ -12,11 +12,12 @@ import Teamintro from "../teamintro"
 import Wearehedytext from "../wearehedytext"
 import Hedylamarrintro from "../hedylamarrintro"
 import Fotnot from "../fotnot"
+import ScrollToTopOnMount from "../scrolltotoponmount"
 
 class Loadingpage extends React.Component {
   render() {
     return (
-      <div>
+      <div className="fadeinclass">
         <Header/>
 
         <Introbox/>
@@ -59,7 +60,7 @@ class Loadingpage extends React.Component {
         </Link>
 
         <Fotnot/>
-        
+
       </div>
     )
   }

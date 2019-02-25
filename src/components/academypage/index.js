@@ -1,15 +1,18 @@
 import React from "react"
 import "./style.css"
 import Hamburgermenu from "../hamburgermenu"
+import ScrollToTopOnMount from "../scrolltotoponmount"
 
 
 class Academypage extends React.Component {
   render() {
     return (
-      <div>
+      <div className="fadeinclass">
+        <ScrollToTopOnMount/>
         <div>
           <Hamburgermenu/>
         </div>
+        <div className="pagemargin">
         <div className="whatwedoheadertext">
           <h1>ACADEMY</h1>
         </div>
@@ -57,6 +60,7 @@ class Academypage extends React.Component {
         <div className="whatwedosmalltext">
           <p>Driven fast learners, developers, board members, management team members,
           people with a passion for tech who want to change industry, entrepreneurs, among others...</p>
+        </div>
         </div>
       </div>
     )

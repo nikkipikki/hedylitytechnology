@@ -1,6 +1,7 @@
 import React from "react"
 import "./style.css"
 import Hamburgermenu from "../hamburgermenu"
+import Contactbutton from "../contactbutton"
 import ScrollToTopOnMount from "../scrolltotoponmount"
 
 
@@ -12,16 +13,15 @@ class Servicespage extends React.Component {
       <ScrollToTopOnMount/>
 
         <div>
-          <Hamburgermenu/>
         </div>
         <div className="pagemargin">
         <div className="whatwedoheadertext">
           <h1>SERVICES</h1>
         </div>
-        <div className="whatwedosmalltext">
+        <div className="whatwedosmalltextcenter">
           <p>Consultancy services within programming and management</p>
         </div>
-        <div className="whatwedosmalltext">
+        <div className="abouttextthinleft">
           <p>With forefront technology skills and strategic minds
           Hedy supports small, mid-sized and large companies in
           their aspiration to make a successful digitalization
@@ -51,7 +51,7 @@ class Servicespage extends React.Component {
         <div className="whatwedoheadertext">
           <h1>TYPE OF SERVICES</h1>
         </div>
-        <div className="whatwedosmalltext">
+        <div className="abouttextthinleft">
           <ul>
             <li>Inhouse projects delivered by a Hedy team</li>
             <li>Consultancy service at client, where Hedy talent
@@ -62,7 +62,7 @@ class Servicespage extends React.Component {
         <div className="whatwedoheadertext">
           <h1>TYPE OF CLIENT</h1>
         </div>
-        <div className="whatwedosmalltext">
+        <div className="abouttextthinleft">
           <ul>
             <li>Wants to take their product or business to “the next level”</li>
             <li>Has digitalization on the agenda</li>
@@ -79,7 +79,7 @@ class Servicespage extends React.Component {
           We have booth fixed pricing and hourly rate</p>
         </div>
         </div>
-
+        <Contactbutton/>
 
       </div>
     )

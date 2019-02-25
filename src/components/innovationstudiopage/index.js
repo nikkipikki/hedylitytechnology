@@ -1,6 +1,7 @@
 import React from "react"
 import "./style.css"
 import Hamburgermenu from "../hamburgermenu"
+import Contactbutton from "../contactbutton"
 import ScrollToTopOnMount from "../scrolltotoponmount"
 
 
@@ -11,16 +12,15 @@ class Innovationstudiopage extends React.Component {
       <div className="fadeinclass">
         <ScrollToTopOnMount/>
         <div>
-          <Hamburgermenu/>
         </div>
         <div className="pagemargin">
         <div className="whatwedoheadertext">
           <h1>INNOVATION STUDIO</h1>
         </div>
-        <div className="whatwedosmalltext">
+        <div className="whatwedosmalltextcenter">
           <p>We become your tech and/or business partner in exchange for equity</p>
         </div>
-        <div className="whatwedosmalltext">
+        <div className="abouttextthinleft">
           <p> Our strong belief is that technology is the key to a better world,
           therefore we partner up with, and invest in, tech innovations that
           have the ambition to contribute to solving at least one of the 17 global sustainability goals.</p>
@@ -34,7 +34,7 @@ class Innovationstudiopage extends React.Component {
         <div className="whatwedoheadertext">
           <h1>OUR OFFER</h1>
         </div>
-        <div className="whatwedosmalltext">
+        <div className="abouttextthinleft">
           <ul>
             <li>Highly skilled board member</li>
             <li>A well-formed development team based on your needs</li>
@@ -53,6 +53,7 @@ class Innovationstudiopage extends React.Component {
           Based on the outcome, we set a roadmap and make a decision on the way forward</p>
         </div>
         </div>
+        <Contactbutton/>
       </div>
     )
   }

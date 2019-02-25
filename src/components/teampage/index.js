@@ -1,6 +1,7 @@
 import React from "react"
 import "./style.css"
 import Hamburgermenu from "../hamburgermenu"
+import Contactbutton from "../contactbutton"
 import ScrollToTopOnMount from "../scrolltotoponmount"
 
 
@@ -58,6 +59,7 @@ class Teampage extends React.Component {
           <p>WANT TO JOIN OUR TEAM?</p>
         </div>
         </div>
+        <Contactbutton/>
       </div>
     )
   }

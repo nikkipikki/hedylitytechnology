@@ -19,7 +19,7 @@ class Loadingpage extends React.Component {
     return (
       <div className="fadeinclass">
         <Header/>
-
+        <div className="fadeinclassfirstpage">
         <Introbox/>
 
         <Whatwedo/>
@@ -51,15 +51,18 @@ class Loadingpage extends React.Component {
         <Teamintro/>
         </Link>
 
+        <Link
+          style={{ textDecoration: "none", color: "black" }}
+          to="/about">
         <Wearehedytext/>
+        </Link>
 
         <Link
           style={{ textDecoration: "none", color: "black" }}
           to="/hedy">
         <Hedylamarrintro/>
         </Link>
-
-        <Fotnot/>
+</div>
 
       </div>
     )

@@ -7,7 +7,6 @@ class Header extends React.Component {
     return (
       <div>
         <div>
-          <Hamburgermenu/>
         </div>
         <div className="header" id="blackhylogo"/>
         <div className="hedylitytechnologytext">

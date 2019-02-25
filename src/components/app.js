@@ -8,7 +8,8 @@ import Aboutpage from "./aboutpage"
 import Hedypage from "./hedypage"
 import Teampage from "./teampage"
 import Newhamburger from "./newhamburger"
-
+import Fotnot from "./fotnot"
+import Hamburgermenu from "./hamburgermenu"
 
 //start array
 const names = [
@@ -23,6 +24,7 @@ class App extends React.Component {
     return (
       <BrowserRouter>
         <div>
+        <Hamburgermenu/>
           <Route
             exact
             path="/"
@@ -48,6 +50,7 @@ class App extends React.Component {
           <Route
             path="/newburger"
             component={Newhamburger} />
+          <Fotnot/>
         </div>
       </BrowserRouter>
 

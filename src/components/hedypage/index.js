@@ -12,7 +12,6 @@ class Academypage extends React.Component {
       <div className="fadeinclass">
         <ScrollToTopOnMount/>
         <div>
-          <Hamburgermenu/>
         </div>
         <div className="pagemargin">
 
@@ -30,12 +29,12 @@ class Academypage extends React.Component {
           Her invention came from wanting to think of something to stop Hitler
           from taking over Europe during World War II.</p>
         </div>
-        <div className="whatwedosmalltext">
+        <div className="abouttextthinleft">
           <p>Frequency hopping is the basis for secure Wi-Fi, Bluetooth,
           cell phone, GPS and military technology –
           an invention that forms our whole society today!</p>
         </div>
-        <div className="whatwedosmalltext">
+        <div className="abouttextthinleft">
           <p>Hedy was a famous Hollywood actor and the inspiration behind the
           look of Snow-white and Catwoman, she never got any share of
           her 30 billion dollar invention.</p>
@@ -48,7 +47,6 @@ class Academypage extends React.Component {
         </div>
 
         </div>
-        <Fotnot/>
 
       </div>
     )

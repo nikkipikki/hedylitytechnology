@@ -14,8 +14,8 @@ class Header extends React.Component {
         <div className="typewriter">
           <h1>HEDYLITY TECHNOLOGY</h1>
           </div>
-        <div className="fadeinclass">
-          <h1 className="callushedytext">But you can call us <mark class="pink">Hedy</mark></h1>
+        <div className="fadeintext">
+          <h1 className="callushedytext">But you can call us <mark className="pink">Hedy</mark></h1>
           </div>
         </div>
       </div>

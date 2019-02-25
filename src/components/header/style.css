@@ -45,7 +45,7 @@
   border-right: .15em solid orange; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: 0;
+  letter-spacing: 5px;
   animation:
     typing 4.5s steps(40, end),
     blink-caret .75s step-end infinite;
@@ -68,13 +68,26 @@ mark.pink {
     background: none;
 }
 
-.fadeinclass {
-  animation-name: test;
-  animation-timing-function: ease-in;
-  animation-duration: 10s;
+.fadeintext {
+  margin-top: 25px;
+  animation: fadein 2000ms;
+  animation-delay: 3.5s;
+  -moz-animation: fadein 2000ms; /* Firefox */
+  -moz-animation-delay:3.5s;
+  -webkit-animation: fadein 2000ms; /* Safari and Chrome */
+  -webkit-animation-delay:3.5s;
+  -o-animation: fadein 3200ms; /* Opera */
+  opacity: 0;
+  animation-fill-mode: forwards;
+  z-index: -1;
 }
 
-@-webkit-keyframes test {
-  0% { opacity: 0; }
-  50%,100% { opacity: 1; }
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }

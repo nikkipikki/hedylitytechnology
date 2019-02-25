@@ -28,13 +28,18 @@
 @font-face {
   font-family: River Jade;
   font-style: normal;
+  font-weight: 100;
   src:
     local(River Jade),
     local(riverjade),
     url("./components/fonts/riverjade.ttf") format("truetype");
 }
 
+h1, h2, h3, h4, h5, h6 { /*reset for mobile browsers */
 
+font-weight: normal;
+
+}
 
 html {
   font-family: Arca Majora3;

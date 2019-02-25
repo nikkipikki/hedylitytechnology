@@ -33,10 +33,10 @@
 }
 
 #menu {
+
   font-size: 40px;
   position: relative;
-  width: 100%;
-  /* width: 800px; */
+  width: 800px;
   margin: 0 0 0 -750px;
   text-align: left;
   color:#FE7E83;
@@ -45,7 +45,6 @@
   flex-flow: column;
   justify-content: space-between;
   z-index: -50;
-  /* color: white; */
 
   background: #051C26;
   list-style-type: none;
@@ -63,8 +62,8 @@
   font-size: 22px;
 }
 
-  #menuToggle {
-    margin-top: 15px;
+#menuToggle {
+  margin-top: 15px;
   display: block;
   position: absolute;
   top: 1.5vw;

@@ -1,6 +1,5 @@
 import React from "react"
 import "./style.css"
-import Hamburgermenu from "../hamburgermenu"
 
 class Header extends React.Component {
   render() {

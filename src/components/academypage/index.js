@@ -1,6 +1,5 @@
 import React from "react"
 import "./style.css"
-import Hamburgermenu from "../hamburgermenu"
 import Contactbutton from "../contactbutton"
 import ScrollToTopOnMount from "../scrolltotoponmount"
 

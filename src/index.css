@@ -168,7 +168,7 @@ mark.italic {
 
 @media (min-width: 1000px) {
   .menuboarddiv {
-    display: none;
+    /* display: none; */
   }
 
   .header {

@@ -83,6 +83,7 @@ class Servicespage extends React.Component {
       </div>
 
 
+
       <div className="web">
       <div className="areasheader">
         <h1>SERVICES</h1>
@@ -119,7 +120,7 @@ class Servicespage extends React.Component {
       </div>
 
       <div className="areaspresentingdiv">
-        <div className="typediv">
+        <div className="typediv2">
         <div className="typetext">
           <h1>TYPE OF SERVICES</h1>
         </div>
@@ -132,7 +133,7 @@ class Servicespage extends React.Component {
           </ul>
         </div>
       </div>
-      <div className="typediv">
+      <div className="typediv2">
       <div className="typetext">
         <h1>TYPE OF CLIENT</h1>
       </div>

@@ -46,6 +46,22 @@
   text-align: center;
 }
 
+.pictureboxweb {
+  padding-top: 700px;
+  margin-top: 10px;
+  margin-bottom: 250px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  /* background-color: #051C26; */
+  height: 500px;
+  width: 50%;
+  text-align: center;
+}
+
+
 .headernametext {
   margin-top: 100px;
   width: 100%;

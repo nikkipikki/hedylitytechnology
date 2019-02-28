@@ -9,6 +9,7 @@ import Hedypage from "./hedypage"
 import Teampage from "./teampage"
 import Newhamburger from "./newhamburger"
 import Fotnot from "./fotnot"
+import Kotlin from "./kotlin"
 import Hamburgermenu from "./hamburgermenu"
 
 //start array
@@ -50,6 +51,9 @@ class App extends React.Component {
           <Route
             path="/newburger"
             component={Newhamburger} />
+            <Route
+              path="/kotlin"
+              component={Kotlin} />
           <Fotnot/>
         </div>
       </BrowserRouter>

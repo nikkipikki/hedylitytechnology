@@ -1,7 +1,12 @@
 import React from "react"
+import { Link } from "react-router-dom"
 import "./style.css"
 import Contactbutton from "../contactbutton"
 import ScrollToTopOnMount from "../scrolltotoponmount"
+import Tellmemorebutton from "../tellmemorebutton"
+import Kotlin from "../kotlin"
+
+
 
 
 class Academypage extends React.Component {
@@ -53,6 +58,17 @@ class Academypage extends React.Component {
             <li>Learn to code</li>
           </ul>
         </div>
+        <Link
+          style={{ textDecoration: "none", color: "black" }}
+          to="/kotlin">
+        <div className="whatwedoheadertext">
+          <h1>CURRENT COURSES</h1>
+        </div>
+        <div className="whatwedosmalltextcenter">
+          <p>Succeed with Kotlin</p>
+        </div>
+          <Tellmemorebutton/>
+          </Link>
         <div className="whatwedoheadertext">
           <h1>TARGET GROUP</h1>
         </div>
@@ -113,6 +129,19 @@ class Academypage extends React.Component {
           </ul>
         </div>
         </div>
+
+        <Link
+          style={{ textDecoration: "none", color: "black" }}
+          to="/kotlin">
+        <div className="whatwedoheadertext">
+          <h1>CURRENT COURSES</h1>
+        </div>
+        <div className="subheader">
+          <p>Succeed with Kotlin</p>
+        </div>
+        <Tellmemorebutton/>
+        </Link>
+
         <div className="whatwedoheadertext">
           <h1>TARGET GROUP</h1>
         </div>
@@ -125,6 +154,7 @@ class Academypage extends React.Component {
 
         <Contactbutton/>
       </div>
+
 
     )
   }

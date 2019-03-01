@@ -5,7 +5,7 @@ class Header extends React.Component {
   render() {
     return (
       <div>
-        <div>
+        <div className="mobile">
         </div>
         <div className="header" id="blackhylogo"/>
         <div className="hedylitytechnologytext">
@@ -16,6 +16,8 @@ class Header extends React.Component {
           <h1 className="callushedytext">But you can call us <mark className="pink">Hedy</mark></h1>
           </div>
         </div>
+
+
       </div>
     )
   }

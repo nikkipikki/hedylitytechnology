@@ -62,6 +62,8 @@ class Aboutpage extends React.Component {
 
 
         <div className="web">
+        <div className="pagemarginweb">
+
           <div className="areasheader">
             <h1>ABOUT HEDY</h1>
           </div>
@@ -109,7 +111,8 @@ class Aboutpage extends React.Component {
           <div className="aboutsignature">
             <h1>Hanna & Emelie</h1>
           </div>
-          </div>
+        </div>
+        </div>
 
 
       </div>

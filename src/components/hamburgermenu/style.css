@@ -159,20 +159,19 @@
   top:0;
   display: flex;
   flex-flow: wrap;
-  justify-content: space-between;
-  background-color: green;
-  height: 900px;
-  width: 10%;
+  justify-content: space-around;
+  background-color: #051C26;
+  height: 50px;
+  width: 100%;
   z-index: 1000;
 }
 
 .hedylogotextweb {
   font-family: River jade;
   text-align: left;
-  font-size: 70px;
-  color: white;
-  margin-left: 30px;
+  font-size: 30px;
   color: #FE7E83;
+  margin-top: -15px;
 }
 
 #menuweb {

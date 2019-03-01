@@ -1,3 +1,7 @@
+a{
+  text-decoration: none;
+}
+
 .fadeinclass {
   animation-name: test;
   animation-duration: 5s;
@@ -78,6 +82,7 @@ html {
 body {
   margin: 0;
   background-color: #F8ECE4;
+  overflow-x: hidden;
 }
 
 
@@ -160,6 +165,10 @@ mark.pink {
   margin-top: 400px;
 }
 
+.pagemarginweb {
+  margin-top: 200px;
+}
+
 mark.italic {
   font-family: Futura Medium Italic;
   background: none;
@@ -168,7 +177,7 @@ mark.italic {
 
 @media (min-width: 1000px) {
   .menuboarddiv {
-    display: none;
+    /* display: none; */
   }
 
   .header {

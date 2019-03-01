@@ -84,6 +84,8 @@ class Servicespage extends React.Component {
 
 
       <div className="web">
+      <div className="pagemarginweb">
+
       <div className="areasheader">
         <h1>SERVICES</h1>
       </div>
@@ -155,6 +157,7 @@ class Servicespage extends React.Component {
       </div>
       </div>
     </div>
+      </div>
 
 
 

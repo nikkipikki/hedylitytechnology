@@ -139,6 +139,7 @@ class Kotlin extends React.Component {
 
 
       <div className="web">
+      <div className="pagemarginweb">
       <div className="areasheader">
         <h1>SUCCEED WITH KOTLIN</h1>
       </div>
@@ -159,7 +160,7 @@ class Kotlin extends React.Component {
       <div className="whatwedoheadertext">
         <h1>DETAILS</h1>
       </div>
-      <div className="abouttextthinleft">
+      <div className="abouttextthinleftweb">
           <p>Dates: 24-25 April 2019</p>
           <p>Time: 09.00–16.30</p>
           <p>Location: Central Stockholm</p>
@@ -175,7 +176,7 @@ class Kotlin extends React.Component {
       <div className="whatwedosmalltextcenter">
         <p>After taking the course you should be able to.</p>
       </div>
-      <div className="abouttextthinleft">
+      <div className="abouttextthinleftweb">
         <ul>
           <li>Understand the strengths of Kotlin.</li>
           <li>Start working professionally as a Kotlin developer.</li>
@@ -188,7 +189,7 @@ class Kotlin extends React.Component {
       <div className="whatwedoheadertext">
         <h1>REQUIREMENTS</h1>
       </div>
-      <div className="abouttextthinleft">
+      <div className="abouttextthinleftweb">
         <ul>
           <li>A passion for programming and to learn Kotlin</li>
           <li>Your own laptop</li>
@@ -202,7 +203,7 @@ class Kotlin extends React.Component {
       <div className="whatwedosmalltextcenter">
         <p>Attendees</p>
       </div>
-      <div className="abouttextthinleft">
+      <div className="abouttextthinleftweb">
         <p>You should have programming experience in some language,
         preferably Java or similar. But any object-oriented (or OO featured) language will do.
         This is not an introductory course to programming, it’s a course on Kotlin,
@@ -212,7 +213,7 @@ class Kotlin extends React.Component {
       <div className="whatwedosmalltextcenter">
         <p>Prerequisites</p>
       </div>
-      <div className="abouttextthinleft">
+      <div className="abouttextthinleftweb">
         <p>Knowledge of the following concepts in any general programming language:</p>
         <ul>
         <li> if, loops, class, instance, protocol/interface, functions, variable, null/nil, array/list, map/dictionary</li>
@@ -225,7 +226,7 @@ class Kotlin extends React.Component {
       <div className="whatwedosmalltextcenter">
         <p>Tempo</p>
       </div>
-      <div className="abouttextthinleft">
+      <div className="abouttextthinleftweb">
         <p>The course will keep a high tempo to slow down a bit during the second day
         when the complexity of the material increases. This is to be able to go through
         all the concepts of Kotlin and for the attendees to be able to try them all out
@@ -237,28 +238,29 @@ class Kotlin extends React.Component {
       </div>
 
       <div>
-        <p className="abouttextthinleft">Curious about the new language that changed the entire Android world?
+        <p className="abouttextthinleftweb">Curious about the new language that changed the entire Android world?
         That made Google take it under its own wings, that have Java Champions at Red Hat salute it.</p>
-        <p className="abouttextthinleft">
+        <p className="abouttextthinleftweb">
         Kotlin is the modern language to be aware of, it’s rapidly growing and constantly
         improving and first of all - seamlessly integrated with Java - makes it stand out as
         one of the top languages within a couple of years.</p>
-        <p className="abouttextthinleft">
+        <p className="abouttextthinleftweb">
         This course will attempt to show you why.</p>
-        <p className="abouttextthinleft">
+        <p className="abouttextthinleftweb">
         Kotlin is one of the fastest growing programming languages in the world.
         It’s ability to seamlessly co-exist with Java makes it compatible with probably
         the biggest code base available as well. In fact, one of the purposes of Kotlin was to build a better Java.</p>
-        <p className="abouttextthinleft">
+        <p className="abouttextthinleftweb">
         So you have a modern language that is easy to learn, concise, expressive, statically typed,
         minimal boilerplate that soon also will be multiplatform (experimental so far).</p>
-        <p className="abouttextthinleft">
+        <p className="abouttextthinleftweb">
         Every Android developer how isn’t already on the train thinks about how it will affect them.
         And many backend java-developers out there has a great opportunity to learn and use a new language in a
         familiar environment. </p>
-        <p className="abouttextthinleft">
+        <p className="abouttextthinleftweb">
         Last but not least, the IDEs is created by the same company as the language.
         So you know you will have solid tools that are up to date with all features, be it experimental or stable.</p>
+      </div>
       </div>
       </div>
 

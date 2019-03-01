@@ -25,19 +25,18 @@ class Hamburgermenu extends React.Component {
               <ul id="menu">
               <Link
                 style={{ textDecoration: "none", color: "#FE7E83" }}
-                to="/about">
-                <p>ABOUT</p>
+                to="/">
+                <p>HOME</p>
+                </Link>
+                <Link
+                  style={{ textDecoration: "none", color: "#FE7E83" }}
+                  to="/services">
+                <p>SERVICES</p>
                 </Link>
                 <Link
                   style={{ textDecoration: "none", color: "#FE7E83" }}
                   to="/academy">
                 <p>ACADEMY</p>
-                </Link>
-                <p>CONTACT</p>
-                <Link
-                  style={{ textDecoration: "none", color: "#FE7E83" }}
-                  to="/">
-                <p>HOME</p>
                 </Link>
                 <Link
                   style={{ textDecoration: "none", color: "#FE7E83" }}
@@ -46,8 +45,8 @@ class Hamburgermenu extends React.Component {
                 </Link>
                 <Link
                   style={{ textDecoration: "none", color: "#FE7E83" }}
-                  to="/services">
-                <p>SERVICES</p>
+                  to="/about">
+                <p>ABOUT</p>
                 </Link>
               </ul>
             </div>
@@ -59,58 +58,52 @@ class Hamburgermenu extends React.Component {
 
 
       <div className="web">
-      <div className="menuboarddivweb">
-      <Link
-        style={{ textDecoration: "none", color: "black" }}
-        to="/">
-        <div className="hedylogotext">
-          <p>Hedy</p>
-        </div>
-      </Link>
-        <div className="boxbehindhamburgerweb" id="menuwebToggle">
-          <nav role='navigation'>
-            <div id="menuwebToggle">
-              <input type="checkbox" />
-              <span></span>
-              <span></span>
-              <span></span>
-              <ul id="menuweb">
-              <Link
-                style={{ textDecoration: "none", color: "#FE7E83" }}
-                to="/about">
-                <p>ABOUT</p>
-                </Link>
-                <Link
-                  style={{ textDecoration: "none", color: "#FE7E83" }}
-                  to="/academy">
-                <p>ACADEMY</p>
-                </Link>
-                <p>CONTACT</p>
-                <Link
-                  style={{ textDecoration: "none", color: "#FE7E83" }}
-                  to="/">
-                <p>HOME</p>
-                </Link>
-                <Link
-                  style={{ textDecoration: "none", color: "#FE7E83" }}
-                  to="/innovationstudio">
-                <p>INNOVATION STUDIO</p>
-                </Link>
-                <Link
-                  style={{ textDecoration: "none", color: "#FE7E83" }}
-                  to="/services">
-                <p>SERVICES</p>
-                </Link>
-              </ul>
-            </div>
-          </nav>
-          {/* {!this.state.isHidden && <Menudropdown />} */}
-        </div>
+      <div id="sidemenuToggle">
+        <p className="menutext">MENU</p>
+
+        <input type="checkbox" />
+
+
+
+        <ul id="sidemenu">
+
+        <Link
+          style={{ textDecoration: "none", color: "#FE7E83" }}
+          to="/">
+          <p>HOME</p>
+          </Link>
+          <Link
+            style={{ textDecoration: "none", color: "#FE7E83" }}
+            to="/services">
+          <p>SERVICES</p>
+          </Link>
+          <Link
+            style={{ textDecoration: "none", color: "#FE7E83" }}
+            to="/academy">
+          <p>ACADEMY</p>
+          </Link>
+          <Link
+            style={{ textDecoration: "none", color: "#FE7E83" }}
+            to="/innovationstudio">
+          <p>INNOVATION STUDIO</p>
+          </Link>
+          <Link
+            style={{ textDecoration: "none", color: "#FE7E83" }}
+            to="/services">
+          <p>SERVICES</p>
+          </Link>
+          <Link
+            style={{ textDecoration: "none", color: "#FE7E83" }}
+            to="/about">
+          <p>ABOUT</p>
+          </Link>
+
+        </ul>
+      </div>
       </div>
       </div>
 
 
-      </div>
     )
   }
 

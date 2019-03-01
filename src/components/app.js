@@ -1,5 +1,5 @@
 import React from "react"
-import { BrowserRouter, Route, Link } from "react-router-dom"
+import { HashRouter, Route, Link } from "react-router-dom"
 import Loadingpage from "./loadingpage"
 import Servicespage from "./servicespage"
 import Academypage from "./academypage"
@@ -10,6 +10,7 @@ import Teampage from "./teampage"
 import Newhamburger from "./newhamburger"
 import Fotnot from "./fotnot"
 import Kotlin from "./kotlin"
+import Bookingconditions from "./bookingconditions"
 import Hamburgermenu from "./hamburgermenu"
 
 //start array
@@ -23,7 +24,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <BrowserRouter>
+      <HashRouter>
         <div>
         <Hamburgermenu/>
           <Route
@@ -31,6 +32,7 @@ class App extends React.Component {
             path="/"
             component={Loadingpage} />
           <Route
+            exact
             path="/services"
             component={Servicespage} />
           <Route
@@ -51,12 +53,15 @@ class App extends React.Component {
           <Route
             path="/newburger"
             component={Newhamburger} />
-            <Route
-              path="/kotlin"
-              component={Kotlin} />
+          <Route
+            path="/kotlin"
+            component={Kotlin} />
+          <Route
+            path="/bookingconditions"
+            component={Bookingconditions} />
           <Fotnot/>
         </div>
-      </BrowserRouter>
+      </HashRouter>
 
     )
   }

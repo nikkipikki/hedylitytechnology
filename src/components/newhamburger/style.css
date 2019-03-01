@@ -1,70 +1,140 @@
-body {
-    margin: 0;
-    color: #111;
-    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+.menutext {
+  /* padding-top: 350px; */
+  color: #FE7E83;
+
 }
 
-.overlay {
-    position: absolute;
-    z-index: 1;
-    width: 100%;
-    height: 80px;
-    background-color: #fff;
+#sidemenuToggle
+{
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  background-color: #051C26;
+  width: 50px;
+  height: 100%;
+
+  -webkit-user-select: none;
+  user-select: none;
 }
 
-.overlay > label {
-    cursor: pointer;
-    display: block;
-    position: relative;
-    top: 30px;
-    left: 200px;
-    width: 30px;
-    height: 16px;
-    border-top: 2px solid #000;
-    border-bottom: 2px solid #000;
+#sidemenuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+
+
+  cursor: pointer;
+
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+
+  -webkit-touch-callout: none;
 }
 
-.overlay > label::before {
-    content: '';
-    display: block;
-    position: relative;
-    top: 7px;
-    border-top: 2px solid #000;
+/*
+ * Just a quick hamburger
+ */
+#sidemenuToggle span
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+
+  background: #cdcdcd;
+  border-radius: 3px;
+
+  z-index: 1;
+
+  transform-origin: 4px 0px;
+
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
 }
 
-.verticalNav {
-    color: #333;
-    position: relative;
-    top: -55px;
-    height: 135px;
-    padding: 20px;
-    padding-left: 130px;
-    font-size: 22px;
-    box-sizing: border-box;
-    background-color: #ddd;
-    transition: top 600ms cubic-bezier(0.17, 0.04, 0.03, 0.94);
+#sidemenuToggle span:first-child
+{
+  transform-origin: 0% 0%;
 }
 
-.verticalNav a {
-    display: block;
-    color: #111;
-    text-decoration: none;
+#sidemenuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
 }
 
-.verticalNav a:hover {
-    width: 120px;
-    background-color: #fff;
+/*
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+#sidemenuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #232323;
 }
 
-#toggle {
-    position: absolute;
-    visibility: hidden;
+/*
+ * But let's hide the middle one.
+ */
+#sidemenuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
 }
 
-#toggle:checked ~ .verticalNav {
-    top: 80px;
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+#sidemenuToggle input:checked ~ span:nth-last-child(2)
+{
+  opacity: 1;
+  transform: rotate(-45deg) translate(0, -1px);
 }
 
-#toggle:checked  ~ .puppies {
-    margin-top: 135px;
+/*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+#sidemenu
+{
+  position: absolute;
+  width: 300px;
+  margin: -100px 0 0 0;
+  padding: 50px;
+  padding-top: 300px;
+  right: 0;
+  height: 150%;
+
+  background-color: #051C26;
+  z-index: -1000;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+
+  transform-origin: 0% 0%;
+  transform: translate(100%, 0);
+
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#sidemenu li
+{
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+/*
+ * And let's fade it in from the left
+ */
+#sidemenuToggle input:checked ~ ul
+{
+  transform: scale(1.0, 1.0);
+  opacity: 1;
 }

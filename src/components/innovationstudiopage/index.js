@@ -56,6 +56,8 @@ class Innovationstudiopage extends React.Component {
 
 
         <div className="web">
+        <div className="pagemarginweb">
+
           <div className="areasheader">
             <h1>INNOVATION STUDIO</h1>
           </div>
@@ -97,6 +99,7 @@ class Innovationstudiopage extends React.Component {
             <p>We start off with a 4-week Tech Imprint Potential (TIP)
             review to scan the business, tech stack and the potential.
             Based on the outcome, we set a roadmap and make a decision on the way forward</p>
+          </div>
           </div>
           </div>
           </div>

@@ -7,8 +7,6 @@ import Tellmemorebutton from "../tellmemorebutton"
 import Kotlin from "../kotlin"
 
 
-
-
 class Academypage extends React.Component {
   render() {
     return (
@@ -82,7 +80,10 @@ class Academypage extends React.Component {
 
 
       <div className="web">
+      <div className="pagemarginweb">
+
         <div className="areasheader">
+
           <h1>ACADEMY</h1>
         </div>
         <div className="subheader">
@@ -151,7 +152,7 @@ class Academypage extends React.Component {
         </div>
         </div>
         </div>
-
+</div>
         <Contactbutton/>
       </div>
 

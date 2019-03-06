@@ -82,8 +82,18 @@ html {
 
 body {
   margin: 0;
-  background-color: #F8ECE4;
+  /* background-color: #F8ECE4; */
   overflow-x: hidden;
+}
+
+.whatwedobox {
+  margin-top: 120px;
+  margin-bottom: -150px;
+  height: 200px;
+  width: 100%;
+  color: black;
+  font-size: 40px;
+  text-align: center;
 }
 
 
@@ -176,6 +186,8 @@ mark.italic {
 }
 
 
+
+
 @media (min-width: 1000px) {
   .menuboarddiv {
     /* display: none; */
@@ -212,43 +224,20 @@ mark.italic {
   }
 
 
-  .introtext {
-    margin: 0;
-    text-align: center;
-    font-size: 50px;
-    font-family: Futura Medium Italic;
-    color: #FE7E83;
-  }
-
-  .introtextsmall {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-align: center;
-    font-size: 40px;
-    font-family: Futura Thin;
-    color: #F8ECE4;
-  }
-
   .whatwedobox {
+    padding-top: 50px;
     margin-top: 100px;
-    display: flex;
-    flex-flow: column;
-    justify-content: space-around;
-    background-color: #F8ECE4;
+    margin-bottom: 0px;
     height: 200px;
     width: 100%;
-    /* font-family: River Jade; */
     color: black;
     font-size: 40px;
     text-align: center;
+    background-color: white;
+    z-index: 10000;
   }
 
-  .areasbox {
-    width: 100%;
-    display: flex;
-    flex-flow: wrap;
-    justify-content: space-between;
-  }
+
 
   .individualareabox {
     width: 25%;
@@ -276,6 +265,82 @@ mark.italic {
     font-size: 20px;
     margin-top: 220px;
   }
+
+
+  .circledivsmall {
+    background-color: #FE7E83;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: -150px;
+    margin-left: 200px;
+  }
+
+  .circledivmedium {
+    background-color: #FE7E83;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin-bottom: -150px;
+    margin-left: 200px;
+  }
+
+
+  .circledivlargebox {
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -597px;
+  }
+
+  .rectangulardivlarge {
+    height: 100px;
+    width: 0px;
+    border-radius: 0;
+    animation-name: animate-bg;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+
+  @keyframes animate-bg {
+    0% {
+      background-color: white;
+      width: 0px;
+      height: 100px;
+      /* border-radius: 0; */
+    }
+
+    50% {
+      background-color: #FE7E83;
+      width: 100%;
+      height: 100px;
+      /* border-radius: 50%; */
+    }
+  }
+
+  .rectangulardivlarge2 {
+    background-color: #FE7E83;
+    height: 200px;
+    width: 50px;
+    border-radius: 0;
+    transition: background 2s ease-in-out,
+    width 4s ease-in,
+    height 1s linear;
+
+  }
+
+  .rectangulardivlarge2:hover {
+    height: 200px;
+    width: 800px;
+    border-radius: 0;
+
+  }
+
+
+
 
 
 

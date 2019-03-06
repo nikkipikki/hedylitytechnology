@@ -9,6 +9,10 @@ class Whatwedo extends React.Component {
     return (
       <div>
         <div>
+          <div className="circledivlargebox">
+            <div className="rectangulardivlarge">
+            </div>
+          </div>
           <div className="whatwedobox">
             <h1>WHAT WE DO</h1>
           </div>

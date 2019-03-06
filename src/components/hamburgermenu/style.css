@@ -144,71 +144,75 @@
 
 
 
-.boxbehindhamburgerweb {
+.webboxbehindhamburger {
   background-color: transparent;
   height: 80px;
-  width: 10%;
+  width: 100%;
   z-index: 1;
+
 }
 
-.menuboarddivweb {
+.webmenuboarddiv {
   /* margin-top: -400px; */
   /* position: fixed; */
   position:fixed;
-  right:0;
   top:0;
   display: flex;
   flex-flow: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: #051C26;
-  height: 50px;
+  /* height: 200px; */
   width: 100%;
   z-index: 1000;
+  height: 80px;
 }
 
-.hedylogotextweb {
+.webhedylogotextbox {
+  width: 200px;
+  height: 100px;
+}
+
+.webhedylogotext {
   font-family: River jade;
   text-align: left;
-  font-size: 30px;
+  font-size: 40px;
+  margin-left: 30px;
   color: #FE7E83;
   margin-top: -15px;
 }
 
-#menuweb {
-
-  font-size: 40px;
+#webmenu {
+  font-size: 15px;
   position: relative;
   width: 800px;
-  margin: 0 0 0 -750px;
-  text-align: left;
-  color:#FE7E83;
+  margin: 0 0 0 -950px;
   top:0vw;
   display: flex;
-  flex-flow: column;
+  flex-flow: wrap;
   justify-content: space-between;
   z-index: -50;
+  margin-top: -10px;
 
-  background: #051C26;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
 
   transform-origin: 0% 0%;
-  transform: translate(0%, -400%);
+  transform: translate(0%, -500%);
 
-  transition: transform 0.5s;
+  transition: transform 1s;
 }
 
-#menuweb li
+#webmenu li
 {
   padding: 10px 0;
   font-size: 22px;
 }
 
-#menuwebToggle {
+#webmenuToggle {
   margin-top: 15px;
   display: block;
   position: absolute;
-  top: 1.5vw;
+  /* top: 1.5vw; */
   /* left: 1vw; */
   right: 1vw;
   z-index: 1;
@@ -216,14 +220,15 @@
   user-select: none;
 }
 
-#menuwebToggle input {
+#webmenuToggle input {
   display: block;
   width: 5vw;
   height: 5vw;
   position: absolute;
-  top: -7px;
-  left: -5px;
-	margin: 0;
+  /* top: -7px; */
+  right: 0;
+	margin-top: -25px;
+  margin-right: -25px;
 
   cursor: pointer;
 
@@ -233,11 +238,11 @@
   -webkit-touch-callout: none;
 }
 
-#menuwebToggle span {
+#webmenuToggle span {
   display: block;
-  width: 8vw;
-  height: 1vw;
-  margin-bottom: 5px;
+  width: 6vw;
+  height: 0.5vw;
+  /* margin-bottom: 5px; */
   position: relative;
   margin: 15px;
 
@@ -253,31 +258,38 @@
               opacity 0.55s ease;
 }
 
-#menuwebToggle span:first-child {
+#webmenuToggle span:first-child {
   transform-origin: 0% 0%;
 }
 
-#menuwebToggle span:nth-last-child(2) {
+#webmenuToggle span:nth-last-child(2) {
   transform-origin: 0% 100%;
 }
 
-#menuwebToggle input:checked ~ span {
+#webmenuToggle input:checked ~ span {
   opacity: 1;
   transform: rotate(50deg) translate(-2px, -1px);
   background: #FE7E83;
 }
 
-#menuwebToggle input:checked ~ span:nth-last-child(3) {
+#webmenuToggle input:checked ~ span:nth-last-child(3) {
   opacity: 0;
   transform: rotate(0deg) scale(0.2, 0.2);
 }
 
-#menuwebToggle input:checked ~ span:nth-last-child(2) {
+#webmenuToggle input:checked ~ span:nth-last-child(2) {
   opacity: 1;
   transform: rotate(-50deg) translate(-0px, 1px);
 }
 
-#menuwebToggle input:checked ~ ul {
+#webmenuToggle input:checked ~ ul {
   transform: scale(1.0, 1.0);
   opacity: 1;
+}
+
+
+.menutext {
+  right: 0;
+  color: #FE7E83;
+  margin: 17px;
 }

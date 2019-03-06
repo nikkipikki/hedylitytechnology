@@ -131,17 +131,50 @@ class Academypage extends React.Component {
         </div>
         </div>
 
-        <Link
-          style={{ textDecoration: "none", color: "black" }}
-          to="/kotlin">
-        <div className="whatwedoheadertext">
-          <h1>CURRENT COURSES</h1>
-        </div>
-        <div className="subheader">
-          <p>Succeed with Kotlin</p>
-        </div>
+
+          <div className="whatwedoheadertext">
+            <h1>CURRENT COURSES</h1>
+          </div>
+          <Link
+            style={{ textDecoration: "none", color: "black" }}
+            to="/kotlin">
+        <div className="coursesbox">
+          <div>
+            <p>Succeed with Kotlin</p>
+          </div>
         <Tellmemorebutton/>
+        </div>
         </Link>
+        <div className="coursesbox">
+          <div>
+            <p>Succeed with Kotlin</p>
+          </div>
+        <Tellmemorebutton/>
+        </div>
+        <div className="coursesbox">
+          <div>
+            <p>Succeed with Kotlin</p>
+          </div>
+        <Tellmemorebutton/>
+        </div>
+        <div className="coursesbox">
+          <div>
+            <p>Succeed with Kotlin</p>
+          </div>
+        <Tellmemorebutton/>
+        </div>
+        <div className="coursesbox">
+          <div>
+            <p>Succeed with Kotlin</p>
+          </div>
+        <Tellmemorebutton/>
+        </div>
+        <div className="coursesbox">
+          <div>
+            <p>Succeed with Kotlin</p>
+          </div>
+        <Tellmemorebutton/>
+        </div>
 
         <div className="whatwedoheadertext">
           <h1>TARGET GROUP</h1>

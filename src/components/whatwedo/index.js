@@ -10,7 +10,7 @@ class Whatwedo extends React.Component {
       <div>
         <div>
           <div className="whatwedobox">
-            <h1>What we do</h1>
+            <h1>WHAT WE DO</h1>
           </div>
             <div className="threeareas">
             <div className="onearea">

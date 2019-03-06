@@ -2,6 +2,7 @@ a{
   text-decoration: none;
 }
 
+
 .fadeinclass {
   animation-name: test;
   animation-duration: 5s;
@@ -236,9 +237,9 @@ mark.italic {
     background-color: #F8ECE4;
     height: 200px;
     width: 100%;
-    font-family: River Jade;
+    /* font-family: River Jade; */
     color: black;
-    font-size: 70px;
+    font-size: 40px;
     text-align: center;
   }
 

@@ -56,50 +56,62 @@ class Hamburgermenu extends React.Component {
       </div>
       </div>
 
-
       <div className="web">
-      <div id="sidemenuToggle">
-        <p className="menutext">MENU</p>
-
-        <input type="checkbox" />
-
-
-
-        <ul id="sidemenu">
-
-        <Link
-          style={{ textDecoration: "none", color: "#FE7E83" }}
-          to="/">
-          <p>HOME</p>
-          </Link>
-          <Link
-            style={{ textDecoration: "none", color: "#FE7E83" }}
-            to="/services">
-          <p>SERVICES</p>
-          </Link>
-          <Link
-            style={{ textDecoration: "none", color: "#FE7E83" }}
-            to="/academy">
-          <p>ACADEMY</p>
-          </Link>
-          <Link
-            style={{ textDecoration: "none", color: "#FE7E83" }}
-            to="/innovationstudio">
-          <p>INNOVATION STUDIO</p>
-          </Link>
-          <Link
-            style={{ textDecoration: "none", color: "#FE7E83" }}
-            to="/services">
-          <p>SERVICES</p>
-          </Link>
-          <Link
-            style={{ textDecoration: "none", color: "#FE7E83" }}
-            to="/about">
-          <p>ABOUT</p>
-          </Link>
-
-        </ul>
+      <div className="webmenuboarddiv">
+      <Link
+        style={{ textDecoration: "none", color: "black",  cursor:"pointer" }}
+        to="/">
+      <div className="webhedylogotextbox">
+        <div className="webhedylogotext">
+          <p>Hedy</p>
+        </div>
       </div>
+      </Link>
+      <div className="menutext">
+      <p>MENU</p>
+      </div>
+        <div className="webboxbehindhamburger" id="webmenuToggle">
+
+          <nav role='navigation'>
+
+            <div id="webmenuToggle">
+
+              <input type="checkbox" />
+
+              <ul id="webmenu">
+              <Link
+                style={{ textDecoration: "none", color: "#FE7E83" }}
+                to="/">
+                <p>HOME</p>
+                </Link>
+                <Link
+                  style={{ textDecoration: "none", color: "#FE7E83" }}
+                  to="/services">
+                <p>SERVICES</p>
+                </Link>
+                <Link
+                  style={{ textDecoration: "none", color: "#FE7E83" }}
+                  to="/academy">
+                <p>ACADEMY</p>
+                </Link>
+                <Link
+                  style={{ textDecoration: "none", color: "#FE7E83" }}
+                  to="/innovationstudio">
+                <p>INNOVATION STUDIO</p>
+                </Link>
+                <Link
+                  style={{ textDecoration: "none", color: "#FE7E83" }}
+                  to="/about">
+                <p>ABOUT</p>
+                </Link>
+              </ul>
+            </div>
+          </nav>
+          {/* {!this.state.isHidden && <Menudropdown />} */}
+        </div>
+        </div>
+
+
       </div>
       </div>
 

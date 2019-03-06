@@ -51,9 +51,6 @@ class App extends React.Component {
             path="/team"
             component={Teampage} />
           <Route
-            path="/newburger"
-            component={Newhamburger} />
-          <Route
             path="/kotlin"
             component={Kotlin} />
           <Route

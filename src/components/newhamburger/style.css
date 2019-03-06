@@ -1,18 +1,19 @@
 .menutext {
   /* padding-top: 350px; */
   color: #FE7E83;
-
 }
+
 
 #sidemenuToggle
 {
   position: fixed;
   top: 0;
   right: 0;
-  z-index: 1;
   background-color: #051C26;
-  width: 50px;
-  height: 100%;
+  /* opacity: 0.8; */
+
+  width: 100%;
+  height: 10%;
 
   -webkit-user-select: none;
   user-select: none;
@@ -105,12 +106,16 @@
 #sidemenu
 {
   position: absolute;
-  width: 300px;
-  margin: -100px 0 0 0;
-  padding: 50px;
-  padding-top: 300px;
-  right: 0;
-  height: 150%;
+  width: 100%;
+  padding: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+  /* padding-top: 300px; */
+  top: 0;
+  height: 10%;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
 
   background-color: #051C26;
   z-index: -1000;

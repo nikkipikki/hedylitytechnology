@@ -30,8 +30,8 @@ class Introbox extends React.Component {
             We want sustainable, win-win-win-win business relations where the end-customer,
             the client/partner, Hedy and the world wins on the tech and business solutions
             we are developing.</p>
-            <h1 className="webintrotext">We are in it for the long-run,</h1>
-            <h1 className="webintrotextlast">are you?</h1>
+            <h1 className="webintrotextlast">We are in it for the long-run, are you?</h1>
+            
           </div>
         </div>
 

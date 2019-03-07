@@ -2,7 +2,6 @@ a{
   text-decoration: none;
 }
 
-
 .fadeinclass {
   animation-name: test;
   animation-duration: 5s;
@@ -84,6 +83,8 @@ body {
   margin: 0;
   /* background-color: #F8ECE4; */
   overflow-x: hidden;
+  background: linear-gradient(#F9EDE4, #F9EDE4, #FE7E83, #FE7E83);
+
 }
 
 .whatwedobox {
@@ -233,7 +234,6 @@ mark.italic {
     color: black;
     font-size: 40px;
     text-align: center;
-    background-color: white;
     z-index: 10000;
   }
 
@@ -322,6 +322,8 @@ mark.italic {
   }
 
   .rectangulardivlarge2 {
+    margin-bottom: -200px;
+    margin-left: 200px;
     background-color: #FE7E83;
     height: 200px;
     width: 50px;
@@ -333,7 +335,7 @@ mark.italic {
   }
 
   .rectangulardivlarge2:hover {
-    height: 200px;
+    height: 500px;
     width: 800px;
     border-radius: 0;
 

@@ -1,14 +1,15 @@
 .hedylamarrpicturebox {
-  margin-top: 200px;
+  margin-top: 100px;
   display: flex;
   flex-flow: column;
   justify-content: space-around;
   height: 100px;
   width: 100%;
   font-family: Arca Majora3;
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
   letter-spacing: 5px;
+  margin-bottom: -100px;
 }
 
 #hedylamarrpicture {
@@ -30,16 +31,18 @@
 
 @media (min-width: 1000px) {
   .hedylamarrpicturebox {
-    margin-top: 200px;
+    margin-top: 100px;
     display: flex;
     flex-flow: column;
     justify-content: space-around;
     height: 100px;
     width: 100%;
     font-family: Arca Majora3;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
     letter-spacing: 5px;
+    margin-bottom: -100px;
+
   }
 
   #hedylamarrpicture {

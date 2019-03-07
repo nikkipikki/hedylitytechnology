@@ -10,9 +10,10 @@
 }
 
 .wearehedytext {
-  color: #FE7E83;
-  text-align: left;
-  padding-left: 100px;
-  padding-right: 100px;
+  color: #F9EDE4;
+  text-align: center;
+  padding-left: 250px;
+  padding-right: 250px;
+  margin: 0;
   font-size: 40px;
 }

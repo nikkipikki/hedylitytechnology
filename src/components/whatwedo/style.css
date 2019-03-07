@@ -9,6 +9,43 @@
 
 
 @media (min-width: 1000px) {
+
+
+.threeareassmalltext {
+  font-family: Futura Thin;
+  text-align: left;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 20px;
+  letter-spacing: 0px;
+  color: #F9EDE4;
+
+}
+
+.threeareassmalltext2 {
+  font-family: Futura Thin;
+  text-align: left;
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 45px;
+  font-size: 20px;
+  letter-spacing: 0px;
+  color: #F9EDE4;
+}
+
+.threeareassmalltext3 {
+  font-family: Futura Thin;
+  text-align: left;
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  letter-spacing: 0px;
+  color: #F9EDE4;
+}
+
 .threeareas {
   width: 100%;
   display: flex;
@@ -17,65 +54,43 @@
   padding-left: 50px;
   padding-right: 50px;
   padding-bottom: 100px;
-  background-color: white;
-
-}
-
-.threeareassmalltext {
-  font-family: Futura Medium Italic;
-  text-align: left;
-  padding-left: 0px;
-  padding-right: 0px;
-  font-size: 20px;
-  letter-spacing: 0px;
-}
-
-.threeareassmalltext2 {
-  font-family: Futura Medium Italic;
-  text-align: left;
-  padding-top: 40px;
-  padding-bottom: 45px;
-  font-size: 20px;
-  letter-spacing: 0px;
-}
-
-.threeareassmalltext3 {
-  font-family: Futura Medium Italic;
-  text-align: left;
-  padding-top: 40px;
-  padding-bottom: 20px;
-  font-size: 20px;
-  letter-spacing: 0px;
 }
 
 .onearea {
   width: 30%;
   margin: 10px;
+  text-align: center;
   font-family: Arca Majora3;
   letter-spacing: 5px;
-  transition: background 1s ease-in-out,
+  background: linear-gradient(#033140, #033140 );
+
+  border-radius: 30px;
+  transition: background 0.2s ease-in-out,
   width 1s ease-in,
   height 1s linear,
-  border-radius 2s ease-in-out;
+  border-radius 1s ease-in-out;
 }
 
-/* .onearea:hover {
-  background-color: #FE7E83;
+.onearea:hover {
+  background: linear-gradient(#051C26, #051C26);
   width: 30%;
   margin: 10px;
-  font-family: Arca Majora3;
-  letter-spacing: 5px;
-} */
+}
 
 .hedytexttilt {
   transform: rotate(-10deg);
   text-align: left;
-  margin-left: -45px;
+  margin-left: 50px;
   font-family: River Jade;
-  margin-bottom: -8px;
+  margin-bottom: -20px;
   letter-spacing: 0;
   color: #FE7E83;
   font-size: 70px;
+  margin-top: 30px;
+}
+
+.beige {
+  color: #F9EDE4;
 }
 
 }

@@ -135,46 +135,82 @@ class Academypage extends React.Component {
           <div className="whatwedoheadertext">
             <h1>CURRENT COURSES</h1>
           </div>
+
+          <div className="coursesarea">
+
           <Link
             style={{ textDecoration: "none", color: "black" }}
             to="/kotlin">
-        <div className="coursesbox">
-          <div>
-            <p>Succeed with Kotlin</p>
-          </div>
-        <Tellmemorebutton/>
-        </div>
+
+          <div className="coursesdiv">
+          <div id="kretskort">
+            <div className="coursesbox">
+                <div>
+                  <p>Succeed with Kotlin</p>
+                </div>
+                  <Tellmemorebutton/>
+              </div>
+            </div>
+            </div>
+
+
         </Link>
-        <div className="coursesbox">
-          <div>
-            <p>Succeed with Kotlin</p>
+
+        <div className="coursesdiv">
+        <div id="kretskort">
+          <div className="coursesbox">
+              <div>
+                <p>Succeed with Kotlin</p>
+              </div>
+                <Tellmemorebutton/>
+            </div>
           </div>
-        <Tellmemorebutton/>
-        </div>
-        <div className="coursesbox">
-          <div>
-            <p>Succeed with Kotlin</p>
           </div>
-        <Tellmemorebutton/>
-        </div>
-        <div className="coursesbox">
-          <div>
-            <p>Succeed with Kotlin</p>
-          </div>
-        <Tellmemorebutton/>
-        </div>
-        <div className="coursesbox">
-          <div>
-            <p>Succeed with Kotlin</p>
-          </div>
-        <Tellmemorebutton/>
-        </div>
-        <div className="coursesbox">
-          <div>
-            <p>Succeed with Kotlin</p>
-          </div>
-        <Tellmemorebutton/>
-        </div>
+
+          <div className="coursesdiv">
+          <div id="kretskort">
+            <div className="coursesbox">
+                <div>
+                  <p>Succeed with Kotlin</p>
+                </div>
+                  <Tellmemorebutton/>
+              </div>
+            </div>
+            </div>
+
+            <div className="coursesdiv">
+            <div id="kretskort">
+              <div className="coursesbox">
+                  <div>
+                    <p>Succeed with Kotlin</p>
+                  </div>
+                    <Tellmemorebutton/>
+                </div>
+              </div>
+              </div>
+
+              <div className="coursesdiv">
+              <div id="kretskort">
+                <div className="coursesbox">
+                    <div>
+                      <p>Succeed with Kotlin</p>
+                    </div>
+                      <Tellmemorebutton/>
+                  </div>
+                </div>
+                </div>
+
+                <div className="coursesdiv">
+                <div id="kretskort">
+                  <div className="coursesbox">
+                      <div>
+                        <p>Succeed with Kotlin</p>
+                      </div>
+                        <Tellmemorebutton/>
+                    </div>
+                  </div>
+                  </div>
+</div>
 
         <div className="whatwedoheadertext">
           <h1>TARGET GROUP</h1>

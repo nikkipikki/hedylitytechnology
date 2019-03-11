@@ -83,7 +83,7 @@ body {
   margin: 0;
   /* background-color: #F8ECE4; */
   overflow-x: hidden;
-  background: linear-gradient(#F9EDE4, #F9EDE4, #FE7E83, #FE7E83);
+  /* background: linear-gradient(#F9EDE4, #F9EDE4, #FE7E83, #FE7E83); */
 
 }
 
@@ -236,8 +236,6 @@ mark.italic {
     text-align: center;
     z-index: 10000;
   }
-
-
 
   .individualareabox {
     width: 25%;

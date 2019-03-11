@@ -1,19 +1,28 @@
 .center {
   display: flex;
   flex-flow: column;
-
   justify-content: center;
   text-align: center;
 }
 
-.coursesbox {
+.coursesarea {
+  width: 100%;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+}
+
+.coursesdiv {
+  margin: 10px;
+  border-radius: 10px;
   background-color: white;
+  padding: 10px;
+}
+
+.coursesbox {
   padding: 30px;
   border-radius: 20px;
   font-family: Futura Medium Italic;
   text-align: center;
-  /* padding-left: 20px;
-  padding-right: 20px; */
   font-size: 30px;
-  margin: 20px;
 }

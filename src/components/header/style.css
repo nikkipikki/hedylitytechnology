@@ -45,6 +45,10 @@
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: 5px;
+  animation-delay: 3.5s;
+  -moz-animation-delay:3.5s;
+  -webkit-animation-delay:3.5s;
+
   animation:
     typing 4.5s steps(40, end),
     blink-caret .75s step-end infinite;

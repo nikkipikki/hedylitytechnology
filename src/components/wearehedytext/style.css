@@ -1,8 +1,5 @@
 .wearehedytextbox {
   margin-top: 50px;
-  display: flex;
-  flex-flow: column;
-  justify-content: space-around;
   height: 400px;
   width: 100%;
   font-family: Futura Medium Italic;
@@ -10,10 +7,24 @@
 }
 
 .wearehedytext {
-  color: #F9EDE4;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
   text-align: center;
   padding-left: 250px;
   padding-right: 250px;
+  height: 500px;
   margin: 0;
   font-size: 40px;
+  background-color: rgba(255,255,255, 0.3);
+
+}
+
+#wearehedy {
+  background-image: url(../images/yellow.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* border-radius: 10px; */
+  z-index: -1;
 }

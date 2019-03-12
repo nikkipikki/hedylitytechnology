@@ -153,15 +153,15 @@
 }
 
 .webmenuboarddiv {
-  /* margin-top: -400px; */
-  /* position: fixed; */
   position:fixed;
   top:0;
   display: flex;
   flex-flow: wrap;
   justify-content: space-between;
-  background-color: #051C26;
-  /* height: 200px; */
+  /* background-color: #051C26; */
+  /* background-color: rgba(5,28,38, 0.7); */
+  background-color: rgba(255,255,255, 0.8);
+
   width: 100%;
   z-index: 1;
   height: 80px;

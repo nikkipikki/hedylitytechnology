@@ -82,9 +82,9 @@
 }
 
 #innovation {
-  background-image: url(../images/leaf.jpg);
+  background-image: url(../images/bulbyellow.jpg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: right;
   background-size: cover;
   /* border-radius: 10px; */
   z-index: -1;

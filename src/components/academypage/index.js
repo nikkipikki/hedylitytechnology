@@ -80,27 +80,36 @@ class Academypage extends React.Component {
 
 
       <div className="web">
-      <div className="pagemarginweb">
+      <div>
+
+      <div id="academy">
 
         <div className="areasheader">
 
           <h1>ACADEMY</h1>
+          <div className="subheader">
+            <p>We close the gap between tech and business</p>
+          </div>
         </div>
-        <div className="subheader">
-          <p>We close the gap between tech and business</p>
         </div>
-        <div className="textthin">
+
+        <div className="displayflexwrap">
+        <div className="textbox2">
+        <h1>NEXT COURSE</h1>
+          <p>Succeed with Kotlin</p>
+        </div>
+        </div>
+
+        <div className="justifyright">
+        <div className="textbox">
           <p>With focus on modern leadership and technology,
           Hedy builds and increases the competencies of people and
           organizations to answer up to the requirements of the future.</p>
-        </div>
-        <div className="whatwedoheadertext">
-          <h1>WHAT WE DO</h1>
-        </div>
-        <div className="subheader">
           <p>We provide crash courses, intensive education
           programs and seminars online as well as classroom based</p>
         </div>
+        </div>
+
 
         <div className="areaspresentingdiv">
           <div className="typediv2">
@@ -116,20 +125,7 @@ class Academypage extends React.Component {
           </ul>
         </div>
         </div>
-        <div className="typediv2">
-        <div className="typetext">
-          <h1>SAMPLE COURSES</h1>
-        </div>
-        <div className="typethintext">
-          <ul>
-            <li>Succeed with Kotlin</li>
-            <li>Android development for beginners and advanced coders</li>
-            <li>Growth hacking</li>
-            <li>Take digitalization and tech trends into the board room</li>
-            <li>Learn to code</li>
-          </ul>
-        </div>
-        </div>
+      
 
 
           <div className="whatwedoheadertext">
@@ -160,7 +156,7 @@ class Academypage extends React.Component {
         <div id="kretskort">
           <div className="coursesbox">
               <div>
-                <p>Succeed with Kotlin</p>
+                <p>Android development for beginners and advanced coders</p>
               </div>
                 <Tellmemorebutton/>
             </div>
@@ -171,7 +167,7 @@ class Academypage extends React.Component {
           <div id="kretskort">
             <div className="coursesbox">
                 <div>
-                  <p>Succeed with Kotlin</p>
+                  <p>Growth hacking</p>
                 </div>
                   <Tellmemorebutton/>
               </div>
@@ -182,7 +178,7 @@ class Academypage extends React.Component {
             <div id="kretskort">
               <div className="coursesbox">
                   <div>
-                    <p>Succeed with Kotlin</p>
+                    <p>Take digitalization and tech trends into the board room</p>
                   </div>
                     <Tellmemorebutton/>
                 </div>
@@ -193,23 +189,13 @@ class Academypage extends React.Component {
               <div id="kretskort">
                 <div className="coursesbox">
                     <div>
-                      <p>Succeed with Kotlin</p>
+                      <p>Learn to code</p>
                     </div>
                       <Tellmemorebutton/>
                   </div>
                 </div>
                 </div>
 
-                <div className="coursesdiv">
-                <div id="kretskort">
-                  <div className="coursesbox">
-                      <div>
-                        <p>Succeed with Kotlin</p>
-                      </div>
-                        <Tellmemorebutton/>
-                    </div>
-                  </div>
-                  </div>
 </div>
 
         <div className="whatwedoheadertext">

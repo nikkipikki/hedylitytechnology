@@ -108,6 +108,33 @@
   z-index: -1;
 }
 
+#academy2 {
+  background-image: url(../images/hats.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  z-index: -1;
+}
+
+#yellowonblack {
+  background-image: url(../images/yellowonblack.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: -1;
+}
+
+
+#kotlin {
+  background-image: url(../images/kotlin.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: -1;
+}
+
 
 
 .onearea {

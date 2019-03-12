@@ -75,6 +75,7 @@ font-weight: normal;
 
 }
 
+
 html {
   font-family: Arca Majora3;
 }
@@ -253,6 +254,7 @@ mark.italic {
     font-size: 30px;
     text-align: center;
     letter-spacing: 5px;
+    color: white;
   }
 
   .whatwedosmalltext {

@@ -1,0 +1,27 @@
+.justifyrightkotlin {
+  /* margin-left: 20px */
+  /* margin-left: 100px; */
+  /* margin-right: 50px; */
+  /* background-color: black; */
+  width: 100%;
+  /* margin-top: -100px; */
+  display: flex;
+  flex-flow: column;
+  /* justify-content: center; */
+  justify-content: space-between;
+}
+
+.textboxkotlin {
+  /* margin: 35px; */
+  margin-left: 20px;
+  margin-bottom: 10px;
+  width: 40%;
+  color: white;
+  /* margin: auto; */
+  font-family: Futura Thin;
+  font-size: 15px;
+  justify-content: center;
+  padding: 50px;
+  /* margin-top: -110px; */
+  background-color: rgb(241,136,138);
+}

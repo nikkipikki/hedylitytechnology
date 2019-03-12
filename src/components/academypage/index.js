@@ -82,41 +82,40 @@ class Academypage extends React.Component {
       <div className="web">
       <div>
 
-      <div id="academy">
+      <div id="yellowonblack">
 
         <div className="areasheader">
 
+        <div className="headertextbox">
           <h1>ACADEMY</h1>
-          <div className="subheader">
+          <div className="headertextsmall">
             <p>We close the gap between tech and business</p>
           </div>
+          </div>
         </div>
-        </div>
+
 
         <div className="displayflexwrap">
         <div className="textbox2">
         <h1>NEXT COURSE</h1>
-          <p>Succeed with Kotlin</p>
+          <p id="fontsize">Succeed with Kotlin</p>
         </div>
         </div>
 
         <div className="justifyright">
-        <div className="textbox">
+        <div className="textbox1">
           <p>With focus on modern leadership and technology,
           Hedy builds and increases the competencies of people and
           organizations to answer up to the requirements of the future.</p>
           <p>We provide crash courses, intensive education
           programs and seminars online as well as classroom based</p>
         </div>
-        </div>
 
 
-        <div className="areaspresentingdiv">
-          <div className="typediv2">
-          <div className="typetext">
-          <h1>TYPE OF COURSES</h1>
-        </div>
-        <div className="typethintext">
+
+        <div className="textbox">
+          <h1 className="textboxheader">TYPE OF COURSES</h1>
+        <div>
           <ul>
             <li>Crash courses that will help you reach new levels of business and/or tech excellence</li>
             <li>Intensive courses for programming that will introduce talents into the Tech industry</li>
@@ -124,8 +123,7 @@ class Academypage extends React.Component {
             <li>Dedicated programs for continuous learning and/or targeted actions</li>
           </ul>
         </div>
-        </div>
-      
+</div>
 
 
           <div className="whatwedoheadertext">
@@ -134,82 +132,95 @@ class Academypage extends React.Component {
 
           <div className="coursesarea">
 
-          <Link
-            style={{ textDecoration: "none", color: "black" }}
-            to="/kotlin">
-
+          <div className="picturedivcourse">
+          <div id="academy">
           <div className="coursesdiv">
-          <div id="kretskort">
-            <div className="coursesbox">
-                <div>
+            <div className="margin">
                   <p>Succeed with Kotlin</p>
-                </div>
-                  <Tellmemorebutton/>
-              </div>
-            </div>
-            </div>
-
-
-        </Link>
-
-        <div className="coursesdiv">
-        <div id="kretskort">
-          <div className="coursesbox">
-              <div>
-                <p>Android development for beginners and advanced coders</p>
-              </div>
-                <Tellmemorebutton/>
-            </div>
-          </div>
-          </div>
-
-          <div className="coursesdiv">
-          <div id="kretskort">
-            <div className="coursesbox">
-                <div>
-                  <p>Growth hacking</p>
-                </div>
-                  <Tellmemorebutton/>
-              </div>
-            </div>
-            </div>
-
-            <div className="coursesdiv">
-            <div id="kretskort">
-              <div className="coursesbox">
-                  <div>
-                    <p>Take digitalization and tech trends into the board room</p>
                   </div>
+                  </div>
+                <Link
+                  style={{ textDecoration: "none", color: "black" }}
+                  to="/kotlin">
+                  <div>
                     <Tellmemorebutton/>
+                  </div>
+                  </Link>
+            </div>
+            </div>
+
+            <div className="picturedivcourse">
+              <div id="academy">
+              <div className="coursesdiv">
+              <div className="margin2">
+                <p>Android development for beginners and advanced coders</p>
+                </div>
+                </div>
+              <div>
+                <Tellmemorebutton/>
+              </div>
+              </div>
+          </div>
+
+          <div className="picturedivcourse">
+            <div id="academy">
+          <div className="coursesdiv">
+          <div className="margin">
+                  <p>Growth hacking</p>
+                  </div>
+                  </div>
+                <div>
+                  <Tellmemorebutton/>
                 </div>
               </div>
+            </div>
+
+            <div className="picturedivcourse">
+              <div id="academy">
+            <div className="coursesdiv">
+            <div className="margin2">
+                    <p>Take digitalization and tech trends into the board room</p>
+                    </div>
+                    </div>
+                  <div>
+                    <Tellmemorebutton/>
+                  </div>
+                </div>
               </div>
 
-              <div className="coursesdiv">
-              <div id="kretskort">
-                <div className="coursesbox">
-                    <div>
+
+
+            <div className="picturedivcourse">
+              <div id="academy">
+                <div className="coursesdiv">
+                <div className="margin">
                       <p>Learn to code</p>
-                    </div>
+                      </div>
+                      </div>
+                    <div>
                       <Tellmemorebutton/>
                   </div>
-                </div>
+                  </div>
                 </div>
 
 </div>
+</div>
 
-        <div className="whatwedoheadertext">
+      <div className="div">
+        <div className="">
           <h1>TARGET GROUP</h1>
         </div>
-        <div className="subheader">
+        <div className="divsmalltext">
           <p>Driven fast learners, developers, board members, management team members,
           people with a passion for tech who want to change industry, entrepreneurs, among others...</p>
         </div>
         </div>
         </div>
-</div>
+        </div>
+
         <Contactbutton/>
       </div>
+    </div>
 
 
     )

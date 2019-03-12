@@ -139,14 +139,27 @@ class Kotlin extends React.Component {
 
 
       <div className="web">
-      <div className="pagemarginweb">
+
+      <div id="kotlin">
       <div className="areasheader">
+
+      <div className="headertextbox">
         <h1>SUCCEED WITH KOTLIN</h1>
-      </div>
-      <div className="subheader">
+      <div className="headertextsmall">
         <p>by Hedy Academy</p>
       </div>
-      <div className="textthin">
+      </div>
+    </div>
+
+    <div className="displayflexwrap">
+    <div className="textbox2">
+    <h1>APPLY TO</h1>
+      <p id="fontsize">Succeed with Kotlin</p>
+    </div>
+    </div>
+
+    <div className="justifyright">
+    <div className="textbox1">
         <p>This course is formed as workshop were our
         highly skilled educator will lead you thru a
         fixed agenda to get as much knowledge as possible
@@ -156,11 +169,9 @@ class Kotlin extends React.Component {
         add a tool to your profession and update your knowledge
         for continuous learning.</p>
       </div>
+      <div className="textbox">
 
-      <div className="whatwedoheadertext">
-        <h1>DETAILS</h1>
-      </div>
-      <div className="abouttextthinleftweb">
+        <h1 className="textboxheader">DETAILS</h1>
           <p>Dates: 24-25 April 2019</p>
           <p>Time: 09.00–16.30</p>
           <p>Location: Central Stockholm</p>
@@ -169,14 +180,13 @@ class Kotlin extends React.Component {
           <p>Contact: hanna@hedy.tech</p>
       </div>
 
+  </div>
 
-      <div className="whatwedoheadertext">
-        <h1>OBJECTIVES</h1>
-      </div>
-      <div className="whatwedosmalltextcenter">
+  <div className="justifyrightkotlin">
+  <div className="textboxkotlin">
+  <h1 className="textboxheader">OBJECTIVES</h1>
         <p>After taking the course you should be able to.</p>
-      </div>
-      <div className="abouttextthinleftweb">
+      <div>
         <ul>
           <li>Understand the strengths of Kotlin.</li>
           <li>Start working professionally as a Kotlin developer.</li>
@@ -185,17 +195,20 @@ class Kotlin extends React.Component {
           <li>Write Kotlin code for applications running on desktop/backend/frontend/mobile.</li>
         </ul>
       </div>
-
-      <div className="whatwedoheadertext">
-        <h1>REQUIREMENTS</h1>
       </div>
-      <div className="abouttextthinleftweb">
+
+
+      <div className="textboxkotlin">
+      <h1 className="textboxheader">REQUIREMENTS</h1>
+      <div>
         <ul>
           <li>A passion for programming and to learn Kotlin</li>
           <li>Your own laptop</li>
           <li>IntelliJ Community Edition + the Kotlin plugin. (Free software)</li>
         </ul>
       </div>
+    </div>
+  </div>
 
       <div className="whatwedoheadertext">
         <h1>EDUCATION STANDARDS</h1>

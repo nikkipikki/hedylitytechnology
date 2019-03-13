@@ -25,3 +25,16 @@
   padding-top: 210px;
   font-size: 70px;
 }
+
+@media (max-width: 1000px) {
+  #texthedyteam {
+    padding-top: 180px;
+    font-size: 60px;
+  }
+
+}
+
+
+@media (min-width: 1000px) {
+
+}

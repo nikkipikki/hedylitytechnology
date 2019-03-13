@@ -18,37 +18,24 @@ class Loadingpage extends React.Component {
   render() {
     return (
       <div className="fadeinclass">
+      <div id="headerpic">
+      <ScrollToTopOnMount/>
+
         <Header/>
         <div>
-        <Introbox/>
 
         <Whatwedo/>
 
-        <div className="mobileonly">
+        
 
-        <Link
-        style={{ textDecoration: "none", color: "black" }}
-        to="/services">
-        <Servicesintro/>
-          <Tellmemorebutton/>
-          </Link>
 
-        <Link
-          style={{ textDecoration: "none", color: "black" }}
-          to="/academy">
-          <Academyintro/>
-          <Tellmemorebutton/>
-          </Link>
-
-          <Link
-            style={{ textDecoration: "none", color: "black" }}
-            to="/innovationstudio">
-            <Innovationstudiointro/>
-            <Tellmemorebutton/>
+            <Link
+              style={{ textDecoration: "none", color: "black" }}
+              to="/about">
+            <Wearehedytext/>
             </Link>
 
-
-            </div>
+            <Introbox/>
 
 
         <Link
@@ -57,17 +44,13 @@ class Loadingpage extends React.Component {
         <Teamintro/>
         </Link>
 
-        <Link
-          style={{ textDecoration: "none", color: "black" }}
-          to="/about">
-        <Wearehedytext/>
-        </Link>
 
-        <Link
-          style={{ textDecoration: "none", color: "black" }}
-          to="/hedy">
+
+
+
         <Hedylamarrintro/>
-        </Link>
+
+        </div>
 </div>
 
       </div>

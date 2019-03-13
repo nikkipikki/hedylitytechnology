@@ -89,6 +89,58 @@
   font-size: 30px;
 }
 
+.textboxservices {
+  /* margin: 35px; */
+  margin-bottom: 20px;
+  width: 70%;
+  /* color: white; */
+  /* margin: auto; */
+  font-family: Futura Thin;
+  font-size: 15px;
+  justify-content: center;
+  padding: 50px;
+  /* margin-top: -110px; */
+  background-color: rgba(255,255,255, 0.8);
+}
+
+.justifyrightservices {
+  width: 50%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+.textboxservices2 {
+  /* margin: 35px; */
+  margin-right: 20px;
+  width: 100%;
+  color: white;
+  /* margin: auto; */
+  font-family: Futura Thin;
+  font-size: 15px;
+  justify-content: center;
+  padding: 50px;
+  /* margin-top: -110px; */
+  background-color: rgb(241,136,138);
+}
+
+.textboxheaderservices {
+  font-family:  Arca Majora3;
+  letter-spacing: 5px;
+  padding-top: 50px;
+}
+
+.headertextboxservices {
+  /* background-color: rgba(255,255,255, 0.8); */
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+  margin-top: 220px;
+  background-color: #F1888A;
+}
+
 @media (max-width: 1000px) {
   .web {
     display: none;

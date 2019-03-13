@@ -13,12 +13,11 @@
 }
 
 #hedyhandsvartbeige {
-  background-image: url(../images/hedyhandsvartbeige.png);
+  background-image: url(../images/handdark.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   background-size: 60%;
-  z-index: -1;
 }
 
 #hedylamarrquote {
@@ -72,6 +71,7 @@
     justify-content: space-between;
     padding-left: 100px;
     padding-right: 100px;
+    background-color: white;
   }
 
   .hedylamarrtext {
@@ -109,17 +109,81 @@
   }
 
   #hedyhandsvartbeige {
-    background-image: url(../images/hedyhandsvartbeige.png);
+    background-image: url(../images/vithand.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     background-size: 70%;
-    z-index: -1;
   }
 
 
+  .hedydiv {
+    /* margin-left: 20px */
+    /* margin-left: 100px; */
+    /* margin-right: 50px; */
+    /* background-color: black; */
+    width: 100%;
+    /* margin-top: -100px; */
+    display: flex;
+    flex-flow: wrap;
+    background-color: black;
+    /* margin-bottom: 20px; */
+    /* justify-content: center; */
+    justify-content: space-between;
+  }
 
+  .hedybox1 {
+    /* margin-top: -100px; */
+    /* margin-left: 35px; */
+    padding-left: 40px;
+    width: 40%;
+    color: white;
+    background-color: black;
+    /* height: 200px */
+    /* margin: auto; */
+    font-family: Futura Thin;
+    font-size: 20px;
+    justify-content: center;
+    padding: 50px;
+    /* margin-top: -110px; */
+    /* background-color: rgb(241,136,138, 0.8); */
+  }
 
+  .arcamajora {
+    font-family: Arca Majora3;
+    font-size: 40px;
+    letter-spacing: 5px;
+  }
+
+  .hedyboxheader {
+    font-family:  Arca Majora3;
+    letter-spacing: 5px;
+  }
+
+  .hedybox {
+    /* margin: 35px; */
+    margin-right: 20px;
+    width: 50%;
+    margin-top: 30px;
+
+    /* color: black; */
+    height: 600px;
+    /* margin: auto; */
+    font-family: Futura Thin;
+    font-size: 15px;
+    justify-content: center;
+    padding: 0px;
+    /* margin-top: -110px; */
+    /* background-color: #F1888A; */
+    /* background-color: rgba(255,255,255, 0.8); */
+    background-color: white;
+
+  }
+
+  .margintop {
+    text-align: center;
+    margin-top: 500px;
+  }
 
 
 

@@ -4,6 +4,8 @@ import "./style.css"
 import Contactbutton from "../contactbutton"
 import ScrollToTopOnMount from "../scrolltotoponmount"
 import Tellmemorebutton from "../tellmemorebutton"
+import Comingsoon from "../comingsoon"
+
 import Kotlin from "../kotlin"
 
 
@@ -82,11 +84,11 @@ class Academypage extends React.Component {
       <div className="web">
       <div>
 
-      <div id="yellowonblack">
+      <div id="academy3">
 
         <div className="areasheader">
 
-        <div className="headertextbox">
+        <div className="headertextboxacademy">
           <h1>ACADEMY</h1>
           <div className="headertextsmall">
             <p>We close the gap between tech and business</p>
@@ -95,37 +97,50 @@ class Academypage extends React.Component {
         </div>
 
 
+        <Link
+          style={{ textDecoration: "none", color: "black" }}
+          to="/kotlin">
         <div className="displayflexwrap">
         <div className="textbox2">
         <h1>NEXT COURSE</h1>
           <p id="fontsize">Succeed with Kotlin</p>
         </div>
         </div>
+          </Link>
 
-        <div className="justifyright">
-        <div className="textbox1">
-          <p>With focus on modern leadership and technology,
-          Hedy builds and increases the competencies of people and
-          organizations to answer up to the requirements of the future.</p>
-          <p>We provide crash courses, intensive education
-          programs and seminars online as well as classroom based</p>
-        </div>
+          <div className="justifykotlinlargediv">
 
 
+          <div className="justifyrightkotlin">
 
-        <div className="textbox">
-          <h1 className="textboxheader">TYPE OF COURSES</h1>
-        <div>
-          <ul>
-            <li>Crash courses that will help you reach new levels of business and/or tech excellence</li>
-            <li>Intensive courses for programming that will introduce talents into the Tech industry</li>
-            <li>Specific courses that will take your business and your competence to the next level</li>
-            <li>Dedicated programs for continuous learning and/or targeted actions</li>
-          </ul>
-        </div>
-</div>
+          <div className="textboxservices" id="backgroundcolorpink">
+            <h1 className="textboxheader">TYPE OF COURSES</h1>
+          <div>
+            <ul>
+              <li>Crash courses that will help you reach new levels of business and/or tech excellence</li>
+              <li>Intensive courses for programming that will introduce talents into the Tech industry</li>
+              <li>Specific courses that will take your business and your competence to the next level</li>
+              <li>Dedicated programs for continuous learning and/or targeted actions</li>
+            </ul>
+          </div>
+          </div>
+          </div>
 
 
+          <div className="justifyrightservices">
+          <div className="textboxservices2" id="backgroundcolorblack">
+            <h1><p>With focus on modern leadership and technology,
+            Hedy builds and increases the competencies of people and
+            organizations to answer up to the requirements of the future.</p>
+            <p>We provide crash courses, intensive education
+            programs and seminars online as well as classroom based.</p></h1>
+          </div>
+          </div>
+
+
+
+
+          <div className="coursesbox">
           <div className="whatwedoheadertext">
             <h1>CURRENT COURSES</h1>
           </div>
@@ -133,7 +148,7 @@ class Academypage extends React.Component {
           <div className="coursesarea">
 
           <div className="picturedivcourse">
-          <div id="academy">
+          <div id="kotlin2">
           <div className="coursesdiv">
             <div className="margin">
                   <p>Succeed with Kotlin</p>
@@ -157,7 +172,7 @@ class Academypage extends React.Component {
                 </div>
                 </div>
               <div>
-                <Tellmemorebutton/>
+                <Comingsoon/>
               </div>
               </div>
           </div>
@@ -170,7 +185,7 @@ class Academypage extends React.Component {
                   </div>
                   </div>
                 <div>
-                  <Tellmemorebutton/>
+                <Comingsoon/>
                 </div>
               </div>
             </div>
@@ -183,7 +198,7 @@ class Academypage extends React.Component {
                     </div>
                     </div>
                   <div>
-                    <Tellmemorebutton/>
+                  <Comingsoon/>
                   </div>
                 </div>
               </div>
@@ -198,11 +213,11 @@ class Academypage extends React.Component {
                       </div>
                       </div>
                     <div>
-                      <Tellmemorebutton/>
+                    <Comingsoon/>
                   </div>
                   </div>
                 </div>
-
+</div>
 </div>
 </div>
 

@@ -1,14 +1,14 @@
 .teampicturebox {
-  margin-top: 100px;
-  padding-left: 20px;
-  padding-right: 20px;
+  margin-top: 30px;
+  margin-bottom: 70px;
+  padding: 100px;
   display: flex;
   flex-flow: column;
   justify-content: space-around;
-  /* background-color: #051C26; */
-  height: 400px;
+  background-color: rgba(255,255,255, 0.9);
+  height: 600px;
   width: 100%;
-  font-family: River Jade;
+  font-family: Arca Majora3;
   text-align: center;
 }
 
@@ -18,10 +18,10 @@
   background-position: center center;
   background-size: cover;
   background-size: 100%;
-  z-index: -1;
+  /* z-index: -1; */
 }
 
 #texthedyteam {
-  padding-top: 200px;
-  font-size: 90px;
+  padding-top: 210px;
+  font-size: 70px;
 }

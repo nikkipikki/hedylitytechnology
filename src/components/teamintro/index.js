@@ -11,7 +11,7 @@ class Teamintro extends React.Component {
         to="/team">
       <div className="teampicturebox">
           <div id="teampicture">
-            <h1 id="texthedyteam">The Hedy Team</h1>
+            <h1 id="texthedyteam">GET TO KNOW OUR TEAM</h1>
           </div>
       </div>
       </Link>

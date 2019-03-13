@@ -47,18 +47,19 @@
 }
 
 .pictureboxweb {
-  padding-top: 700px;
+  /* padding-top: 100px; */
   margin-top: 10px;
   margin-bottom: 250px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
   display: flex;
   flex-flow: column;
   justify-content: space-around;
   /* background-color: #051C26; */
-  height: 500px;
-  width: 50%;
+  /* height: 500px; */
+  width: 30%;
   text-align: center;
+  background-color: white;
 }
 
 
@@ -103,7 +104,7 @@
   background-position: center center;
   background-size: cover;
   background-size: 40%;
-  z-index: -1;
+  /* z-index: -1; */
 }
 
 #emelie {
@@ -112,7 +113,7 @@
   background-position: center center;
   background-size: cover;
   background-size: 60%;
-  z-index: -1;
+  /* z-index: -1; */
 }
 
 #hanna {
@@ -121,7 +122,7 @@
   background-position: center center;
   background-size: cover;
   background-size: 50%;
-  z-index: -1;
+  /* z-index: -1; */
 }
 
 #nicole {
@@ -130,7 +131,7 @@
   background-position: center center;
   background-size: cover;
   background-size: 70%;
-  z-index: -1;
+  /* z-index: -1; */
 }
 
 #oden {
@@ -139,7 +140,7 @@
   background-position: center center;
   background-size: cover;
   background-size: 50%;
-  z-index: -1;
+  /* z-index: -1; */
 }
 
 #sara {
@@ -148,5 +149,21 @@
   background-position: center center;
   background-size: cover;
   background-size: 50%;
-  z-index: -1;
+  /* z-index: -1; */
+}
+
+.teamboxweb {
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  /* background-color: white; */
+}
+
+.textmargin {
+  /* margin-top: 600px; */
 }

@@ -151,12 +151,14 @@ class Kotlin extends React.Component {
       </div>
     </div>
 
+    <a href="https://goo.gl/forms/TArPukMZ80uK1Nt73">
     <div className="displayflexwrap">
     <div className="textbox2">
     <h1>APPLY TO</h1>
       <p id="fontsize">Succeed with Kotlin</p>
     </div>
     </div>
+    </a>
 
     <div className="justifyright">
     <div className="textbox1">
@@ -169,7 +171,8 @@ class Kotlin extends React.Component {
         add a tool to your profession and update your knowledge
         for continuous learning.</p>
       </div>
-      <div className="textbox">
+
+      <div className="textbox" id="backgroundcolorblack">
 
         <h1 className="textboxheader">DETAILS</h1>
           <p>Dates: 24-25 April 2019</p>
@@ -182,8 +185,10 @@ class Kotlin extends React.Component {
 
   </div>
 
+  <div className="justifykotlinlargediv">
+
   <div className="justifyrightkotlin">
-  <div className="textboxkotlin">
+  <div className="textboxkotlin" id="backgroundcolorblack">
   <h1 className="textboxheader">OBJECTIVES</h1>
         <p>After taking the course you should be able to.</p>
       <div>
@@ -197,8 +202,7 @@ class Kotlin extends React.Component {
       </div>
       </div>
 
-
-      <div className="textboxkotlin">
+      <div className="textboxkotlin" id="backgroundcolorblack">
       <h1 className="textboxheader">REQUIREMENTS</h1>
       <div>
         <ul>
@@ -210,23 +214,17 @@ class Kotlin extends React.Component {
     </div>
   </div>
 
-      <div className="whatwedoheadertext">
-        <h1>EDUCATION STANDARDS</h1>
-      </div>
-      <div className="whatwedosmalltextcenter">
-        <p>Attendees</p>
-      </div>
-      <div className="abouttextthinleftweb">
+  <div className="justifyrightkotlin">
+  <div className="textboxkotlin2">
+  <h1 className="textboxheader">EDUCATION STANDARDS</h1>
+        <h1>Attendees</h1>
         <p>You should have programming experience in some language,
         preferably Java or similar. But any object-oriented (or OO featured) language will do.
         This is not an introductory course to programming, it’s a course on Kotlin,
         from an introduction to complex features. Although it will teach Kotlin from its fundamentals
         it won’t describe what an if-statement, lambda or immutables are more than briefly. </p>
-      </div>
-      <div className="whatwedosmalltextcenter">
-        <p>Prerequisites</p>
-      </div>
-      <div className="abouttextthinleftweb">
+        <h1>Prerequisites</h1>
+      <div>
         <p>Knowledge of the following concepts in any general programming language:</p>
         <ul>
         <li> if, loops, class, instance, protocol/interface, functions, variable, null/nil, array/list, map/dictionary</li>
@@ -236,19 +234,18 @@ class Kotlin extends React.Component {
         <li> concurrency, generics, lambda, debugging, static, Java, C#, JavaScript</li>
         </ul>
       </div>
-      <div className="whatwedosmalltextcenter">
-        <p>Tempo</p>
-      </div>
-      <div className="abouttextthinleftweb">
+        <h1>Tempo</h1>
         <p>The course will keep a high tempo to slow down a bit during the second day
         when the complexity of the material increases. This is to be able to go through
         all the concepts of Kotlin and for the attendees to be able to try them all out
         in the time frame of the course. </p>
       </div>
+</div>
+  </div>
 
-      <div className="whatwedoheadertext">
-        <h1>OVERVIEW & PURPOSE</h1>
-      </div>
+  <div className="textboxkotlin2">
+  <h1 className="textboxheader">OVERVIEW & PURPOSE</h1>
+
 
       <div>
         <p className="abouttextthinleftweb">Curious about the new language that changed the entire Android world?
@@ -276,6 +273,8 @@ class Kotlin extends React.Component {
       </div>
       </div>
       </div>
+      </div>
+
 
       <Apply/>
     </div>

@@ -1,13 +1,7 @@
 .justifyrightkotlin {
-  /* margin-left: 20px */
-  /* margin-left: 100px; */
-  /* margin-right: 50px; */
-  /* background-color: black; */
-  width: 100%;
-  /* margin-top: -100px; */
+  width: 50%;
   display: flex;
   flex-flow: column;
-  /* justify-content: center; */
   justify-content: space-between;
 }
 
@@ -15,7 +9,7 @@
   /* margin: 35px; */
   margin-left: 20px;
   margin-bottom: 10px;
-  width: 40%;
+  width: 80%;
   color: white;
   /* margin: auto; */
   font-family: Futura Thin;
@@ -24,4 +18,26 @@
   padding: 50px;
   /* margin-top: -110px; */
   background-color: rgb(241,136,138);
+}
+
+#backgroundcolorblack {
+  background-color: black;
+}
+
+.textboxkotlin2 {
+  margin-bottom: 10px;
+  width: 100%;
+  /* color: white; */
+  font-family: Futura Thin;
+  font-size: 15px;
+  justify-content: center;
+  padding: 50px;
+  background-color: white;
+}
+
+.justifykotlinlargediv {
+  width: 100%;
+  display: flex;
+  flex-flow: wrap;
+
 }

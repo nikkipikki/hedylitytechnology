@@ -1,0 +1,105 @@
+.textboxinnovation {
+  /* margin: 35px; */
+  /* margin-bottom: 20px; */
+  width: 40%;
+  margin-bottom: 30px;
+  margin-right: 30px;
+  /* color: white; */
+  /* margin: auto; */
+  font-family: Futura Thin;
+  font-size: 15px;
+  justify-content: center;
+  padding: 50px;
+  /* margin-top: -110px; */
+  background-color: rgba(255,255,255, 0.8);
+}
+
+.headertextboxinnovation {
+  /* background-color: rgba(255,255,255, 0.8); */
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+  margin-top: 220px;
+  background-color: #F1888A; 
+  /* background-color: rgba(255,255,255, 0.8); */
+}
+
+.innovationbox {
+  /* margin: 35px; */
+  margin-right: 20px;
+  width: 50%;
+  margin-top: 30px;
+
+  /* color: black; */
+  height: 400px;
+  /* margin: auto; */
+  font-family: Futura Thin;
+  font-size: 15px;
+  justify-content: center;
+  padding: 25px;
+  /* margin-top: -110px; */
+  /* background-color: #F1888A; */
+  /* background-color: rgba(255,255,255, 0.8); */
+  background-color: white;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+}
+
+.innovationdiv {
+  width: 100%;
+  display: flex;
+  margin: 20px;
+  /* height: 500px; */
+  flex-flow: wrap;
+  justify-content: space-between;
+  /* background-color: #033140; */
+}
+
+.innovationpicturebox {
+  padding-top: 400px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  /* background-color: #051C26; */
+  height: 300px;
+  width: 60%;
+  text-align: center;
+}
+
+#letsgo {
+  background-image: url(../images/letsgo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%;
+  /* background-attachment: fixed; */
+  /* z-index: -1; */
+}
+
+.justifyrightinnovation {
+  /* margin-left: 20px */
+  /* margin-left: 100px; */
+  /* margin-right: 50px; */
+  /* background-color: black; */
+  width: 100%;
+  /* margin-top: -100px; */
+  display: flex;
+  flex-flow: wrap;
+  /* margin-bottom: 20px; */
+  /* justify-content: center; */
+  justify-content: space-between;
+}
+
+.textboxinnovation2 {
+  padding-left: 40px;
+  width: 55%;
+  font-family: Futura Thin;
+  font-size: 20px;
+  justify-content: center;
+  padding: 50px;
+  background-color: white;
+  /* margin-top: -110px; */
+  /* background-color: rgb(241,136,138, 0.8); */
+}

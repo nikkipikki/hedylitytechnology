@@ -77,3 +77,31 @@
   font-family: Futura Medium Italic;
   color: #FE7E83;
 }
+
+
+  .introdiv {
+    width: 100%;
+    display: flex;
+    height: 500px;
+    flex-flow: wrap;
+    justify-content: space-between;
+    /* background-color: #033140; */
+  }
+
+  .introsmalltext {
+    font-family: Futura Medium Italic;
+    text-align: left;
+    padding: 30px;
+    font-size: 20px;
+    margin-top: 100px;
+    width: 55%;
+    height: 300px;
+    color: white;
+    background-color: black;
+    margin-right: 20px;
+
+  }
+
+  .smallertext {
+    font-size: 30px;
+  }

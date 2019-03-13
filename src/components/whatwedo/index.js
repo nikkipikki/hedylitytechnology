@@ -8,11 +8,20 @@ class Whatwedo extends React.Component {
   render() {
     return (
       <div>
-        <div>
-          <div className="whatwedobox">
-            <h1>WHAT WE DO</h1>
-          </div>
 
+      <div className="whatwedodiv">
+      <div className="whatwedotext">
+      <p>Hedy focuses on making successful digitalization journeys
+      with forefront technology, high-skilled people and an innovative environment.
+      We want sustainable, win-win-win-win business relations where the end-customer,
+      the client/partner, Hedy and the world wins on the tech and business solutions
+      we are developing.</p>
+      </div>
+            <div className="whatwedobox">
+
+              <h1 className="arcamajora2"> OUR THREE AREAS </h1>
+
+            </div>
           <div className="threeareas">
 
           <div className="picturedivwhatwedo">

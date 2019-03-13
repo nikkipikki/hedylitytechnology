@@ -84,7 +84,7 @@ body {
   margin: 0;
   /* background-color: #F8ECE4; */
   overflow-x: hidden;
-  /* background: linear-gradient(#F9EDE4, #F9EDE4, #FE7E83, #FE7E83); */
+  /* background: linear-gradient(#ffffff, #F9EDE4, #FE7E83, #FE7E83); */
 
 }
 
@@ -187,6 +187,22 @@ mark.italic {
   background: none;
 }
 
+.whatwedotext {
+  /* background-color: green; */
+  /* color: white; */
+  width: 100%;
+  height: auto;
+  /* margin: auto; */
+  /* color: white; */
+  font-size: 30px;
+  padding-top: 50px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 50px;
+  font-family: Futura Thin;
+  background-color: rgba(255,255,255, 0.3);
+}
+
 
 
 
@@ -198,14 +214,16 @@ mark.italic {
   .header {
     margin-top: 0px;
     margin-bottom: 0px;
-    height: 600px;
+    height: 800px;
     text-align: center;
     font-size: 25px;
     letter-spacing: 5px;
+    background: black;
+    padding-top: -100px;
   }
 
   #blackhylogo {
-    background-image: url(./components/images/svarthy.png);
+    background-image: url(./components/images/vithy.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -220,22 +238,41 @@ mark.italic {
     height: 100px;
     width: 100%;
     font-family: Arca Majora3;
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
     letter-spacing: 5px;
   }
 
 
   .whatwedobox {
-    padding-top: 50px;
-    margin-top: 100px;
-    margin-bottom: 0px;
-    height: 200px;
+    /* padding-top: 50px; */
+    /* margin-top: -20px; */
+    /* margin-bottom: -20px; */
+    padding-top: 20px;
+    height: 300px;
     width: 100%;
     color: black;
     font-size: 40px;
     text-align: center;
     z-index: 10000;
+    background-color: white;
+  }
+
+  .whatwedotext {
+    /* background-color: green; */
+    /* color: white; */
+    width: 100%;
+    height: auto;
+    margin: auto;
+    color: white;
+    font-size: 30px;
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 50px;
+
+    font-family: Futura Thin;
+    background-color: rgba(255,255,255, 0.3);
   }
 
   .individualareabox {
@@ -244,7 +281,7 @@ mark.italic {
   }
 
   .whatwedoheadertext {
-    margin-top: 100px;
+    margin-top: 0px;
     display: flex;
     flex-flow: column;
     justify-content: space-around;

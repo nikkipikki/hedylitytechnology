@@ -1,16 +1,15 @@
 .hedylamarrpicturebox {
-  margin-top: 100px;
+  margin-top: 50px;
   display: flex;
   flex-flow: column;
   justify-content: space-around;
-  height: 100px;
+  height: 600px;
   width: 100%;
   font-family: Arca Majora3;
-  font-size: 20px;
   text-align: center;
-  letter-spacing: 5px;
-  margin-bottom: -100px;
 }
+
+
 
 #hedylamarrpicture {
   background-image: url(../images/hedyfaceweb1.png);
@@ -18,7 +17,7 @@
   background-position: center center;
   background-size: cover;
   background-size: 60%;
-  z-index: -1;
+  /* z-index: -1; */
 }
 
 #hedylamarrtext {
@@ -31,17 +30,15 @@
 
 @media (min-width: 1000px) {
   .hedylamarrpicturebox {
-    margin-top: 100px;
+    margin-top: 50px;
     display: flex;
     flex-flow: column;
     justify-content: space-around;
-    height: 100px;
+    height: 900px;
     width: 100%;
     font-family: Arca Majora3;
-    font-size: 20px;
     text-align: center;
-    letter-spacing: 5px;
-    margin-bottom: -100px;
+    background-color: white;
 
   }
 
@@ -50,7 +47,14 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    background-size: 40%;
-    z-index: -1;
+    background-size: 60%;
+    /* z-index: -1; */
   }
+
+  .hedybox {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+  }
+
 }

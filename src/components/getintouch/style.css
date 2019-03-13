@@ -1,0 +1,59 @@
+.contactbuttonbox {
+  margin-top: 100px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.contactbutton {
+  margin: auto;
+  font-size: 30px;
+  width: 35%;
+  color: #F8ECE4;
+  background-color: #051C26;
+  padding: 20px;
+  border-radius: 35px;
+  font-family: Arca Majora3;
+  letter-spacing: 5px;
+}
+
+
+
+@media (min-width: 1000px) {
+  .contactbuttonbox {
+    margin-top: 0px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .contactbutton {
+    cursor: pointer;
+    margin: auto;
+    font-size: 20px;
+    width: 100%;
+    color: #F8ECE4;
+    background-color: black;
+    /* padding: 10px; */
+    border-radius: 0px;
+    border: 0;
+    font-family: Arca Majora3;
+    letter-spacing: 5px;
+    transition: background 0.5s ease-in-out,
+  }
+
+  .contactbutton:hover {
+    margin: auto;
+    font-size: 20px;
+    width: 100%;
+
+    background-color: #FE7E83;
+;
+    /* padding: 10px; */
+    font-family: Arca Majora3;
+    letter-spacing: 5px;
+  }
+
+}

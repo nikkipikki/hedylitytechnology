@@ -20,19 +20,14 @@ class Introbox extends React.Component {
         </div>
 
         <div className="web">
-          <div className="circledivsmall">
+
+          <div className="introdiv">
+          <div className="hedypicturebox" id="hedyhandsvartbeige"/>
+          <div className="introsmalltext">
+            <h1>Our mission is to make a tech imprint for a better world.</h1>
+            <h1 className="smallertext">We are in it for the long-run, are you?</h1>
           </div>
-            <div className="webintrobox">
-            <h1 className="webintrotext">Our mission is to make a tech
-            imprint for a better world.</h1>
-            <p className="webintrotextsmall">Hedy focuses on making successful digitalization journeys
-            with forefront technology, high-skilled people and an innovative environment.
-            We want sustainable, win-win-win-win business relations where the end-customer,
-            the client/partner, Hedy and the world wins on the tech and business solutions
-            we are developing.</p>
-            <h1 className="webintrotextlast">We are in it for the long-run, are you?</h1>
-            
-          </div>
+        </div>
         </div>
 
       </div>

@@ -177,7 +177,9 @@
   text-align: left;
   font-size: 40px;
   margin-left: 30px;
-  color: #FE7E83;
+  /* color: #FE7E83; */
+  color: black;
+
   margin-top: -15px;
 }
 
@@ -247,6 +249,7 @@
 
 .menutext {
   right: 0;
-  color: #FE7E83;
+  /* color: #FE7E83; */
+  color: black;
   margin: 17px;
 }

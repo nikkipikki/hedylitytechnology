@@ -85,93 +85,81 @@ class Servicespage extends React.Component {
 
       <div className="web">
 
-      <div id="services3">
+        <div id="services3">
 
-
-      <div className="areasheader">
-
-      <div className="onheaderbox" id="backgroundcolorpinkblack">
-      <div id="arcamajora">
-        <h1 id="nomargin">SERVICES</h1>
+        <div className="areasheader">
+          <div className="onheaderbox" id="backgroundcolorpinkblack">
+            <div id="arcamajora">
+              <h1 id="nomargin">SERVICES</h1>
+            </div>
+            <div id="futuramediumitalic">
+              <h6 id="nomargin">Consultancy services within programming and management</h6>
+            </div>
+          </div>
         </div>
-        <div id="futuramediumitalic">
-          <h6 id="nomargin">Consultancy services within programming and management</h6>
+
+
+        <div className="justifykotlinlargediv">
+
+          <div className="justifyrightservices">
+            <div className="textboxservices2" id="backgroundcolorblack">
+            <h5 id="nomargin">We accelerate businesses with skills and solutions
+                              for a profitable digitalization journey</h5>
+                              <h5>With forefront technology skills and strategic minds
+                              Hedy supports small, mid-sized and large companies in
+                              their aspiration to make a successful digitalization
+                              journey and build a profitable business.</h5>
+            </div>
+
+            <div className="textboxservices2" id="backgroundcolorblack">
+              <h3 className="textboxheaderservices">ROLES WE HAVE TAKEN</h3>
+                <div>
+                  <h6 id="nomargin">Quality Assurance, <mark className="pink">Tech architect, Agile coach,</mark> Tech educator, Brand developer,
+                  <mark className="pink">Growth hacker,</mark> Backend developer,
+                  Kotlin developer, <mark className="pink">Board member,</mark>
+                  Java developer, Business advisor,
+                  <mark className="pink">Android developer,</mark>  Graphical designer,
+                  Tech lead, Investment manager, <mark className="pink">Frontend developer,</mark>
+                  UX/UI developer, <mark className="pink">CEO,</mark>  Digital strategist,
+                  Managing Director,<mark className="pink"> Product owner,</mark> <mark className="pink">Project lead,</mark>
+                  Concept developer, Sales leader <mark className="pink">and many more.</mark></h6>
+                </div>
+            </div>
+          </div>
+
+          <div className="justifyrightkotlin">
+            <div className="textboxservices">
+              <h4 className="textboxheader" id="nomargin">TYPE OF SERVICES</h4>
+                <div className="bulletpoints">
+                <ul>
+                  <li>Inhouse projects delivered by a Hedy team</li>
+                  <li>Consultancy service at client, where Hedy talent leads the work or is part of a team</li>
+                  <li>Take the role as tech and/or business partner</li>
+                </ul>
+                </div>
+            </div>
+
+            <div className="textboxservices" id="nopaddingtop">
+              <h4 className="textboxheader" id="nomargin">TYPE OF CLIENT</h4>
+                <div className="bulletpoints">
+                <ul>
+                  <li>Wants to take their product or business to “the next level”</li>
+                  <li>Has digitalization on the agenda</li>
+                  <li>Needs support with specific competencies to develop its product</li>
+                  <li>Wants a long-term tech partner to complement its development team</li>
+                  <li>Is facing globalization, expansion or other change management challenges</li>
+                </ul>
+                </div>
+            </div>
+
         </div>
+
+
       </div>
     </div>
-
-
-      <div className="justifykotlinlargediv">
-
-      <div className="justifyrightservices">
-      <div className="textboxservices2" id="backgroundcolorblack">
-      <h5 id="nomargin">We accelerate businesses with skills and solutions
-      for a profitable digitalization journey</h5>
-          <h5>With forefront technology skills and strategic minds
-          Hedy supports small, mid-sized and large companies in
-          their aspiration to make a successful digitalization
-          journey and build a profitable business.</h5>
-
-
-
-          <h3 className="textboxheaderservices">ROLES WE HAVE TAKEN</h3>
-        <div>
-          <h6 id="nomargin">Quality Assurance, <mark className="pink">Tech architect, Agile coach,</mark> Tech educator, Brand developer,
-          <mark className="pink">Growth hacker,</mark> Backend developer,
-          Kotlin developer, <mark className="pink">Board member,</mark>
-          Java developer, Business advisor,
-          <mark className="pink">Android developer,</mark>  Graphical designer,
-          Tech lead, Investment manager, <mark className="pink">Frontend developer,</mark>
-          UX/UI developer, <mark className="pink">CEO,</mark>  Digital strategist,
-          Managing Director,<mark className="pink"> Product owner,</mark> <mark className="pink">Project lead,</mark>
-          Concept developer, Sales leader <mark className="pink">and many more.</mark></h6>
-        </div>
-        </div>
-        </div>
-
-
-
-
-      <div className="justifyrightkotlin">
-
-      <div className="textboxservices">
-      <h4 className="textboxheader" id="nomargin">TYPE OF SERVICES</h4>
-        <div className="bulletpoints">
-          <ul>
-            <li>Inhouse projects delivered by a Hedy team</li>
-            <li>Consultancy service at client, where Hedy talent
-            leads the work or is part of a team</li>
-            <li>Take the role as tech and/or business partner</li>
-          </ul>
-        </div>
-      </div>
-
-      <div className="textboxservices">
-      <h4 className="textboxheader" id="nomargin">TYPE OF CLIENT</h4>
-      <div className="bulletpoints">
-        <ul>
-          <li>Wants to take their product or business to “the next level”</li>
-          <li>Has digitalization on the agenda</li>
-          <li>Needs support with specific competencies to develop its product</li>
-          <li>Wants a long-term tech partner to complement its development team</li>
-          <li>Is facing globalization, expansion or other change management challenges</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  </div>
-</div>
-
-
-
-
-
-  </div>
-
-
         <Contactbutton/>
-
       </div>
+    </div>
     )
   }
 }

@@ -2,8 +2,7 @@
   width: 50%;
   display: flex;
   flex-flow: column;
-  justify-content: center;
-  /* justify-content: space-between; */
+  justify-content: ;
 }
 
 .textboxkotlin {
@@ -36,6 +35,5 @@
   width: 100%;
   display: flex;
   flex-flow: wrap;
-  justify-content: space-around;
-  background-color: green;
+  justify-content: space-between;
 }

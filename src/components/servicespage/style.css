@@ -7,16 +7,6 @@
   text-align: center;
 }
 
-/* .subheader {
-  font-family: Futura Medium Italic;
-  text-align: center;
-  padding-left: 100px;
-  padding-right: 100px;
-  font-size: 30px;
-  letter-spacing: 0px;
-  margin-top: -80px;
-} */
-
 .textthin {
   font-family: Futura Thin;
   text-align: center;
@@ -46,10 +36,6 @@
   display: flex;
   flex-flow: wrap;
   justify-content: space-between;
-  /* padding-left: 80px;
-  padding-right: 80px;
-  padding-top: 70px; */
-
 }
 
 .bulletpoints {
@@ -60,14 +46,12 @@
 
 .typediv2 {
   width: 45%;
-  /* padding: 10px; */
 }
 
 .typediv1 {
   width: 100%;
   padding-left: 200px;
   padding-right: 200px;
-  /* padding: 10px; */
 }
 
 .typetext {
@@ -90,16 +74,11 @@
 }
 
 .textboxservices {
-  /* margin: 35px; */
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   width: 80%;
-  /* color: white; */
-  /* margin: auto; */
-  /* font-family: Futura Thin; */
-  /* font-size: 15px; */
   justify-content: center;
   padding: 4vw;
-  /* margin-top: -110px; */
+  margin-left: auto;
   background-color: rgba(255,255,255, 0.8);
 }
 
@@ -118,11 +97,9 @@
   background-color: rgb(241,136,138);
 }
 
-
 .textboxheaderservices {
   font-family:  Arca Majora3;
   letter-spacing: 5px;
-  /* padding-top: 50px; */
 }
 
 @media (max-width: 1000px) {

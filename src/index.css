@@ -12,6 +12,7 @@ a{
   50%,100% { opacity: 1; }
 }
 
+
 .fadeinclassfirstpage {
   animation-name: fadeinfirst;
   animation: fadein 2000ms;
@@ -70,23 +71,116 @@ a{
 }
 
 h1, h2, h3, h4, h5, h6 { /*reset for mobile browsers */
-
 font-weight: normal;
 
 }
 
+h1 { font-size: 2em }
+h2 { font-size: 1.5em }
+
+/* h1 {
+  font-size: calc(1.2em + 3vw);
+} */
 
 html {
-  font-family: Arca Majora3;
+  font-family: Futura Thin;
 }
+
+html { font-size: calc(1em + 1vw) }
+
 
 body {
   margin: 0;
   /* background-color: #F8ECE4; */
   overflow-x: hidden;
   /* background: linear-gradient(#ffffff, #F9EDE4, #FE7E83, #FE7E83); */
-
+  /* font-size: calc(16px + 1vw); */
+  /* line-height: calc(1.1em + 0.5vw); */
 }
+
+.onheaderbox{
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  width: 50%;
+  padding: 4vw;
+  margin: auto;
+}
+
+
+#margintop0comma8vw {
+  margin-top: 0.8vw;
+  margin-bottom: 0;
+}
+
+#nomargin {
+  margin: 0;
+}
+
+#nomargintop {
+  margin-top: 0;
+}
+
+#nomarginbottom {
+  margin-bottom: 0;
+}
+
+#arcamajora {
+  font-family: Arca Majora3;
+  letter-spacing: 5px;
+}
+
+#futuramediumitalic {
+  font-family: Futura Medium Italic;
+  letter-spacing: 0px;
+}
+
+#futurathin {
+  font-family: Futura Thin;
+  letter-spacing: 0px;
+}
+
+#backgroundcolorblack {
+  background-color: black;
+  color: white;
+}
+
+#backgroundcolorpinkwhite {
+  background-color: #F1888A;
+  color: white;
+}
+
+#backgroundcolorpinkblack {
+  background-color: #F1888A;
+  color: black;
+}
+
+#backgroundcoloropacitywhite {
+  background-color: rgba(255,255,255, 0.8);
+  color: black;
+}
+
+#fontsize1comma5vw {
+  font-size: 1.5vw;
+}
+
+#fontsize2vw {
+  font-size: 2;
+}
+
+#fontsize {
+  font-size: 20px;
+  color: rgb(241,136,138);
+}
+
+#flexbox {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+}
+
+
+
 
 .whatwedobox {
   margin-top: 120px;
@@ -194,7 +288,7 @@ mark.italic {
   height: auto;
   /* margin: auto; */
   /* color: white; */
-  font-size: 30px;
+  /* font-size: 30px; */
   padding-top: 50px;
   padding-left: 200px;
   padding-right: 200px;
@@ -203,6 +297,25 @@ mark.italic {
   background-color: rgba(255,255,255, 0.3);
 }
 
+@media (max-width: 1000px) {
+  .whatwedotext {
+    /* background-color: green; */
+    /* color: white; */
+    width: 100%;
+    height: auto;
+    margin: auto;
+    color: white;
+    /* font-size: 30px; */
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 50px;
+
+    font-family: Futura Thin;
+    background-color: rgba(255,255,255, 0.3);
+  }
+
+}
 
 
 
@@ -265,7 +378,7 @@ mark.italic {
     height: auto;
     margin: auto;
     color: white;
-    font-size: 30px;
+    /* font-size: 30px; */
     padding-top: 50px;
     padding-left: 200px;
     padding-right: 200px;

@@ -57,23 +57,14 @@
 
 .textbox2 {
   cursor: pointer;
-  border-left: 4px solid rgb(241,136,138);
-  width: 15%;
-  font-family: Futura Medium Italic;
-  font-size: 10px;
-  padding: 5px;
-  text-align: center;
-  margin-top: -500px;
-  /* border-radius: 10px; */
-  /* color: rgb(241,136,138); */
-  color: white;
-  right: 20px;
-  /* margin-top: -110px; */
-  /* background-color: rgb(241,136,138, 0.8); */
-  background-color: rgba(0,0,0);
+  border-left: 4px solid white;
+  padding: 1vw;
+  margin-top: -400px;
+  right: 2vw;
+  font-size: 1.5vw;
   position: fixed;
   -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 #fontsize {
@@ -192,10 +183,6 @@ transform: scale(1.05, 1.05);
 
 }
 
-#backgroundcolorpink {
-  background-color: #F1888A;
-  /* font-size: 25px; */
-}
 
 .coursesbox {
   margin-top: 50px;

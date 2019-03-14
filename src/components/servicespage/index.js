@@ -90,23 +90,53 @@ class Servicespage extends React.Component {
 
       <div className="areasheader">
 
-      <div className="headertextboxservices">
-        <h1>SERVICES</h1>
-      <div className="headertextsmall">
-        <p>Consultancy services within programming and management</p>
-      </div>
+      <div className="onheaderbox" id="backgroundcolorpinkblack">
+      <div id="arcamajora">
+        <h1 id="nomargin">SERVICES</h1>
+        </div>
+        <div id="futuramediumitalic">
+          <h6 id="nomargin">Consultancy services within programming and management</h6>
+        </div>
       </div>
     </div>
 
 
       <div className="justifykotlinlargediv">
 
+      <div className="justifyrightservices">
+      <div className="textboxservices2" id="backgroundcolorblack">
+      <h5 id="nomargin">We accelerate businesses with skills and solutions
+      for a profitable digitalization journey</h5>
+          <h5>With forefront technology skills and strategic minds
+          Hedy supports small, mid-sized and large companies in
+          their aspiration to make a successful digitalization
+          journey and build a profitable business.</h5>
+
+
+
+          <h3 className="textboxheaderservices">ROLES WE HAVE TAKEN</h3>
+        <div>
+          <h6 id="nomargin">Quality Assurance, <mark className="pink">Tech architect, Agile coach,</mark> Tech educator, Brand developer,
+          <mark className="pink">Growth hacker,</mark> Backend developer,
+          Kotlin developer, <mark className="pink">Board member,</mark>
+          Java developer, Business advisor,
+          <mark className="pink">Android developer,</mark>  Graphical designer,
+          Tech lead, Investment manager, <mark className="pink">Frontend developer,</mark>
+          UX/UI developer, <mark className="pink">CEO,</mark>  Digital strategist,
+          Managing Director,<mark className="pink"> Product owner,</mark> <mark className="pink">Project lead,</mark>
+          Concept developer, Sales leader <mark className="pink">and many more.</mark></h6>
+        </div>
+        </div>
+        </div>
+
+
+
 
       <div className="justifyrightkotlin">
 
       <div className="textboxservices">
-      <h1 className="textboxheader">TYPE OF SERVICES</h1>
-        <div>
+      <h4 className="textboxheader" id="nomargin">TYPE OF SERVICES</h4>
+        <div className="bulletpoints">
           <ul>
             <li>Inhouse projects delivered by a Hedy team</li>
             <li>Consultancy service at client, where Hedy talent
@@ -117,8 +147,8 @@ class Servicespage extends React.Component {
       </div>
 
       <div className="textboxservices">
-      <h1 className="textboxheader">TYPE OF CLIENT</h1>
-      <div>
+      <h4 className="textboxheader" id="nomargin">TYPE OF CLIENT</h4>
+      <div className="bulletpoints">
         <ul>
           <li>Wants to take their product or business to “the next level”</li>
           <li>Has digitalization on the agenda</li>
@@ -127,38 +157,12 @@ class Servicespage extends React.Component {
           <li>Is facing globalization, expansion or other change management challenges</li>
         </ul>
       </div>
-      </div>
-
-      </div>
-
-
-      <div className="justifyrightservices">
-      <div className="textboxservices2" id="backgroundcolorblack">
-      <h1>We accelerate businesses with skills and solutions
-      for a profitable digitalization journey</h1>
-          <h1>With forefront technology skills and strategic minds
-          Hedy supports small, mid-sized and large companies in
-          their aspiration to make a successful digitalization
-          journey and build a profitable business.</h1>
+    </div>
+  </div>
+  </div>
+</div>
 
 
-
-          <h1 className="textboxheaderservices">ROLES WE HAVE TAKEN</h1>
-        <div>
-          <p>Quality Assurance, <mark className="pink">Tech architect, Agile coach,</mark> Tech educator, Brand developer,
-          <mark className="pink">Growth hacker,</mark> Backend developer,
-          Kotlin developer, <mark className="pink">Board member,</mark>
-          Java developer, Business advisor,
-          <mark className="pink">Android developer,</mark>  Graphical designer,
-          Tech lead, Investment manager, <mark className="pink">Frontend developer,</mark>
-          UX/UI developer, <mark className="pink">CEO,</mark>  Digital strategist,
-          Managing Director,<mark className="pink"> Product owner,</mark> <mark className="pink">Project lead,</mark>
-          Concept developer, Sales leader <mark className="pink">and many more.</mark></p>
-        </div>
-        </div>
-        </div>
-        </div>
-        </div>
 
 
 

@@ -1,7 +1,6 @@
 .teampicturebox {
   margin-top: 30px;
   margin-bottom: 70px;
-  padding: 100px;
   display: flex;
   flex-flow: column;
   justify-content: space-around;
@@ -17,19 +16,19 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-size: 100%;
+  background-size: 80%;
   /* z-index: -1; */
 }
 
 #texthedyteam {
-  padding-top: 210px;
-  font-size: 70px;
+  padding-top: 230px;
+  font-size: 6vw;
 }
 
 @media (max-width: 1000px) {
   #texthedyteam {
     padding-top: 180px;
-    font-size: 60px;
+    /* font-size: 60px; */
   }
 
 }

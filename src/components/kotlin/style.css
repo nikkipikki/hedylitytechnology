@@ -2,7 +2,8 @@
   width: 50%;
   display: flex;
   flex-flow: column;
-  justify-content: space-between;
+  justify-content: center;
+  /* justify-content: space-between; */
 }
 
 .textboxkotlin {
@@ -20,10 +21,6 @@
   background-color: rgb(241,136,138);
 }
 
-#backgroundcolorblack {
-  background-color: black;
-}
-
 .textboxkotlin2 {
   margin-bottom: 10px;
   width: 100%;
@@ -39,5 +36,6 @@
   width: 100%;
   display: flex;
   flex-flow: wrap;
-
+  justify-content: space-around;
+  background-color: green;
 }

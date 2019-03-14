@@ -88,10 +88,12 @@ class Academypage extends React.Component {
 
         <div className="areasheader">
 
-        <div className="headertextboxacademy">
-          <h1>ACADEMY</h1>
-          <div className="headertextsmall">
-            <p>We close the gap between tech and business</p>
+        <div className="onheaderbox" id="backgroundcolorblack">
+        <div id="arcamajora">
+          <h1 id="nomargin">ACADEMY</h1>
+          </div>
+          <div id="futuramediumitalic">
+            <h6 id="nomargin">We close the gap between tech and business</h6>
           </div>
           </div>
         </div>
@@ -101,21 +103,24 @@ class Academypage extends React.Component {
           style={{ textDecoration: "none", color: "black" }}
           to="/kotlin">
         <div className="displayflexwrap">
-        <div className="textbox2">
-        <h1>NEXT COURSE</h1>
-          <p id="fontsize">Succeed with Kotlin</p>
+        <div className="textbox2" id="backgroundcolorpinkblack">
+        <div id="arcamajora">
+        <h6 id="nomargin">NEXT COURSE</h6>
+        <div id="futurathin">
+          <div id="backgroundcolorpinkwhite">
+          <h5 id="margintop0comma8vw">Succeed with Kotlin</h5>
+        </div>
+        </div>
+        </div>
         </div>
         </div>
           </Link>
 
           <div className="justifykotlinlargediv">
-
-
           <div className="justifyrightkotlin">
-
-          <div className="textboxservices" id="backgroundcolorpink">
-            <h1 className="textboxheader">TYPE OF COURSES</h1>
-          <div>
+          <div className="textboxservices">
+            <h4 className="textboxheader" id="nomargin">TYPE OF COURSES</h4>
+            <div className="bulletpoints">
             <ul>
               <li>Crash courses that will help you reach new levels of business and/or tech excellence</li>
               <li>Intensive courses for programming that will introduce talents into the Tech industry</li>
@@ -129,11 +134,11 @@ class Academypage extends React.Component {
 
           <div className="justifyrightservices">
           <div className="textboxservices2" id="backgroundcolorblack">
-            <h1><p>With focus on modern leadership and technology,
+            <h5 id="nomargin">With focus on modern leadership and technology,
             Hedy builds and increases the competencies of people and
-            organizations to answer up to the requirements of the future.</p>
-            <p>We provide crash courses, intensive education
-            programs and seminars online as well as classroom based.</p></h1>
+            organizations to answer up to the requirements of the future.</h5>
+            <h5>We provide crash courses, intensive education
+            programs and seminars online as well as classroom based.</h5>
           </div>
           </div>
 

@@ -4,7 +4,7 @@ svg {
 	width: 100%;
 	height: auto;
 	/* margin-top: -750px; */
-	margin-top: 120px;
+	/* margin-top: 120px; */
 	/* top: 50%; */
 	/* left: 50%; */
 	/* transform: translate(-50%);
@@ -12,7 +12,7 @@ svg {
 	-webkit-transform: translate(-50%);
 	-o-transform: translate(-50%);
 	-ms-transform: translate(-50%); */
-	z-index: -10000;
+	/* z-index: -10000; */
 }
 .line {
 	stroke-width: 0.30;
@@ -21,7 +21,24 @@ svg {
 	-moz-transition: all 1s;
 	transition: all 1s;
 }
+.line2 {
+	stroke-width: 0.30;
+	fill: none;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	transition: all 1s;
+}
+
+
 .line-glow {
+	stroke-width: 0;
+	fill: none;
+	filter: url(#glow-filter);
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	transition: all 1s;
+}
+.line-glow2 {
 	stroke-width: 0;
 	fill: none;
 	filter: url(#glow-filter);

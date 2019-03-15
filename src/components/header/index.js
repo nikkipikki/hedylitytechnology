@@ -8,12 +8,11 @@ class Header extends React.Component {
     }
     this.updateLine();
   }
-
   //updateLine();
   updateLine = () => {
       let data = this.generatePoints();
       let color = '#F1888A'
-
+      TweenLite.ticker.fps(10);
       TweenLite.to(['.line', '.line-glow'], 1.5, {
           attr: {'points': data, 'stroke': color },
           ease: Linear.easeNone,
@@ -22,7 +21,7 @@ class Header extends React.Component {
   }
 
   generatePoints = () => {
-      let freq = Math.random() * 0.1,
+      let freq = Math.random()*0.03,
           svgSize = {w: 800, h: 300},
           amplitude = Math.random() * 0.25 * svgSize.h,
           segments = [];
@@ -50,10 +49,9 @@ class Header extends React.Component {
                 <feGaussianBlur in="SourceGraphic" stdDeviation="4" />
             </filter>
           </defs>
-          <polyline class="line"></polyline>
-          <polyline class="line-glow"></polyline>
+          <polyline className="line"></polyline>
+          <polyline className="line-glow"></polyline>
         </svg>
-
         <div className="hedylitytechnologytext">
         <div className="typewriter">
           <h1>HEDYLITY TECHNOLOGY</h1>

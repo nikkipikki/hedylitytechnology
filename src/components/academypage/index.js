@@ -117,6 +117,19 @@ class Academypage extends React.Component {
           </Link>
 
           <div className="justifykotlinlargediv">
+
+
+          <div className="justifyrightservices">
+          <div className="textboxservices2" id="backgroundcolorblack">
+            <h5 id="nomargin">With focus on modern leadership and technology,
+            Hedy builds and increases the competencies of people and
+            organizations to answer up to the requirements of the future.</h5>
+            <h5>We provide crash courses, intensive education
+            programs and seminars online as well as classroom based.</h5>
+          </div>
+          </div>
+
+
           <div className="justifyrightkotlin">
           <div className="textboxservices">
             <h4 className="textboxheader" id="nomargin">TYPE OF COURSES</h4>
@@ -132,20 +145,11 @@ class Academypage extends React.Component {
           </div>
 
 
-          <div className="justifyrightservices">
-          <div className="textboxservices2" id="backgroundcolorblack">
-            <h5 id="nomargin">With focus on modern leadership and technology,
-            Hedy builds and increases the competencies of people and
-            organizations to answer up to the requirements of the future.</h5>
-            <h5>We provide crash courses, intensive education
-            programs and seminars online as well as classroom based.</h5>
-          </div>
-          </div>
 
 
 
 
-          <div className="coursesbox">
+          <div className="coursesbox" id="backgroundcolorblack">
           <div className="whatwedoheadertext">
             <h1>CURRENT COURSES</h1>
           </div>

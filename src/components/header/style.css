@@ -1,9 +1,9 @@
 
 svg {
-	/* position: fixed; */
 	width: 100%;
 	height: auto;
-	/* margin-top: -750px; */
+	margin-top: 200px;
+	/* margin-top: 100px; */
 	/* margin-top: 120px; */
 	/* top: 50%; */
 	/* left: 50%; */
@@ -38,6 +38,7 @@ svg {
 	-moz-transition: all 1s;
 	transition: all 1s;
 }
+
 .line-glow2 {
 	stroke-width: 0;
 	fill: none;
@@ -48,23 +49,7 @@ svg {
 }
 
 
-
-
-.header {
-  /* padding-top: 400px; */
-  /* margin-top: 400px; */
-  /* margin-bottom: 100px; */
-  /* margin: auto; */
-  /* height: 800px; */
-  text-align: center;
-  font-size: 25px;
-  letter-spacing: 5px;
-	/* background: linear-gradient(#ffffff, #F9EDE4, #FE7E83, #FE7E83); */
-}
-
-
 .hedylitytechnologytext {
-
   margin-bottom: 400px;
   display: flex;
   flex-flow: column;
@@ -86,16 +71,7 @@ svg {
   /* font-size: 50px; */
 }
 
-#blackhylogo {
-  background-image: url(../images/darkgreyhy.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  background-size: 15%;
-}
-
-
-.typewriter h1 {
+.typewriter {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid orange; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */

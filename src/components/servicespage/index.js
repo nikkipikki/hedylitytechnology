@@ -5,39 +5,6 @@ import Contactbutton from "../contactbutton"
 import ScrollToTopOnMount from "../scrolltotoponmount"
 
 class Servicespage extends React.Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-    }
-    this.updateLine();
-  }
-  //updateLine();
-  updateLine = () => {
-      let data = this.generatePoints();
-      let color = '#F1888A'
-      TweenLite.ticker.fps(10);
-      TweenLite.to(['.line', '.line-glow'], 1.5, {
-          attr: {'points': data, 'stroke': color },
-          ease: Linear.easeNone,
-          onComplete: this.updateLine
-      });
-  }
-
-  generatePoints = () => {
-      let freq = Math.random()*0.03,
-          svgSize = {w: 800, h: 300},
-          amplitude = Math.random() * 0.25 * svgSize.h,
-          segments = [];
-
-      let p = { x: 0, y: 0 };
-      for (let i = 0; i < svgSize.w; i++) {
-          p.x = i;
-          p.y = amplitude * Math.sin(p.x * freq) + svgSize.h / 2;
-          segments.push(p.x + ',' + p.y);
-      }
-      return segments.join(' ');
-  }
-
   render() {
     return (
       <div className="fadeinclass">
@@ -120,15 +87,10 @@ class Servicespage extends React.Component {
         <div id="services3">
         <div id="opacity">
 
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300">
-          <defs>
-            <filter id="glow-filter">
-                <feGaussianBlur in="SourceGraphic" stdDeviation="4" />
-            </filter>
-          </defs>
-          <polyline className="line"></polyline>
-          <polyline className="line-glow"></polyline>
-        </svg>
+
+
+
+
 
         <div className="areasheader">
 
@@ -142,7 +104,8 @@ class Servicespage extends React.Component {
 
 
             <div id="arcamajora">
-              <h1 id="nomargin">SERVICES</h1>
+              <h1 id="
+              ">SERVICES</h1>
             </div>
             <div id="futuramediumitalic">
               <h6 id="nomargin">Consultancy services within programming and management</h6>
@@ -170,7 +133,7 @@ class Servicespage extends React.Component {
           <div className="justifyrightkotlin">
 
           <div className="textboxservices" id="backgroundcolorpinkblack">
-            <h3 className="textboxheader" id="nomargintop">ROLES WE HAVE TAKEN</h3>
+            <h6 className="textboxheader" id="nomargintoplittlebottom">ROLES WE HAVE TAKEN</h6>
               <div className="justifytext">
               <h6 id="nomargin">Quality Assurance, Tech architect, Agile coach, Tech educator, Brand developer,
               Growth hacker,Backend developer,
@@ -185,15 +148,13 @@ class Servicespage extends React.Component {
           </div>
 
             <div className="textboxservices">
-              <h4 className="textboxheader" id="nomargin">TYPE OF SERVICES</h4>
-              <div className="justifytext">
+              <h6 className="textboxheader" id="nomargin">TYPE OF SERVICES</h6>
                 <div className="bulletpoints">
                 <ul>
                   <li>Inhouse projects delivered by a Hedy team</li>
                   <li>Consultancy service at client, where Hedy talent leads the work or is part of a team</li>
                   <li>Take the role as tech and/or business partner</li>
                 </ul>
-                </div>
               </div>
             </div>
 

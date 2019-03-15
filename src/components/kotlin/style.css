@@ -1,8 +1,7 @@
 .justifyrightkotlin {
-  width: 20%;
+  width: 30%;
   display: flex;
   flex-flow: column;
-  justify-content: ;
 }
 
 .textboxkotlin {
@@ -36,4 +35,12 @@
   display: flex;
   flex-flow: wrap;
   justify-content: space-between;
+}
+
+.justifykotlinlargediv2 {
+  width: 100%;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  background-color: #051C26;
 }

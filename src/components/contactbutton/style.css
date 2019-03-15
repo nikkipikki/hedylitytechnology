@@ -10,7 +10,7 @@
   margin: auto;
   font-size: 30px;
   width: 35%;
-  color: #F8ECE4;
+  color: #FE7E83;
   background-color: #051C26;
   padding: 20px;
   border-radius: 35px;
@@ -27,6 +27,8 @@
     flex-flow: column;
     justify-content: space-around;
     width: 100%;
+    color: black;
+
   }
 
   .contactbutton {
@@ -34,9 +36,7 @@
     margin: auto;
     font-size: 20px;
     width: 100%;
-    color: #F8ECE4;
-    background-color: black;
-    /* padding: 10px; */
+    color: #FE7E83;
     border-radius: 0px;
     border: 0;
     font-family: Arca Majora3;
@@ -48,10 +48,8 @@
     margin: auto;
     font-size: 20px;
     width: 100%;
-
+    color: black;
     background-color: #FE7E83;
-;
-    /* padding: 10px; */
     font-family: Arca Majora3;
     letter-spacing: 5px;
   }

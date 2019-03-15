@@ -132,6 +132,11 @@ body {
   margin-bottom: 0;
 }
 
+#nomargintoplittlebottom {
+  margin-top: 0;
+  margin-bottom: 1vw;
+}
+
 #arcamajora {
   font-family: Arca Majora3;
   letter-spacing: 5px;
@@ -178,6 +183,11 @@ body {
   color: white;
 }
 
+#backgroundcolordarkbluepink {
+  background-color: #051C26;
+  color: #F1888A;
+}
+
 #fontsize1comma5vw {
   font-size: 1.5vw;
 }
@@ -209,6 +219,10 @@ body {
   background-color: rgb(255,255,255, 0.6);
 }
 
+#opacitydark {
+  background-color: rgb(5,28,38, 0.6);
+}
+
 
 
 
@@ -224,7 +238,7 @@ body {
 
 
 .whatwedoheadertext {
-  padding-left: 4vw;
+  /* padding-left: 4vw; */
   /* margin-top: 50px; */
   /* text-align: center; */
 }

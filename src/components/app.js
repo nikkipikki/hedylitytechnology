@@ -26,6 +26,7 @@ class App extends React.Component {
     return (
       <HashRouter>
         <div>
+        <div className="headerpic">
         <Hamburgermenu/>
           <Route
             exact
@@ -54,6 +55,7 @@ class App extends React.Component {
             path="/bookingconditions"
             component={Bookingconditions} />
           <Fotnot/>
+        </div>
         </div>
       </HashRouter>
 

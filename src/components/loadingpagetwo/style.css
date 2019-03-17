@@ -1,0 +1,50 @@
+
+.whatwedoflexbox {
+  width: 100%;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+.whatwedounitleft {
+  width: 30%;
+  display: flex;
+  flex-flow: wrap;
+  /* margin-left: 7vw; */
+}
+
+/* .whatwedounitright {
+  width: 50%;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: flex-end;
+  margin-left: -7vw;
+  position: relative;
+} */
+
+
+
+.hedytexttiltleft{
+  transform: rotate(-10deg);
+  text-align: left;
+  margin-left: 4vw;
+  font-family: River Jade;
+  margin-bottom: 2.5vw;
+  letter-spacing: 0;
+  color: #FE7E83;
+  font-size: 70px;
+  margin-top: 0;
+}
+
+/* .hedytexttiltright {
+  transform: rotate(-10deg);
+  position: absolute;
+  text-align: left;
+  margin-left: 67vw;
+  font-family: River Jade;
+  margin-bottom: -2.5vw;
+  letter-spacing: 0;
+  color: #FE7E83;
+  font-size: 70px;
+  margin-top: 0;
+} */

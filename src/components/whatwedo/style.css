@@ -3,6 +3,20 @@
   padding-right: 10px;
 } */
 
+
+.headerpic {
+  background-image: url(../images/rocket1.svg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  height: auto;
+  width: 100%;
+  /* background-attachment: fixed; */
+  z-index: -1;
+}
+
+
+
 @media (max-width: 1000px) {
   /* .threeareas {
     display: none;
@@ -117,14 +131,16 @@
     z-index: -1;
   }
 
-  #headerpic {
-    background-image: url(../images/yellowonblack.jpg);
+  /* #headerpic {
+    background-image: url(../images/background3.svg);
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
     background-attachment: fixed;
+    height: 100%;
+
     z-index: -1;
-  }
+  } */
 
 
 
@@ -231,7 +247,7 @@
     display: flex;
     flex-flow: wrap;
     justify-content: space-between;
-    background-color: white;
+    /* background-color: white; */
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 100px;
@@ -337,15 +353,14 @@
   background-attachment: fixed;
   z-index: -1;
 }
-
+/*
 #headerpic {
-  background-image: url(../images/yellowonblack.jpg);
+  background-image: url(../images/background3.svg);
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
-  background-attachment: fixed;
-  z-index: -1;
-}
+  height: 100%;
+} */
 
 
 

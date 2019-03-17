@@ -56,7 +56,9 @@ class Header extends React.Component {
             <polyline className="line-glow"></polyline>
         </svg>
 
-        <div className="hedylitytechnologytext" id="backgroundcolordarkbluepink">
+
+
+        <div className="hedylitytechnologytext" id="">
           <div className="typewriter">
             <h1>WE ARE HEDYLITY TECHNOLOGY</h1>
           </div>

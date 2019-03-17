@@ -14,42 +14,30 @@ import Hedylamarrintro from "../hedylamarrintro"
 import Fotnot from "../fotnot"
 import ScrollToTopOnMount from "../scrolltotoponmount"
 
-class Loadingpage extends React.Component {
+class Newloadingpage extends React.Component {
   render() {
     return (
       <div className="fadeinclass">
-      <div>
+      <div id="headerpic">
       <ScrollToTopOnMount/>
 
         <Header/>
         <div>
 
-        <Whatwedo/>
-
-
-
-
-            <Link
-              style={{ textDecoration: "none", color: "black" }}
-              to="/about">
-            <Wearehedytext/>
-            </Link>
-
-            <Introbox/>
-
-
-        <Link
-          style={{ textDecoration: "none", color: "black" }}
-          to="/team">
-        <Teamintro/>
-        </Link>
 
 
 
 
 
-        <Hedylamarrintro/>
-      
+
+
+
+
+
+
+
+
+
         </div>
 </div>
 
@@ -59,4 +47,4 @@ class Loadingpage extends React.Component {
 
 }
 
-export default Loadingpage
+export default Newloadingpage

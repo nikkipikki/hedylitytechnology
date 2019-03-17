@@ -82,16 +82,25 @@ h2 { font-size: 1.5em }
   font-size: calc(1.2em + 3vw);
 } */
 
+
+
 html {
+  margin: 0;
   font-family: Futura Thin;
+  font-size: calc(1em + 1vw);
 }
 
-html { font-size: calc(1em + 1vw) }
 
 
 body {
   margin: 0;
-  /* background-color: #F8ECE4; */
+  height: 100%;
+
+  /* width: 100%; */
+  /* background-position: top; */
+  /* background-size: cover; */
+  background-color: #051C26;
+  /* background-color: #3E4752; */
   overflow-x: hidden;
   /* background: linear-gradient(#ffffff, #F9EDE4, #FE7E83, #FE7E83); */
   /* font-size: calc(16px + 1vw); */
@@ -137,6 +146,10 @@ body {
   margin-bottom: 1vw;
 }
 
+#marginauto {
+  margin: auto;
+}
+
 #arcamajora {
   font-family: Arca Majora3;
   letter-spacing: 5px;
@@ -173,6 +186,11 @@ body {
   color: white;
 }
 
+#backgroundcolorbeigeblack {
+  background-color: #F9EDE4;
+  color: black;
+}
+
 #backgroundcolorpinkblack {
   background-color: #F1888A;
   color: black;
@@ -181,6 +199,16 @@ body {
 #backgroundcoloropacitywhite {
   background-color: rgba(255,255,255, 0.8);
   color: black;
+}
+
+#backgroundcolorbluewhite {
+  background-color: #033140;
+  color: white;
+}
+
+#backgroundcolorbluepink {
+  background-color: #033140;
+  color: #F1888A;
 }
 
 #backgroundcolordarkbluewhite {
@@ -296,7 +324,7 @@ body {
 
 
 mark.pink {
-    color:#FE7E83;
+    color:#F1888A;
     background: none;
 }
 
@@ -363,7 +391,6 @@ mark.italic {
     text-align: center;
     font-size: 25px;
     letter-spacing: 5px;
-    background: #051C26;
   }
 
   #blackhylogo {
@@ -376,9 +403,9 @@ mark.italic {
 
   .hedylitytechnologytext {
     margin-bottom: 10vw;
-    padding: 10vw;
+    padding: 18vw;
     /* padding-top: 6vw; */
-    margin-top: -45vw;
+    margin-top: -43vw;
     display: flex;
     flex-flow: column;
     /* justify-content: space-around; */
@@ -401,7 +428,7 @@ mark.italic {
     font-size: 40px;
     text-align: center;
     z-index: 10000;
-    background-color: white;
+    /* background-color: white; */
   }
 
   .whatwedotext {

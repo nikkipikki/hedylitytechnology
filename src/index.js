@@ -6,4 +6,4 @@ import Underconstruction from "./components/underconstruction"
 import Loadingpagetwo from "./components/loadingpagetwo"
 
 
-ReactDOM.render(<Loadingpagetwo />, document.getElementById("root"))
+ReactDOM.render(<App />, document.getElementById("root"))

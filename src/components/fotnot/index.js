@@ -6,20 +6,27 @@ class Fotnot extends React.Component {
     return (
       <div>
         <div className="menuboarddivfotnot">
+
           <div className="fotnotlogos">
-          <a href="https://www.instagram.com/hedy.tech">
-            <div className="logobox" id="instagramlogo" />
-          </a>
-          <a href="https://www.linkedin.com/company/hedy-tech">
-            <div className="logobox" id="linkedinlogo" />
-          </a>
+
+            <a href="https://www.instagram.com/hedy.tech">
+              <div className="logobox" id="instagramlogo" />
+            </a>
+            <a href="https://www.linkedin.com/company/hedy-tech">
+              <div className="logobox" id="linkedinlogo" />
+            </a>
+
           </div>
+
           <div className="fotnotcontact">
-          <a href="mailto:hello@hedy.tech" style={{ textDecoration: "none", color: "white" }}>
-            <p>hello@hedy.tech</p>
-          </a>
-            <p id="smallfont">Hedylity Technology / Lästmakargatan 18 / 111 44 Stockholm</p>
+            <a href="mailto:hello@hedy.tech" style={{ textDecoration: "none", color: "white" }}>
+              <h6>hello@hedy.tech</h6>
+            </a>
           </div>
+          <div className="fotnotcontact2">
+              <h6 id="smallfont">Hedylity Technology / Lästmakargatan 18 / 111 44 Stockholm</h6>
+          </div>
+
         </div>
       </div>
     )

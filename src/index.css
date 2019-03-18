@@ -150,6 +150,14 @@ body {
   margin: auto;
 }
 
+#margintoptrecommafem {
+  margin-top: 3.5vw;
+}
+
+#margintopnollcommafem {
+  margin-top: 0.5vw;
+}
+
 #arcamajora {
   font-family: Arca Majora3;
   letter-spacing: 5px;
@@ -246,6 +254,10 @@ body {
 
 #colorwhite {
   color: white;
+}
+
+#colorpink {
+  color: #F1888A;
 }
 
 #opacity {

@@ -6,7 +6,7 @@ class Hedylamarrintro extends React.Component {
   render() {
     return (
       <div>
-      <div className="hedydiv" id="">
+      <div className="hedydiv">
       <div className="hedybox1">
       <h1 className="arcamajora"> HEDY LAMARR</h1>
       <h2> Our muse & the woman behind the name</h2>

@@ -159,8 +159,8 @@
   flex-flow: wrap;
   justify-content: space-between;
   /* background-color: #051C26; */
-  /* background-color: rgba(5,28,38, 0.7); */
-  background-color: rgba(255,255,255, 0.8);
+  background-color: rgba(5,28,38, 0.7);
+  /* background-color: rgba(255,255,255, 0.8); */
 
   width: 100%;
   z-index: 1;
@@ -177,8 +177,8 @@
   text-align: left;
   font-size: 40px;
   margin-left: 30px;
-  /* color: #FE7E83; */
-  color: black;
+  color: #FE7E83;
+  /* color: black; */
 
   margin-top: -15px;
 }
@@ -249,7 +249,9 @@
 
 .menutext {
   right: 0;
-  /* color: #FE7E83; */
-  color: black;
-  margin: 17px;
+  color: #FE7E83;
+  margin-top: -1vw;
+  margin-right: 1vw;
+  /* color: black; */
+  /* margin: 17px; */
 }

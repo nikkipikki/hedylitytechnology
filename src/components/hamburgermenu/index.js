@@ -67,8 +67,8 @@ class Hamburgermenu extends React.Component {
         </div>
       </div>
       </Link>
-      <div className="menutext">
-      <p>MENU</p>
+      <div className="menutext" id="arcamajora">
+      <h6>MENU</h6>
       </div>
         <div className="webboxbehindhamburger" id="webmenuToggle">
 

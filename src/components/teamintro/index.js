@@ -9,10 +9,16 @@ class Teamintro extends React.Component {
       <Link
         style={{ textDecoration: "none", color: "black" }}
         to="/team">
-      <div className="teampicturebox">
-          <div id="teampicture">
-            <h1 id="texthedyteam">GET TO KNOW OUR TEAM</h1>
+        <div className="fadeinclass">
+      <div className="teampicturebox"  id="teampicture">
+      <h3 className="title">
+      <a href="#">
+      GET TO KNOW US
+      </a>
+      </h3>
+          <div>
           </div>
+      </div>
       </div>
       </Link>
     )

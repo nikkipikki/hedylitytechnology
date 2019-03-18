@@ -1,36 +1,46 @@
 .menuboarddivfotnot {
-  /* background-color: #051C26; */
-  height: 400px;
-  width: 100%;
-  text-align: center;
-  color: white;
-  margin-top: 50px;
-}
-
-.fotnotlogos {
-  padding-top: 100px;
+  background-color: #051C26;
   display: flex;
   flex-flow: wrap;
   justify-content: center;
-  /* background-color: #051C26; */
-  height: 200px;
-  width: 100%
+  height: auto;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.fotnotlogos {
+  padding-top: 1vw;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  /* height: 200px; */
+  width: 20%
 }
 
 .fotnotcontact {
   display: flex;
   flex-flow: column;
   justify-content: center;
-  /* background-color: #051C26; */
-  height: 200px;
-  width: 100%;
+  /* height: 200px; */
+  width: 20%;
   font-family: Futura Medium Italic;
-  font-size: 30px;
+  /* font-size: 30px; */
+}
+
+.fotnotcontact2 {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  /* height: 200px; */
+  width: 60%;
+  font-family: Futura Medium Italic;
+  /* font-size: 30px; */
 }
 
 .logobox {
-  width: 100px;
-  height: 100px;
+  width: 7vw;
+  height: 7vw;
 }
 
 #linkedinlogo {
@@ -38,7 +48,7 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-size: 100%;
+  background-size: 60%;
   z-index: 1;
 }
 
@@ -47,7 +57,7 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-size: 70%;
+  background-size: 40%;
   z-index: 1;
 }
 
@@ -58,40 +68,7 @@
 
 
 @media (min-width: 1000px) {
-  .fotnotlogos {
-    padding-top: 50px;
-    display: flex;
-    flex-flow: wrap;
-    justify-content: center;
-    /* background-color: #000000; */
-    height: 100px;
-    width: 100%
-  }
 
-  .fotnotcontact {
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    /* background-color: #F1888A; */
-    height: 200px;
-    width: 100%;
-    font-family: Futura Medium Italic;
-    font-size: 30px;
-  }
-
-  .menuboarddivfotnot {
-    /* background-color: #000000; */
-    height: 200px;
-    width: 100%;
-    text-align: center;
-    color: white;
-    margin-top: 0px;
-  }
-
-  #smallfont {
-    font-size: 15px;
-    margin: 0;
-  }
 
 
 }

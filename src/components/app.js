@@ -12,6 +12,9 @@ import Fotnot from "./fotnot"
 import Kotlin from "./kotlin"
 import Bookingconditions from "./bookingconditions"
 import Hamburgermenu from "./hamburgermenu"
+import Loadingpagetwo from "./loadingpagetwo"
+
+
 
 //start array
 const names = [
@@ -31,7 +34,7 @@ class App extends React.Component {
           <Route
             exact
             path="/"
-            component={Loadingpage} />
+            component={Loadingpagetwo} />
           <Route
             exact
             path="/services"

@@ -5,7 +5,7 @@
 
 
 .headerpic {
-  background-image: url(../images/rocket1.svg);
+  background-image: url(../images/clouds.svg);
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
@@ -391,7 +391,6 @@
   padding: 10px;
   -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-
 }
 
 /* .picturedivwhatwedo:hover {
@@ -473,6 +472,7 @@ transform: scale(1.05, 1.05); */
   text-align: center;
   letter-spacing: 5;
 }
+
 
 
 }

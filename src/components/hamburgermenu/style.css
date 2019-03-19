@@ -11,15 +11,12 @@
 }
 
 .menuboarddiv {
-  /* margin-top: -400px; */
-  /* position: fixed; */
   position:fixed;
   top:0;
   display: flex;
   flex-flow: wrap;
   justify-content: space-between;
   background-color: #051C26;
-  /* height: 200px; */
   width: 100%;
   z-index: 1000;
 }

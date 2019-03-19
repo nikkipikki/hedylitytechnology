@@ -168,6 +168,11 @@ body {
   margin-bottom: 1vw;
 }
 
+#nomargin1vw {
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+}
+
 #marginauto {
   margin: auto;
 }
@@ -251,8 +256,16 @@ body {
   color: #F1888A;
 }
 
+#fontsize0comma5vw {
+  font-size: 0.5vw;
+}
+
 #fontsize1comma5vw {
   font-size: 1.5vw;
+}
+
+#fontsize1vw {
+  font-size: 1vw;
 }
 
 #fontsize2vw {
@@ -306,6 +319,7 @@ body {
 
 #paddingleftright {
   padding-left: 2vw;
+  padding-right: 2vw;
 }
 
 
@@ -410,6 +424,14 @@ mark.italic {
 }
 
 @media (max-width: 1000px) {
+  .webmenuboarddiv {
+    display: none;
+  }
+
+  .menuboarddiv {
+    display: none;
+  }
+
   .whatwedotext {
     /* background-color: green; */
     /* color: white; */
@@ -427,13 +449,14 @@ mark.italic {
     background-color: rgba(255,255,255, 0.3);
   }
 
+
 }
 
 
 
 @media (min-width: 1000px) {
   .menuboarddiv {
-    /* display: none; */
+    display: none;
   }
 
   .header {

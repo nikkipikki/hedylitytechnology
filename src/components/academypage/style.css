@@ -203,6 +203,13 @@ transform: scale(1.05, 1.05);
   margin: auto;
 }
 
+.academytextthin3 {
+  font-family: Futura Thin;
+  text-align: left;
+  width: 50%;
+  margin: auto;
+}
+
 .academyteambox {
   position: relative;
   width: 70%;

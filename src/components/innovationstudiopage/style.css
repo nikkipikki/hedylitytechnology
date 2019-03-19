@@ -36,12 +36,13 @@
 
 .innovationdiv {
   width: 40%;
-  padding: 4vw;
+  text-align: left;
+  /* padding: 4vw; */
 }
 
 .innovationdiv2 {
   width: 60%;
-  padding: 4vw;
+  /* padding: 4vw; */
 }
 
 .innovationpicturebox {
@@ -76,6 +77,60 @@
   background-color: white;
 }
 
-.innovationhowitworks {
+.hedytexttiltinnovation2 {
+  transform: rotate(-10deg);
+  text-align: left;
+  position: absolute;
+  margin-top: -0.5vw;
+  margin-left: 12vw;
+  font-family: River Jade;
+  letter-spacing: 0;
+  color: #FE7E83;
+  font-size: 6vw;
+}
+
+.innovationteambox {
+  position: relative;
+  width: 70%;
+  margin: auto;
+  height: auto;
+  display: flex;
+  padding: 1vw;
+  flex-flow: column;
+  justify-content: space-around;
+  background-color: rgba(255,255,255, 0.5);
+}
+
+@media (max-width: 1000px) {
+
+.innovationdiv {
+  width: 100%;
+  text-align: left;
+  /* padding: 4vw; */
+}
+
+.innovationdiv2 {
+  width: 100%;
+  /* padding: 4vw; */
+}
+
+#letsgo {
+  background-image: url(../images/letsgo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.innovationteambox {
+  position: relative;
+  width: 90%;
+  margin: auto;
+  height: auto;
+  display: flex;
+  padding: 1vw;
+  flex-flow: column;
+  justify-content: space-around;
+  background-color: rgba(255,255,255, 0.5);
+}
 
 }

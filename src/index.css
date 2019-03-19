@@ -123,6 +123,20 @@ body {
   text-justify: inter-word;
 }
 
+#growdiv {
+  transition: background 0.2s ease-in-out,
+  width 1s ease-in,
+  height 1s linear,
+  border-radius 1s ease-in-out;
+  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+#growdiv:hover {
+  -webkit-transform: scale(1.05, 1.05);
+  transform: scale(1.05, 1.05);
+}
+
 
 #margintop0comma8vw {
   margin-top: 0.8vw;
@@ -139,6 +153,14 @@ body {
 
 #nomarginbottom {
   margin-bottom: 0;
+}
+
+#marginbottom {
+  margin-bottom: 10vw;
+}
+
+#marginbottom2 {
+  margin-bottom: 5vw;
 }
 
 #nomargintoplittlebottom {
@@ -266,12 +288,24 @@ body {
   color: #F1888A;
 }
 
+#colorblack {
+  color: #000000;
+}
+
+#colordarkblue {
+  color: #051C26;
+}
+
 #opacity {
   background-color: rgb(255,255,255, 0.6);
 }
 
 #opacitydark {
   background-color: rgb(5,28,38, 0.6);
+}
+
+#paddingleftright {
+  padding-left: 2vw;
 }
 
 
@@ -351,7 +385,7 @@ mark.pink {
 }
 
 .pagemarginweb {
-  margin-top: 200px;
+  margin-top: 5vw;
 }
 
 mark.italic {
@@ -566,14 +600,6 @@ mark.italic {
     height: 500px;
     width: 800px;
     border-radius: 0;
-
   }
-
-
-
-
-
-
-
 
 }

@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom"
 import "./style.css"
 import Apply from "../apply"
 import ScrollToTopOnMount from "../scrolltotoponmount"
@@ -141,49 +142,100 @@ class Kotlin extends React.Component {
       <div className="web">
 
       <div id="kotlin">
+      <div id="opacitydark">
+
       <div className="areasheader">
+
 
       <div className="headertextbox">
         <h1>SUCCEED WITH KOTLIN</h1>
-      <div className="headertextsmall">
+      <div className="headertextsmall2">
         <p>by Hedy Academy</p>
       </div>
       </div>
     </div>
 
-    <a href="https://goo.gl/forms/TArPukMZ80uK1Nt73">
+    <Link
+      style={{ textDecoration: "none", color: "black" }}
+      to="/kotlin">
     <div className="displayflexwrap">
-    <div className="textbox2">
-    <h1>APPLY TO</h1>
-      <p id="fontsize">Succeed with Kotlin</p>
+    <div className="textbox2" id="backgroundcolordarkbluepink">
+    <div id="arcamajora">
+    <h6 id="nomargin">DETAILS</h6>
+    <div id="futurathin">
+      <div id="backgroundcolordarkbluepink">
+      <h5 id="margintop0comma8vw">Dates: 24-25 April 2019</h5>
+      <h5 id="margintop0comma8vw">Time: 09.00–16.30</h5>
+      <h5 id="margintop0comma8vw">Location: Central Stockholm</h5>
+      <h5 id="margintop0comma8vw">Price: 18 900 SEK</h5>
+      <h5 id="margintop0comma8vw">Early bird 16 900 SEK excl. moms.</h5>
+      <h5 id="margintop0comma8vw">(Lunch and “Fika” is included)</h5>
+
+      <div>
+        <Tellmemorebutton/>
+      </div>
     </div>
     </div>
-    </a>
+    </div>
+    </div>
+    </div>
+      </Link>
+
+    </div>
+
+
+      <div className="justifycenter">
+
+      <div className="academyteambox" id="backgroundcolordarkbluepink">
+        <div className="academytextthin" id="colorwhite">
+          <h5 id="nomarginbottom">This course is formed as workshop were our
+          highly skilled educator will lead you thru a
+          fixed agenda to get as much knowledge as possible
+          to you during this two days. The goal is for you
+          to gain great knowledge and practical skills in how
+          to program with Kotlin. Thus this an awesome way to
+          add a tool to your profession and update your knowledge
+          for continuous learning.</h5>
+        </div>
+        </div>
+
+        <div className="academyteambox" id="backgroundcolordarkbluepink">
+          <div className="academytextthin" id="colorwhite">
+          <h4 className="textboxheader">EDUCATION STANDARDS</h4>
+          <h5>Attendees</h5>
+          <h6>You should have programming experience in some language,
+          preferably Java or similar. But any object-oriented (or OO featured) language will do.
+          This is not an introductory course to programming, it’s a course on Kotlin,
+          from an introduction to complex features. Although it will teach Kotlin from its fundamentals
+          it won’t describe what an if-statement, lambda or immutables are more than briefly. </h6>
+          <h5>Prerequisites</h5>
+          <div>
+            <p>Knowledge of the following concepts in any general programming language:</p>
+            <ul>
+            <li> if, loops, class, instance, protocol/interface, functions, variable, null/nil, array/list, map/dictionary</li>
+            </ul>
+            <p>Preferred knowledge of these concepts and one of these languages:</p>
+            <ul>
+            <li> concurrency, generics, lambda, debugging, static, Java, C#, JavaScript</li>
+            </ul>
+          </div>
+
+          </div>
+          </div>
+
+        </div>
+
+
+
+
+
+
+
 
     <div className="justifyright">
-    <div className="textbox1">
-        <p>This course is formed as workshop were our
-        highly skilled educator will lead you thru a
-        fixed agenda to get as much knowledge as possible
-        to you during this two days. The goal is for you
-        to gain great knowledge and practical skills in how
-        to program with Kotlin. Thus this an awesome way to
-        add a tool to your profession and update your knowledge
-        for continuous learning.</p>
-      </div>
 
-      <div className="textbox" id="backgroundcolorblack">
 
-        <h1 className="textboxheader">DETAILS</h1>
-          <p>Dates: 24-25 April 2019</p>
-          <p>Time: 09.00–16.30</p>
-          <p>Location: Central Stockholm</p>
-          <p>Price: 18 900 SEK  Early bird 16 900 SEK excl. moms. (Lunch and “Fika” is included)</p>
-          <p>Location: Central Stockholm</p>
-          <p>Contact: hanna@hedy.tech</p>
-      </div>
 
-  </div>
 
   <div className="justifykotlinlargediv">
 
@@ -270,6 +322,7 @@ class Kotlin extends React.Component {
         <p className="abouttextthinleftweb">
         Last but not least, the IDEs is created by the same company as the language.
         So you know you will have solid tools that are up to date with all features, be it experimental or stable.</p>
+      </div>
       </div>
       </div>
       </div>

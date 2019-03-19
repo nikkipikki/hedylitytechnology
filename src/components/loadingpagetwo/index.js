@@ -40,7 +40,6 @@ class Loadingpagetwo extends React.Component {
 
       <div>
       <div className="headerpic">
-  <Hamburgermenu/>
       <Header/>
 
 

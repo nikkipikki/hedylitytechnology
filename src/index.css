@@ -248,6 +248,12 @@ body {
   justify-content: space-between;
 }
 
+#flexboxcenter {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
 #nopaddingtop {
   padding-top: 0;
 }

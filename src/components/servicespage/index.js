@@ -10,8 +10,6 @@ class Servicespage extends React.Component {
       <div className="fadeinclass">
       <ScrollToTopOnMount/>
 
-
-
       <div className="mobile">
         <div className="pagemargin">
         <div className="whatwedoheadertext">

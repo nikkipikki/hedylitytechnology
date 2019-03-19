@@ -1,6 +1,6 @@
 .aboutteambox {
   position: relative;
-  width: 60%;
+  width: 70%;
 margin: auto;
   height: auto;
   display: flex;
@@ -63,7 +63,7 @@ margin: auto;
 
 .abouttextthin2 {
   font-family: Futura Thin;
-  text-align: center;
+  text-align: left;
   width: 60%;
   margin: auto;
   padding-top: 20px;
@@ -97,28 +97,21 @@ margin: auto;
 
 
 .textboxabout {
-  /* margin: 35px; */
   margin-left: 20px;
-  width: 60%;
+  width: 70%;
   color: white;
-  /* margin: auto; */
   font-family: Futura Thin;
   font-size: 18px;
   justify-content: center;
   padding: 30px;
   margin: auto;
-  /* margin-top: -110px; */
   background-color: rgba(255,255,255, 0.5);
 }
 
 .textbox1about {
-  /* margin-top: -100px; */
-  /* margin-left: 35px; */
   padding-left: 40px;
-  width: 60%;
+  width: 70%;
   color: white;
-  /* height: 200px */
-  /* margin: auto; */
   font-family: Futura Thin;
   font-size: 20px;
   justify-content: center;
@@ -126,7 +119,76 @@ margin: auto;
   margin: auto;
   border-left: 4px solid rgba(255,255,255, 0.5);;
   border-right: 4px solid rgba(255,255,255, 0.5);;
+}
 
-  /* margin-top: -110px; */
-  /* background-color: rgb(241,136,138, 0.8); */
+@media (max-width: 1000px) {
+  .aboutteambox {
+    position: relative;
+    width: 90%;
+    margin: auto;
+    height: auto;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    background-color: rgba(255,255,255, 0.5);
+  }
+
+  .aboutpicturebox {
+    margin-top: -25vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin-bottom: -200px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .abouttextthin2 {
+    font-family: Futura Thin;
+    text-align: left;
+    width: 90%;
+    margin: auto;
+    padding-top: 1vw;
+    font-size: 20px;
+  }
+
+  .aboutsignature {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    height: 100px;
+    width: 100%;
+    font-family: River Jade;
+    font-size: 10vw;
+    text-align: center;
+  }
+
+  .textbox1about {
+    padding-left: 40px;
+    width: 90%;
+    color: white;
+    font-family: Futura Thin;
+    font-size: 20px;
+    justify-content: center;
+    padding: 2vw;
+    margin: auto;
+    border-left: 4px solid rgba(255,255,255, 0.5);;
+    border-right: 4px solid rgba(255,255,255, 0.5);;
+  }
+
+  .textboxabout {
+    margin-left: 20px;
+    width: 90%;
+    color: white;
+    font-family: Futura Thin;
+    font-size: 18px;
+    justify-content: center;
+    padding: 2vw;
+    margin: auto;
+    background-color: rgba(255,255,255, 0.5);
+  }
+
 }

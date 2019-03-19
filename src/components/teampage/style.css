@@ -40,49 +40,30 @@
   display: flex;
   flex-flow: column;
   justify-content: space-around;
-  /* background-color: #051C26; */
   height: 500px;
   width: 50%;
   text-align: center;
 }
 
-.pictureboxweb {
-  /* padding-top: 100px; */
-  margin-top: 10px;
-  margin-bottom: 250px;
-  padding-left: 50px;
-  padding-right: 50px;
-  display: flex;
-  flex-flow: column;
-  justify-content: space-around;
-  /* background-color: #051C26; */
-  /* height: 500px; */
-  width: 30%;
-  text-align: center;
-  background-color: white;
-}
-
-
 .headernametext {
-  margin-top: 100px;
+  margin-top: 5vw;
   width: 100%;
-  font-family: Arca Majora3;
-  font-size: 25px;
   text-align: center;
-  letter-spacing: 5px;
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
 }
 
 
 .aboutpersontextcenter {
   font-family: Futura Thin;
-  text-align: center;
-  font-size: 20px;
+  text-align: left;
+  /* font-size: 20px; */
 }
 
 .hashtagstext {
   font-family: Futura Medium Italic;
-  text-align: center;
-  font-size: 20px;
+  text-align: left;
+  font-size: 1vw;
 }
 
 .jointheteam {
@@ -101,7 +82,7 @@
 #bob {
   background-image: url(../images/bob_1.png);
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: top;
   background-size: cover;
   background-size: 40%;
   /* z-index: -1; */
@@ -110,7 +91,7 @@
 #emelie {
   background-image: url(../images/emelie_1.png);
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: top;
   background-size: cover;
   background-size: 60%;
   /* z-index: -1; */
@@ -119,7 +100,7 @@
 #hanna {
   background-image: url(../images/hanna_1.png);
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: top;
   background-size: cover;
   background-size: 50%;
   /* z-index: -1; */
@@ -128,7 +109,7 @@
 #nicole {
   background-image: url(../images/nicole_1.png);
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: top;
   background-size: cover;
   background-size: 70%;
   /* z-index: -1; */
@@ -137,7 +118,7 @@
 #oden {
   background-image: url(../images/oden_1.png);
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: top;
   background-size: cover;
   background-size: 50%;
   /* z-index: -1; */
@@ -146,24 +127,114 @@
 #sara {
   background-image: url(../images/sara_1.png);
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: top;
   background-size: cover;
   background-size: 50%;
   /* z-index: -1; */
 }
 
 .teamboxweb {
-  padding-left: 20px;
-  padding-right: 20px;
-  position: relative;
+  padding-left: 15vw;
+  padding-right: 15vw;
+  margin: auto;
   width: 100%;
   height: auto;
   display: flex;
   flex-flow: wrap;
   justify-content: space-between;
-  /* background-color: white; */
 }
 
-.textmargin {
-  /* margin-top: 600px; */
+.pictureboxweb2 {
+  display: block;
+  flex-flow: column;
+  justify-content: space-around;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+}
+
+.teammemberdiv {
+  background-color: white;
+  padding-top: 4vw;
+  width: 30%;
+  margin-bottom: 2vw;
+  transition: background 0.2s ease-in-out,
+  width 1s ease-in,
+  height 1s linear,
+  border-radius 1s ease-in-out;
+  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.teammemberdiv:hover {
+  -webkit-transform: scale(1.05, 1.05);
+  transform: scale(1.05, 1.05);
+}
+
+.pictureboxweb {
+  padding-top: 11vw;
+  height: 22vw;
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+}
+
+.teammemberinside {
+  width: 100%;
+  font-size: 1.5vw;
+  height: 25vw;
+  padding: 1vw;
+  margin-top: -15vw;
+}
+
+
+@media (max-width: 1000px) {
+  .teamboxweb {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+
+  .teammemberdiv {
+    background-color: white;
+    padding-top: 4vw;
+    width: 45%;
+    margin-bottom: 4vw;
+  }
+
+  .pictureboxweb {
+    padding-top: 25vw;
+    height: 42vw;
+    font-size: 3vw;
+  }
+
+  .teammemberinside {
+    width: 100%;
+    font-size: 3vw;
+    height: 40vw;
+    padding: 1vw;
+    margin-top: -25vw;
+  }
+
+  .hashtagstext {
+    font-family: Futura Medium Italic;
+    text-align: left;
+    font-size: 1.5vw;
+  }
+
+  .headertextbox {
+    width: 90%;
+    margin: auto;
+    padding-top: 5vw;
+    color: white;
+  }
+
+}
+
+
+@media (min-width: 1000px) {
+
+
+
 }

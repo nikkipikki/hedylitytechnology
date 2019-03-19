@@ -24,6 +24,18 @@
 .title2 a:hover {
   background-position: -99.99% 0;
 }
+
+.title3 a {
+  background-image: linear-gradient(to right, rgba(241,136,138,0) 50%, #F1888A 50%);
+  background-position: -0% 0;
+  background-size: 200% auto;
+  color: #000000;
+  text-decoration: none;
+  transition: background-position 1s ease-out;
+}
+.title3 a:hover {
+  background-position: -99.99% 0;
+}
 /*
 .bar {
   width: 20px;

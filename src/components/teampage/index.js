@@ -2,23 +2,72 @@ import React from "react"
 import "./style.css"
 import Contactbutton from "../contactbutton"
 import Getintouch from "../getintouch"
+import Bob from "../bob"
+import Emelie from "../emelie"
+import Hanna from "../hanna"
+import Nicole from "../nicole"
+import Oden from "../oden"
+import Sarah from "../sarah"
 
 import ScrollToTopOnMount from "../scrolltotoponmount"
 
 
 class Teampage extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      isHiddenFirst: true,
+      isHiddenSecond: true,
+      isHiddenThird: true,
+      isHiddenFourth: true,
+      isHiddenFifth: true,
+      isHiddenSixth: true,
+    }
+  }
+
+  myFunction1 = () => {
+    this.setState({
+      isHiddenFirst: !this.state.isHiddenFirst})
+    }
+
+  myFunction2 = () => {
+    this.setState({
+      isHiddenSecond: !this.state.isHiddenSecond})
+    }
+
+  myFunction3 = () => {
+    this.setState({
+      isHiddenThird: !this.state.isHiddenThird})
+    }
+
+  myFunction4 = () => {
+    this.setState({
+      isHiddenFourth: !this.state.isHiddenFourth})
+    }
+
+  myFunction5 = () => {
+    this.setState({
+      isHiddenFifth: !this.state.isHiddenFifth})
+    }
+
+  myFunction6 = () => {
+    this.setState({
+      isHiddenSixth: !this.state.isHiddenSixth})
+    }
+
   render() {
     return (
       <div className="fadeinclass">
         <ScrollToTopOnMount/>
+          <div className="headerpic2">
 
-        <div className="mobile">
-        <div className="pagemargin">
+      <div className="mobile">
+      <div>
 
-        <div className="newpageheading">
+      <div className="areasheader">
+        <div className="headertextbox">
           <h1>TEAM PHILOSOPHY</h1>
-        </div>
-        <div className="abouttextthinleft">
+        <div className="headertextsmall">
           <p>At Hedy we put continuous learning in the
           forefront and share our knowledge to build
           a strong team and be able to take on complex
@@ -27,155 +76,140 @@ class Teampage extends React.Component {
           role models within their area of expertise and who are
           driven by constantly learning.</p>
         </div>
-
-        <div className="teambox">
-          <div className="picturebox" id="bob">
-            <h1 className="headernametext">BOB DAHLBERG</h1>
-            <p className="aboutpersontextcenter">Bob is a hands on technical lead that is passionate
-            about quality and to always improve his thinking and his
-            perception of a problem. He is wicked at learning, always
-            reading about a new paradigm, pattern, language or framework
-            to enable him to fully understand the big picture of a complex solution.</p>
-            <p className="hashtagstext">#kotlin #android #aws #techlead #java #scala #go #speaker #mobile #agile #teaching</p>
-          </div>
-          <div className="picturebox" id="emelie">
-            <h1 className="headernametext">EMELIE MEURK DEMERUD</h1>
-            <p className="aboutpersontextcenter">Emelie has a skill for finding the key parameters to enable growth,
-            business success and create efficient and successful teams.
-            She is a strong leader who sets strategies and hands-on implement them
-            to secure a company’s vision is put into reality.</p>
-            <p className="hashtagstext">#leadership #talentmanagement #agile #digitalstrategist #businessadvisor #profitablegrowth #businessdevelopment #changemanagement</p>
-          </div>
-          <div className="picturebox" id="hanna">
-            <h1 className="headernametext">HANNA MOISANDER</h1>
-            <p className="aboutpersontextcenter">Hanna is a dedicated change maker that loves to improve and develop business.
-            She has a high level of experience from digital transformation, entrepreneurship,
-            process development, leadership and strategic management from the ground up to board rooms.</p>
-            <p className="hashtagstext">#digitaltransformation #enabler #leadership #growthhacker #businessdevelopment #entrepreneurship</p>
-          </div>
-          <div className="picturebox" id="nicole">
-            <h1 className="headernametext">NICOLE PEHAR</h1>
-            <p className="aboutpersontextcenter">Nicole is an creative and efficient product owner, with a passion for finding solutions
-            with a broad view for the full picture. She has graphical skills and loves to create concepts
-            that speaks companies true purpose</p>
-            <p className="hashtagstext">#productowner #projectlead #customerjourney #agile #conceptdeveloper #graphicaldesign #UX/UI #react #javascript #html5 #CSS #frontend</p>
-          </div>
-          <div className="picturebox" id="oden">
-            <h1 className="headernametext">ODEN LOBELL</h1>
-            <p className="aboutpersontextcenter">Oden is a solution oriented developer who loves to enable business through tech.
-            He is a true innovator with experience from both large teams and own projects.
-            He has a great skill in combining hardware with code and take something from an idea to a real product.
-            The ability to quickly learn is one of his most valuable strength.</p>
-            <p className="hashtagstext">#programmer #C #C++ ##IoT #embeddedsystems #backend</p>
-          </div>
-          <div className="picturebox" id="sara">
-            <h1 className="headernametext">SARAH OUAKIM</h1>
-            <p className="aboutpersontextcenter">Sarah is all about finding, embracing and launching disruptive tech with positive social impact around the world.
-            An authentic Global Citizen from the tender age of three, her true passion lies in empowering women and children.
-            A tech geek, multicultural nerd and a fitness freak all rolled into one!</p>
-            <p className="hashtagstext">#globalization #investmentenabler #salesmanagement #leadership #growthhacker #businessdevelopment #profitablegrowth</p>
-          </div>
-          </div>
-          </div>
         </div>
+      </div>
+
+    <div className="teamboxweb">
+
+    <div className="teammemberdiv">
+      <div className="pictureboxweb" id="bob" onClick={this.myFunction1}>
+        {this.state.isHiddenFirst && <h5 className="headernametext" id="arcamajora">BOB DAHLBERG</h5>}
+        {!this.state.isHiddenFirst && <Bob />}
+      </div>
+    </div>
+
+    <div className="teammemberdiv">
+      <div className="pictureboxweb" id="emelie" onClick={this.myFunction2}>
+        {this.state.isHiddenSecond && <h5 className="headernametext" id="arcamajora">EMELIE MEURK DEMERUD</h5>}
+        {!this.state.isHiddenSecond && <Emelie />}
+      </div>
+    </div>
+
+    <div className="teammemberdiv">
+      <div className="pictureboxweb" id="hanna" onClick={this.myFunction3}>
+        {this.state.isHiddenThird && <h5 className="headernametext" id="arcamajora">HANNA MOISANDER</h5>}
+        {!this.state.isHiddenThird && <Hanna />}
+      </div>
+    </div>
+
+    <div className="teammemberdiv">
+      <div className="pictureboxweb" id="nicole" onClick={this.myFunction4}>
+        {this.state.isHiddenFourth && <h5 className="headernametext" id="arcamajora">NICOLE PEHAR</h5>}
+        {!this.state.isHiddenFourth && <Nicole />}
+      </div>
+    </div>
+
+    <div className="teammemberdiv">
+      <div className="pictureboxweb" id="oden" onClick={this.myFunction5}>
+        {this.state.isHiddenFifth && <h5 className="headernametext" id="arcamajora">ODEN LOBELL</h5>}
+        {!this.state.isHiddenFifth && <Oden />}
+      </div>
+    </div>
+
+    <div className="teammemberdiv">
+      <div className="pictureboxweb" id="sara" onClick={this.myFunction6}>
+        {this.state.isHiddenSixth && <h5 className="headernametext" id="arcamajora">SARAH OUAKIM</h5>}
+        {!this.state.isHiddenSixth && <Sarah />}
+      </div>
+    </div>
+
+    </div>
+
+
+
+
+      </div>
+      </div>
+
 
 
 
         <div className="web">
+        <div>
 
-        <div id="yellowonblack">
-
-        <div className="areasheader">
-        <div className="headertextbox">
-          <h1>TEAM PHILOSOPHY</h1>
-          <div className="headertextsmall">
-          <p>At Hedy we put continuous learning in the
-          forefront and share our knowledge to build
-          a strong team and be able to take on complex
-          challenges and create the future.
-          We are gathering talents that are brilliant at what they do,
-          role models within their area of expertise and who are
-          driven by constantly learning.</p>
-        </div>
-        </div>
-        </div>
+          <div className="areasheader">
+            <div className="headertextbox">
+              <h1>TEAM PHILOSOPHY</h1>
+            <div className="headertextsmall">
+              <p>At Hedy we put continuous learning in the
+              forefront and share our knowledge to build
+              a strong team and be able to take on complex
+              challenges and create the future.
+              We are gathering talents that are brilliant at what they do,
+              role models within their area of expertise and who are
+              driven by constantly learning.</p>
+            </div>
+            </div>
+          </div>
 
         <div className="teamboxweb">
-          <div className="pictureboxweb" id="bob">
-          <div className="textmargin">
-            <h1 className="headernametext">BOB DAHLBERG</h1>
-            <p className="aboutpersontextcenter">Bob is a hands on technical lead that is passionate
-            about quality and to always improve his thinking and his
-            perception of a problem. He is wicked at learning, always
-            reading about a new paradigm, pattern, language or framework
-            to enable him to fully understand the big picture of a complex solution.</p>
-            <p className="hashtagstext">#kotlin #android #aws #techlead #java #scala #go #speaker #mobile #agile #teaching</p>
-          </div>
-          </div>
 
-          <div className="pictureboxweb" id="emelie">
-            <div className="textmargin">
-              <h1 className="headernametext">EMELIE MEURK DEMERUD</h1>
-              <p className="aboutpersontextcenter">Emelie has a skill for finding the key parameters to enable growth,
-              business success and create efficient and successful teams.
-              She is a strong leader who sets strategies and hands-on implement them
-              to secure a company’s vision is put into reality.</p>
-              <p className="hashtagstext">#leadership #talentmanagement #agile #digitalstrategist #businessadvisor #profitablegrowth #businessdevelopment #changemanagement</p>
-            </div>
-          </div>
-
-          <div className="pictureboxweb" id="hanna">
-            <div className="textmargin">
-              <h1 className="headernametext">HANNA MOISANDER</h1>
-              <p className="aboutpersontextcenter">Hanna is a dedicated change maker that loves to improve and develop business.
-              She has a high level of experience from digital transformation, entrepreneurship,
-              process development, leadership and strategic management from the ground up to board rooms.</p>
-              <p className="hashtagstext">#digitaltransformation #enabler #leadership #growthhacker #businessdevelopment #entrepreneurship</p>
-            </div>
-          </div>
-
-          <div className="pictureboxweb" id="nicole">
-          <div className="textmargin">
-            <h1 className="headernametext">NICOLE PEHAR</h1>
-            <p className="aboutpersontextcenter">Nicole is an creative and efficient product owner, with a passion for finding solutions
-            with a broad view for the full picture. She has graphical skills and loves to create concepts
-            that speaks companies true purpose</p>
-            <p className="hashtagstext">#productowner #projectlead #customerjourney #agile #conceptdeveloper #graphicaldesign #UX/UI #react #javascript #html5 #CSS #frontend</p>
-          </div>
-          </div>
-
-          <div className="pictureboxweb" id="oden">
-          <div className="textmargin">
-            <h1 className="headernametext">ODEN LOBELL</h1>
-            <p className="aboutpersontextcenter">Oden is a solution oriented developer who loves to enable business through tech.
-            He is a true innovator with experience from both large teams and own projects.
-            He has a great skill in combining hardware with code and take something from an idea to a real product.
-            The ability to quickly learn is one of his most valuable strength.</p>
-            <p className="hashtagstext">#programmer #C #C++ ##IoT #embeddedsystems #backend</p>
-          </div>
-          </div>
-
-          <div className="pictureboxweb" id="sara">
-          <div className="textmargin">
-            <h1 className="headernametext">SARAH OUAKIM</h1>
-            <p className="aboutpersontextcenter">Sarah is all about finding, embracing and launching disruptive tech with positive social impact around the world.
-            An authentic Global Citizen from the tender age of three, her true passion lies in empowering women and children.
-            A tech geek, multicultural nerd and a fitness freak all rolled into one!</p>
-            <p className="hashtagstext">#globalization #investmentenabler #salesmanagement #leadership #growthhacker #businessdevelopment #profitablegrowth</p>
-          </div>
-          </div>
-
+        <div className="teammemberdiv">
+          <div className="pictureboxweb" id="bob" onClick={this.myFunction1}>
+            {this.state.isHiddenFirst && <h5 className="headernametext" id="arcamajora">BOB DAHLBERG</h5>}
+            {!this.state.isHiddenFirst && <Bob />}
           </div>
         </div>
-          </div>
 
-        <div id="backgroundcolorblack">
-        <div className="whatwedoheadertext">
-          <p>WANT TO JOIN OUR TEAM?</p>
+        <div className="teammemberdiv">
+          <div className="pictureboxweb" id="emelie" onClick={this.myFunction2}>
+            {this.state.isHiddenSecond && <h5 className="headernametext" id="arcamajora">EMELIE MEURK DEMERUD</h5>}
+            {!this.state.isHiddenSecond && <Emelie />}
           </div>
+        </div>
+
+        <div className="teammemberdiv">
+          <div className="pictureboxweb" id="hanna" onClick={this.myFunction3}>
+            {this.state.isHiddenThird && <h5 className="headernametext" id="arcamajora">HANNA MOISANDER</h5>}
+            {!this.state.isHiddenThird && <Hanna />}
+          </div>
+        </div>
+
+        <div className="teammemberdiv">
+          <div className="pictureboxweb" id="nicole" onClick={this.myFunction4}>
+            {this.state.isHiddenFourth && <h5 className="headernametext" id="arcamajora">NICOLE PEHAR</h5>}
+            {!this.state.isHiddenFourth && <Nicole />}
+          </div>
+        </div>
+
+        <div className="teammemberdiv">
+          <div className="pictureboxweb" id="oden" onClick={this.myFunction5}>
+            {this.state.isHiddenFifth && <h5 className="headernametext" id="arcamajora">ODEN LOBELL</h5>}
+            {!this.state.isHiddenFifth && <Oden />}
+          </div>
+        </div>
+
+        <div className="teammemberdiv">
+          <div className="pictureboxweb" id="sara" onClick={this.myFunction6}>
+            {this.state.isHiddenSixth && <h5 className="headernametext" id="arcamajora">SARAH OUAKIM</h5>}
+            {!this.state.isHiddenSixth && <Sarah />}
+          </div>
+        </div>
+
+        </div>
+
+        </div>
+        </div>
+
+        <div>
+        <div id="flexboxcenter">
+          <h2 id="colorwhite">WANT TO JOIN OUR TEAM?</h2>
+        </div>
           <Getintouch/>
-          </div>
-          </div>
+        </div>
+        </div>
+
+    </div>
     )
   }
 }

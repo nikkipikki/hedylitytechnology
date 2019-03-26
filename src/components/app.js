@@ -29,7 +29,7 @@ class App extends React.Component {
     return (
       <HashRouter>
         <div>
-        <div className="headerpic">
+        <div className="">
         <Hamburgermenu/>
           <Route
             exact

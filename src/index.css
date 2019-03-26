@@ -477,17 +477,13 @@ mark.italic {
   }
 
   .hedylitytechnologytext {
-    margin-bottom: 10vw;
     padding: 18vw;
-    /* padding-top: 6vw; */
-    margin-top: -43vw;
+    margin-top: -60vw;
     display: flex;
     flex-flow: column;
-    /* justify-content: space-around; */
     height: 50vw;
     width: 100%;
     font-family: Arca Majora3;
-    /* font-size: 15px; */
     text-align: center;
     letter-spacing: 5px;
   }

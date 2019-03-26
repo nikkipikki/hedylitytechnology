@@ -24,12 +24,3 @@
   color: white;
 
 }
-
-#wearehedy {
-  background-image: url(../images/yellow.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  /* border-radius: 10px; */
-  z-index: -1;
-}

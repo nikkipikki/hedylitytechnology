@@ -8,6 +8,8 @@ import Hamburgermenu from "../hamburgermenu"
 import Fotnot from "../fotnot"
 import Teamintro from "../teamintro"
 import Hedylamarrintro from "../hedylamarrintro"
+import Loadingpage from "../loadingpage"
+
 
 
 
@@ -41,9 +43,8 @@ class Loadingpagetwo extends React.Component {
       <div>
 
       <div className="mobile">
-      <div className="headerpic">
+      <div className="">
       <Header/>
-
 
 
             <div>
@@ -189,21 +190,23 @@ class Loadingpagetwo extends React.Component {
 
 
       <div className="web">
-      <div className="headerpic">
+      <div className="">
       <Header/>
-
 
 
             <div>
               <div className="whatwedotext2">
-              <p>Hedy focuses on making successful digitalization journeys
+              <h3>Hedy focuses on making successful digitalization journeys
               with forefront technology, high-skilled people and an innovative environment.
+              </h3>
+              <h3>
               We want sustainable, win-win-win-win business relations where the end-customer,
               the client/partner, Hedy and the world wins on the tech and business solutions
-              we are developing.</p>
+              we are developing.</h3>
             </div>
           </div>
 
+                  <div id="whatwedo">
                   <div className="whatwedobox2">
                     <h1 className="arcamajora3"> WHAT WE DO </h1>
 
@@ -275,6 +278,7 @@ class Loadingpagetwo extends React.Component {
 
                   </div>
                 </div>
+                </div>
 
 
                 <div className="introdiv2">
@@ -297,14 +301,14 @@ class Loadingpagetwo extends React.Component {
 
 
 
-                <div>
+                <div id="wearehedy">
                     <div className="whatwedotext2">
                       <h1 id="colorpink">We are Honest. We are Effectual.
                       We are Devoted. We are Young & Witty. We are HEDY.</h1>
                     </div>
                 </div>
 
-                <div>
+                <div id="gettoknow">
                     <div className="whatwedotext2" onClick={this.myFunction}>
                     {!this.state.isHidden && <Teamintro />}
                       {this.state.isHidden && <h1>GET TO KNOW OUR TEAM</h1>}
@@ -312,10 +316,14 @@ class Loadingpagetwo extends React.Component {
 
                 </div>
 
+                <div id="hedylamarrpicture">
                 <div className="introdiv3">
-                    <div className="whatwedotext3">
+
+                      <div className="whatwedotext4">
                     <h1 className="arcamajora"> HEDY LAMARR</h1>
                     <h2> Our muse & the woman behind the name</h2>
+                    </div>
+                      <div className="whatwedotext3">
 
                     <h5>Hedylity Technology is named after Hedy Lamarr,
                     the brain behind frequency hopping.
@@ -324,6 +332,10 @@ class Loadingpagetwo extends React.Component {
                     <h5>Frequency hopping is the basis for secure Wi-Fi, Bluetooth,
                     cell phone, GPS and military technology –
                     an invention that forms our whole society today!</h5>
+                    </div>
+
+                    <div className="whatwedotext3">
+
                     <h5>Hedy was a famous Hollywood actor and the inspiration behind the
                     look of Snow-white and Catwoman, she never got any share of
                     her 30 billion dollar invention.</h5>
@@ -333,6 +345,7 @@ class Loadingpagetwo extends React.Component {
 
 
 
+                </div>
                 </div>
                 </div>
 

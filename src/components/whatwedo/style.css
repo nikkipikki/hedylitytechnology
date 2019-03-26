@@ -83,14 +83,13 @@
   }
 
 
-  #innovation {
-    background-image: url(../images/innovation.jpg);
+  /* #innovation {
+    background-image: url(../images/innovationstudiopic.jpg);
     background-repeat: no-repeat;
     background-position: right;
     background-size: cover;
-    /* border-radius: 10px; */
     z-index: -1;
-  }
+  } */
 
   #innovation3 {
     background-image: url(../images/innovation.jpg);
@@ -307,11 +306,10 @@
 
 
 #innovation {
-  background-image: url(../images/innovation.jpg);
+  background-image: url(../images/innovationstudiopic.jpg);
   background-repeat: no-repeat;
   background-position: right;
   background-size: cover;
-  /* border-radius: 10px; */
   z-index: -1;
 }
 
@@ -368,24 +366,32 @@
   z-index: -1;
 }
 
-#yellowonblack {
-  background-image: url(../images/yellowonblack.jpg);
+#wearehedy {
+  background-image: url(../images/loadingpage2.jpg);
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
   background-attachment: fixed;
   z-index: -1;
 }
-/*
-#headerpic {
-  background-image: url(../images/background3.svg);
+
+#gettoknow {
+  background-image: url(../images/loadingpage1.jpg);
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
-  height: 100%;
-} */
+  background-attachment: fixed;
+  z-index: -1;
+}
 
-
+#whatwedo {
+  background-image: url(../images/loadingpage3.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: -1;
+}
 
 #kotlin {
   background-image: url(../images/kotlin.jpg);

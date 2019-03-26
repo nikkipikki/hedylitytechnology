@@ -6,7 +6,9 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-size: 60%;
+  background-size: 50%;
+  background-attachment: fixed;
+  background-color: #F9EDE4;
   /* z-index: -1; */
 }
 

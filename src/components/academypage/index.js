@@ -202,11 +202,11 @@ class Academypage extends React.Component {
         style={{ textDecoration: "none", color: "black" }}
         to="/kotlin">
       <div className="displayflexwrap">
-      <div className="textbox2" id="backgroundcolordarkbluepink">
+      <div className="textbox2" id="">
       <div id="arcamajora">
       <h6 id="nomargin">NEXT COURSE</h6>
       <div id="futurathin">
-        <div id="backgroundcolordarkbluepink">
+        <div id="">
         <h5 id="margintop0comma8vw">Succeed with Kotlin
         </h5>
         <h5 id="margintop0comma8vw">Dates: 24-25 April 2019</h5>

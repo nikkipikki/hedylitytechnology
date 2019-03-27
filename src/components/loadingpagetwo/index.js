@@ -168,17 +168,14 @@ class Loadingpagetwo extends React.Component {
 
               <div className="startdiv" id="colorwhite">
 
-                <div className="circledivmedium">
+              <div className="circledivmedium">
                 </div>
-
-                  <div className="startext" id="">
-                  <h4>
-                  We want sustainable, win-win-win-win business relations where the end-customer,
+                <div className="startext" id="">
+                  <h4>We want sustainable, win-win-win-win business relations where the end-customer,
                   the client/partner, Hedy and the world wins on the tech and business solutions
                   we are developing.</h4>
                 </div>
-
-                </div>
+              </div>
 
 
 

@@ -13,32 +13,32 @@ class Innovationstudiopage extends React.Component {
       <div className="fadeinclass">
         <ScrollToTopOnMount/>
 
-      <div className="mobile">
+        <div className="mobile">
 
-      <div className="areasheader">
-      <div className="pagemarginweb">
+        <div className="areasheader">
+        <div className="pagemarginweb">
 
-      <div className="headertextbox" id="">
-      <p className="hedytexttiltinnovation3">Hedy</p>
+        <div className="headertextbox" id="">
+        <p className="hedytexttiltinnovation3">Hedy</p>
 
-        <h1>INNOVATION STUDIO</h1>
-      <div className="headertextsmall2">
-        <p>We become your tech and/or business partner in exchange for equity</p>
+          <h1>INNOVATION STUDIO</h1>
+        <div className="headertextsmall2">
+          <p>We become your tech and/or business partner in exchange for equity</p>
+        </div>
+        </div>
       </div>
-      </div>
-    </div>
 
-    <div className="justifycenter">
+      <div className="justifycenter">
 
 
-    <div className="academyteambox" id="backgroundcolordarkbluepink">
-      <div className="academytextthin" id="colorwhite">
-        <h4 id="nomarginbottom">
-        We accelerate start-ups through becoming a long-term business & tech partner.</h4>
-        <h4 id="nomargintop">Our strong belief is that technology is the key to a better world,
-              therefore we partner up with, and invest in, tech innovations that
-              have the ambition to contribute to solving at least one of the 17 global sustainability goals.</h4>
-      </div>
+      <div className="academyteambox" id="backgroundcolordarkbluepink">
+        <div className="academytextthin" id="colorwhite">
+          <h4 id="nomarginbottom">
+          We accelerate start-ups through becoming a long-term business & tech partner.</h4>
+          <h4 id="nomargintop">Our strong belief is that technology is the key to a better world,
+                therefore we partner up with, and invest in, tech innovations that
+                have the ambition to contribute to solving at least one of the 17 global sustainability goals.</h4>
+        </div>
       </div>
 
 

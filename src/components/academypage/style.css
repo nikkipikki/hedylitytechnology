@@ -56,6 +56,8 @@
 }
 
 .textbox2 {
+  border: 2px solid white;
+  background-color: rgb(255,255,255, 0.5);
   cursor: pointer;
   /* border-left: 4px solid white; */
   border-radius: 2px;
@@ -64,6 +66,7 @@
   right: 0vw;
   font-size: 1.5vw;
   position: fixed;
+  text-align: right;
   -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
   transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
   z-index: 1000;

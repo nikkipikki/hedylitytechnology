@@ -57,8 +57,11 @@ class Header extends React.Component {
         </svg>
 
 
+        <div id="whatwedo">
+        <div id="opacitydark">
 
-        <div className="hedylitytechnologytext" id="">
+        <div className="hedylitytechnologytext">
+
           <div className="typewriter">
             <h1>WE ARE HEDYLITY TECHNOLOGY</h1>
           </div>
@@ -69,6 +72,8 @@ class Header extends React.Component {
 
           <div className="fadeintext">
             <h1 className="callushedytext" id="colorwhite">But you can call us <mark className="pink">Hedy</mark></h1>
+          </div>
+          </div>
           </div>
           </div>
           </div>

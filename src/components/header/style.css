@@ -2,7 +2,7 @@
 svg {
 	width: 100%;
 	height: auto;
-	margin-top: 15vw;
+	margin-top: 5vw;
 	/* margin-top: 100px; */
 	/* margin-top: 120px; */
 	/* top: 50%; */
@@ -57,17 +57,17 @@ svg {
   height: 100px;
   width: 100%;
   font-family: Arca Majora3;
-  font-size: 20px;
+  /* font-size: 20px; */
   text-align: center;
   letter-spacing: 5px;
 	color: white;
 }
 
 .callushedytext {
-  margin-top: -20px;
+  margin-top: -50px;
   font-family: River Jade;
   letter-spacing: 0;
-  font-size: 60px;
+  font-size: 5vw;
   /* font-size: 50px; */
 }
 

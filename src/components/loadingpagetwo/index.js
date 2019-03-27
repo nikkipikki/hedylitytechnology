@@ -193,9 +193,12 @@ class Loadingpagetwo extends React.Component {
       <div className="">
       <Header/>
 
+          <div className="startdiv" id="">
 
-            <div>
-              <div className="">
+            <div className="circledivmedium">
+            </div>
+
+              <div className="startext" id="">
               <h3>Hedy focuses on making successful digitalization journeys
               with forefront technology, high-skilled people and an innovative environment.
               </h3>
@@ -204,7 +207,8 @@ class Loadingpagetwo extends React.Component {
               the client/partner, Hedy and the world wins on the tech and business solutions
               we are developing.</h3>
             </div>
-          </div>
+
+            </div>
 
                   <div id="whatwedo">
                   <div className="whatwedobox2">
@@ -291,18 +295,22 @@ class Loadingpagetwo extends React.Component {
                 </div>
 
 
-                <div className="introdiv2">
+
+                <div className="introdiv2" id="backgroundcolorwhiteblack">
 
                 <div className="hedypicturebox2" id="hedyhandsvartbeige"/>
                   <div className="missiondiv">
-                    <h2 id="colorwhite">
+                    <h2 id="">
                       Our mission is to make a tech imprint for a better world.
                     </h2>
                   </div>
                 </div>
 
                   <div id="gettoknow">
+
                     <div className="whatwedotext2" id="colorwhite">
+                    <div className="circledivsmall">
+                    </div>
                       <h1 id="futurathin">
                         <a>We are in it for the long-run, are you?</a>
                       </h1>

@@ -12,14 +12,15 @@ class Servicespage extends React.Component {
         <ScrollToTopOnMount/>
         <div className="mobile">
 
-        <div className="pagemarginweb">
+        <div className="areasheader">
+        <div className="headertextbox">
+        <p className="hedytexttiltservices3">Hedy</p>
 
-        <div className="headertextbox" id="colorwhite">
-            <p className="hedytexttiltacademy">Hedy</p>
             <h1>SERVICES</h1>
           <div className="headertextsmall2">
-            <p>Consultancy services within programming and management</p>
+            <h4>Consultancy services within programming and management</h4>
           </div>
+        </div>
         </div>
 
       <div className="justifycenter">
@@ -27,13 +28,12 @@ class Servicespage extends React.Component {
         <div className="academyteambox" id="backgroundcolordarkbluepink">
             <div className="academytextthin" id="colorpink">
               <div id="">
-                <h5 id="nomarginbottom">
+                <h4 id="">
                 We accelerate businesses with skills and solutions
-                for a profitable digitalization journey.</h5>
-                <h5>With forefront technology skills and strategic minds
+                for a profitable digitalization journey. With forefront technology skills and strategic minds
                 Hedy supports small, mid-sized and large companies in
                 their aspiration to make a successful digitalization
-                journey and build a profitable business.</h5>
+                journey and build a profitable business.</h4>
               </div>
             </div>
           </div>
@@ -41,8 +41,8 @@ class Servicespage extends React.Component {
             <div className="academyteambox" id="backgroundcolordarkbluepink">
 
               <div className="academytextthin2" id="colorwhite">
-                <h6 className="textboxheader" id="nomargintoplittlebottom">ROLES WE HAVE TAKEN</h6>
-                <h6 id="">
+                <h4 className="textboxheader" id="nomargintoplittlebottom">ROLES WE HAVE TAKEN</h4>
+                <h4 id="">
                   Quality Assurance, Tech architect,
                   Agile coach, Tech educator, Brand developer,
                   Growth hacker,Backend developer,
@@ -53,24 +53,23 @@ class Servicespage extends React.Component {
                   UX/UI developer, CEO, Digital strategist,
                   Managing Director, Product owner,Project lead,
                   Concept developer, Sales leader and many more.
-                </h6>
+                </h4>
             </div>
 
 
             <div className="academytextthin2" id="colorwhite">
-              <h6 className="textboxheader" id="">TYPE OF SERVICES</h6>
+              <h4 className="textboxheader" id="">TYPE OF SERVICES</h4>
             <div id="marginbottom">
-              <div className="bulletpoints">
+              <h4 className="">
               <ul>
                 <li>Inhouse projects delivered by a Hedy team</li>
                 <li>Consultancy service at client, where Hedy talent leads the work or is part of a team</li>
                 <li>Take the role as tech and/or business partner</li>
               </ul>
-              </div>
+              </h4>
             </div>
             </div>
 
-        </div>
 
 
 
@@ -87,8 +86,8 @@ class Servicespage extends React.Component {
       <div>
 
 
-        <div id="headerpic2">
-        <div id="">
+      <div id="services">
+      <div id="opacitydark">
 
 
         <div className="areasheader">
@@ -107,12 +106,11 @@ class Servicespage extends React.Component {
         <div className="justifycenter">
 
         <div className="academyteambox" id="backgroundcolordarkbluepink">
-            <div className="academytextthin" id="colorpink">
+            <div className="academytextthin" id="colorwhite">
             <div id="paddingleftright">
-              <h5 id="nomarginbottom">
+              <h5 id="">
               We accelerate businesses with skills and solutions
-              for a profitable digitalization journey.</h5>
-              <h5>With forefront technology skills and strategic minds
+              for a profitable digitalization journey. With forefront technology skills and strategic minds
               Hedy supports small, mid-sized and large companies in
               their aspiration to make a successful digitalization
               journey and build a profitable business.</h5>
@@ -142,13 +140,13 @@ class Servicespage extends React.Component {
         <div className="academytextthin2" id="colorwhite">
           <h6 className="textboxheader" id="nomargintoplittlebottom">TYPE OF SERVICES</h6>
         <div>
-        <div className="bulletpoints">
+        <h6 className="bulletpoints" id="nomargintop">
         <ul>
           <li>Inhouse projects delivered by a Hedy team</li>
           <li>Consultancy service at client, where Hedy talent leads the work or is part of a team</li>
           <li>Take the role as tech and/or business partner</li>
         </ul>
-      </div>
+      </h6>
       </div>
       </div>
 

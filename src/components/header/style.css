@@ -1,3 +1,41 @@
+@media (max-width: 1000px){
+
+.typewriter {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 5px;
+  animation-delay: 3.5s;
+  -moz-animation-delay:3.5s;
+  -webkit-animation-delay:3.5s;
+	font-size: 3vw;
+
+  animation:
+    typing 4.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+.hedylitytechnologytext {
+  margin-bottom: 0px;
+	padding-top: 100vw;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  height: 100px;
+  width: 100%;
+  font-family: Arca Majora3;
+  /* font-size: 20px; */
+  text-align: center;
+  letter-spacing: 5px;
+	color: white;
+}
+
+.marginminus {
+	margin-top: -50vw;
+}
+
+}
 
 svg {
 	width: 100%;

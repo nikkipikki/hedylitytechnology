@@ -40,12 +40,43 @@ class Header extends React.Component {
     return (
       <div>
         <div className="mobile">
-        </div>
-        <div>
+        <div id="headerpic">
+        <div id="opacitydark">
 
 
         <div className="header">
 
+        <div className="hedylitytechnologytext">
+
+          <div className="marginminus">
+            <h3>WE ARE HEDYLITY TECHNOLOGY</h3>
+          </div>
+
+
+
+
+
+          <div className="fadeintext">
+            <h1 className="callushedytext" id="colorwhite">But you can call us <mark className="pink">Hedy</mark></h1>
+          </div>
+          </div>
+          </div>
+          </div>
+          </div>
+
+
+        </div>
+        <div>
+
+
+
+
+          <div className="web">
+          <div id="headerpic">
+          <div id="opacitydark">
+
+
+          <div className="header">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300">
           <defs>
             <filter id="glow-filter">
@@ -55,10 +86,11 @@ class Header extends React.Component {
             <polyline className="line"></polyline>
             <polyline className="line-glow"></polyline>
         </svg>
+        </div>
 
 
-        <div id="whatwedo">
-        <div id="opacitydark">
+
+
 
         <div className="hedylitytechnologytext">
 

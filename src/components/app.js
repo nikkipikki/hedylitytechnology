@@ -15,7 +15,6 @@ import Hamburgermenu from "./hamburgermenu"
 import Loadingpagetwo from "./loadingpagetwo"
 
 
-
 //start array
 const names = [
   {first: "Hello", last: "World"},
@@ -54,6 +53,9 @@ class App extends React.Component {
           <Route
             path="/kotlin"
             component={Kotlin} />
+          <Route
+            path="/hedypage"
+            component={Hedypage} />
           <Route
             path="/bookingconditions"
             component={Bookingconditions} />

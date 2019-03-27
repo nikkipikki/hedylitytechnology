@@ -7,14 +7,8 @@ class Hamburgermenu extends React.Component {
     return (
       <div>
       <div className="mobile">
+      <div className="pagemargin">
       <div className="menuboarddiv">
-      <Link
-        style={{ textDecoration: "none", color: "black" }}
-        to="/">
-        <div className="hedylogotext">
-          <p>Hedy</p>
-        </div>
-      </Link>
         <div className="boxbehindhamburger" id="menuToggle">
           <nav role='navigation'>
             <div id="menuToggle">
@@ -24,27 +18,27 @@ class Hamburgermenu extends React.Component {
               <span></span>
               <ul id="menu">
               <Link
-                style={{ textDecoration: "none", color: "#FE7E83" }}
+                style={{ textDecoration: "none", color: "#ffffff" }}
                 to="/">
                 <p>HOME</p>
                 </Link>
                 <Link
-                  style={{ textDecoration: "none", color: "#FE7E83" }}
+                  style={{ textDecoration: "none", color: "#ffffff" }}
                   to="/services">
                 <p>SERVICES</p>
                 </Link>
                 <Link
-                  style={{ textDecoration: "none", color: "#FE7E83" }}
+                  style={{ textDecoration: "none", color: "#ffffff" }}
                   to="/academy">
                 <p>ACADEMY</p>
                 </Link>
                 <Link
-                  style={{ textDecoration: "none", color: "#FE7E83" }}
+                  style={{ textDecoration: "none", color: "#ffffff" }}
                   to="/innovationstudio">
                 <p>INNOVATION STUDIO</p>
                 </Link>
                 <Link
-                  style={{ textDecoration: "none", color: "#FE7E83" }}
+                  style={{ textDecoration: "none", color: "#ffffff" }}
                   to="/about">
                 <p>ABOUT</p>
                 </Link>
@@ -55,6 +49,7 @@ class Hamburgermenu extends React.Component {
         </div>
       </div>
       </div>
+      </div>
 
       <div className="web">
       <div className="webmenuboarddiv">
@@ -62,13 +57,12 @@ class Hamburgermenu extends React.Component {
         style={{ textDecoration: "none", color: "black",  cursor:"pointer" }}
         to="/">
       <div className="webhedylogotextbox">
-        <div className="webhedylogotext">
-          <p>Hedy</p>
+        <div id="blackhylogo">
         </div>
       </div>
       </Link>
-      <div className="menutext" id="arcamajora">
-      <h6>MENU</h6>
+      <div className="menutext">
+      <h4>MENU</h4>
       </div>
         <div className="webboxbehindhamburger" id="webmenuToggle">
 
@@ -80,27 +74,27 @@ class Hamburgermenu extends React.Component {
 
               <ul id="webmenu">
               <Link
-                style={{ textDecoration: "none", color: "#FE7E83" }}
+                style={{ textDecoration: "none", color: "#ffffff" }}
                 to="/">
                 <p>HOME</p>
                 </Link>
                 <Link
-                  style={{ textDecoration: "none", color: "#FE7E83" }}
+                  style={{ textDecoration: "none", color: "#ffffff" }}
                   to="/services">
                 <p>SERVICES</p>
                 </Link>
                 <Link
-                  style={{ textDecoration: "none", color: "#FE7E83" }}
+                  style={{ textDecoration: "none", color: "#ffffff" }}
                   to="/academy">
                 <p>ACADEMY</p>
                 </Link>
                 <Link
-                  style={{ textDecoration: "none", color: "#FE7E83" }}
+                  style={{ textDecoration: "none", color: "#ffffff" }}
                   to="/innovationstudio">
                 <p>INNOVATION STUDIO</p>
                 </Link>
                 <Link
-                  style={{ textDecoration: "none", color: "#FE7E83" }}
+                  style={{ textDecoration: "none", color: "#ffffff" }}
                   to="/about">
                 <p>ABOUT</p>
                 </Link>

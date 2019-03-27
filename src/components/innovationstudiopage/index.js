@@ -19,7 +19,7 @@ class Innovationstudiopage extends React.Component {
       <div className="pagemarginweb">
 
       <div className="headertextbox" id="">
-      <p className="hedytexttiltinnovation2">Hedy</p>
+      <p className="hedytexttiltinnovation3">Hedy</p>
 
         <h1>INNOVATION STUDIO</h1>
       <div className="headertextsmall2">
@@ -33,31 +33,15 @@ class Innovationstudiopage extends React.Component {
 
     <div className="academyteambox" id="backgroundcolordarkbluepink">
       <div className="academytextthin" id="colorwhite">
-        <h5 id="nomarginbottom">
-        We accelerate start-ups through becoming a long-term business & tech partner.</h5>
-        <h5 id="nomargintop">Our strong belief is that technology is the key to a better world,
+        <h4 id="nomarginbottom">
+        We accelerate start-ups through becoming a long-term business & tech partner.</h4>
+        <h4 id="nomargintop">Our strong belief is that technology is the key to a better world,
               therefore we partner up with, and invest in, tech innovations that
-              have the ambition to contribute to solving at least one of the 17 global sustainability goals.</h5>
+              have the ambition to contribute to solving at least one of the 17 global sustainability goals.</h4>
       </div>
       </div>
 
-      <div className="academyteambox" id="backgroundcolorwhiteblack">
-      <div id="colorpink">
-        <h1 id="nomargin">HOW IT WORKS</h1>
-      </div>
-      <div id="flexbox">
-        <div className="innovationdiv">
-        <div id="arcamajora">
-          <h5 id="futurathin">We start off with a 4-week Tech Imprint Potential (TIP)
-          review to scan the business, tech stack and the potential.
-          Based on the outcome, we set a roadmap and make a decision on the way forward</h5>
-        </div>
-        </div>
-        <div className="innovationdiv2">
-        <div className="innovationpicturebox" id="letsgo"/>
-      </div>
-      </div>
-      </div>
+
 
       </div>
 
@@ -65,7 +49,7 @@ class Innovationstudiopage extends React.Component {
 
 
       <div className="academytextthin2" id="colorwhite">
-        <h6 className="textboxheader" id="">OUR OFFER</h6>
+        <h4 className="textboxheader" id="">OUR OFFER</h4>
       <div id="marginbottom2">
         <div className="bulletpoints">
         <ul>
@@ -92,7 +76,9 @@ class Innovationstudiopage extends React.Component {
 
         <div className="web">
 
-          <div id="headerpic2">
+          <div id="innovation">
+          <div id="opacitydark">
+
 
           <div className="areasheader">
           <div className="pagemarginweb">
@@ -112,29 +98,11 @@ class Innovationstudiopage extends React.Component {
 
         <div className="academyteambox" id="backgroundcolordarkbluepink">
           <div className="academytextthin" id="colorwhite">
-            <h5 id="nomarginbottom">
-            We accelerate start-ups through becoming a long-term business & tech partner.</h5>
-            <h5 id="nomargintop">Our strong belief is that technology is the key to a better world,
-                  therefore we partner up with, and invest in, tech innovations that
-                  have the ambition to contribute to solving at least one of the 17 global sustainability goals.</h5>
-          </div>
-          </div>
-
-          <div className="academyteambox" id="backgroundcolorwhiteblack">
-          <div id="colorpink">
-            <h1 id="nomargin">HOW IT WORKS</h1>
-          </div>
-          <div id="flexbox">
-            <div className="innovationdiv">
-            <div id="arcamajora">
-              <h5 id="futurathin">We start off with a 4-week Tech Imprint Potential (TIP)
-              review to scan the business, tech stack and the potential.
-              Based on the outcome, we set a roadmap and make a decision on the way forward</h5>
-            </div>
-            </div>
-            <div className="innovationdiv2">
-            <div className="innovationpicturebox" id="letsgo"/>
-          </div>
+            <h5 id="paddingleftright">
+            We accelerate start-ups through becoming a long-term business & tech partner.
+            Our strong belief is that technology is the key to a better world,
+            therefore we partner up with, and invest in, tech innovations that
+            have the ambition to contribute to solving at least one of the 17 global sustainability goals.</h5>
           </div>
           </div>
 
@@ -144,9 +112,9 @@ class Innovationstudiopage extends React.Component {
 
 
           <div className="academytextthin2" id="colorwhite">
-            <h6 className="textboxheader" id="">OUR OFFER</h6>
-          <div id="marginbottom2">
-            <div className="bulletpoints">
+            <h6 className="textboxheader" id="paddingleftright">OUR OFFER</h6>
+          <div id="paddingleftright">
+            <h6 className="bulletpoints">
             <ul>
             <li>Highly skilled board member</li>
             <li>A well-formed development team based on your needs</li>
@@ -155,11 +123,13 @@ class Innovationstudiopage extends React.Component {
             <li>Lower cost for consultant services</li>
             <li>Opportunity to be part of Hedy’s future facilities – to keep your partner close</li>
             </ul>
-            </div>
+            </h6>
           </div>
           </div>
 
       </div>
+      </div>
+
 
 
 

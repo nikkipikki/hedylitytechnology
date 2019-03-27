@@ -4,19 +4,9 @@
 } */
 
 
-.headerpic {
-  background-image: url(../images/clouds.svg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-  height: auto;
-  width: 100%;
-  /* background-attachment: fixed; */
-  z-index: -1;
-}
+
 
 .headerpic2 {
-  background-image: url(../images/smoke.svg);
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
@@ -33,16 +23,118 @@
     display: none;
   } */
 
-  .headerpic {
-    background-image: url(../images/clouds.svg);
+  #hedy {
+    background-image: url(../images/hedy4.jpg);
     background-repeat: no-repeat;
     background-position: top;
-    background-size: contain;
-    height: auto;
-    width: 100%;
+    background-size: cover;
     /* background-attachment: fixed; */
     z-index: -1;
   }
+
+  #innovation {
+    background-image: url(../images/innovationstudiopic.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    z-index: -1;
+  }
+
+
+
+  #academy {
+    background-image: url(../images/code2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* border-radius: 10px; */
+    z-index: -1;
+  }
+
+  #academy3 {
+    background-image: url(../images/code2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -1;
+  }
+
+  #services {
+    background-image: url(../images/wall.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -1;
+  }
+
+
+  #innovation {
+    background-image: url(../images/startup.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -1;
+  }
+
+  #headerpic {
+    background-image: url(../images/loadingpage2.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    z-index: -1;
+  }
+
+  #wearehedy {
+    background-image: url(../images/poster.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    z-index: -1;
+  }
+
+  #gettoknow {
+    background-image: url(../images/loadingpage1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    /* background-attachment: fixed; */
+    z-index: -1;
+  }
+
+  #whatwedo {
+    background-image: url(../images/loadingpage3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    z-index: -1;
+  }
+
+  #kotlin {
+    background-image: url(../images/kotlin.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -1;
+  }
+
+
+  #kotlin2 {
+    background-image: url(../images/kotlin.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    /* z-index: -1; */
+  }
+
+
 
 
   .threeareas {
@@ -83,23 +175,6 @@
   }
 
 
-  /* #innovation {
-    background-image: url(../images/innovationstudiopic.jpg);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: cover;
-    z-index: -1;
-  } */
-
-  #innovation3 {
-    background-image: url(../images/innovation.jpg);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: cover;
-    background-attachment: fixed;
-    z-index: -1;
-  }
-
   #academy {
     background-image: url(../images/code2.jpg);
     background-repeat: no-repeat;
@@ -118,51 +193,11 @@
     z-index: -1;
   }
 
-  #services {
-    background-image: url(../images/hands.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    /* border-radius: 10px; */
-    z-index: -1;
-  }
 
-  #services3 {
-    background-image: url(../images/hands.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    z-index: -1;
-  }
 
-  #academy2 {
-    background-image: url(../images/hats.jpg);
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: cover;
-    z-index: -1;
-  }
 
-  #yellowonblack {
-    background-image: url(../images/yellowonblack.jpg);
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: cover;
-    background-attachment: fixed;
-    z-index: -1;
-  }
 
-  /* #headerpic {
-    background-image: url(../images/background3.svg);
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 100%;
 
-    z-index: -1;
-  } */
 
 
 
@@ -313,14 +348,7 @@
   z-index: -1;
 }
 
-#innovation3 {
-  background-image: url(../images/innovation.jpg);
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: cover;
-  background-attachment: fixed;
-  z-index: -1;
-}
+
 
 #academy {
   background-image: url(../images/code2.jpg);
@@ -341,35 +369,47 @@
 }
 
 #services {
-  background-image: url(../images/hands.jpg);
+  background-image: url(../images/wall.jpg);
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  /* border-radius: 10px; */
-  z-index: -1;
-}
-
-#services3 {
-  background-image: url(../images/hands.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   background-size: cover;
   background-attachment: fixed;
   z-index: -1;
 }
 
-#academy2 {
-  background-image: url(../images/hats.jpg);
+
+#innovation {
+  background-image: url(../images/startup.jpg);
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: bottom;
   background-size: cover;
+  background-attachment: fixed;
   z-index: -1;
 }
 
-#wearehedy {
+#headerpic {
   background-image: url(../images/loadingpage2.jpg);
   background-repeat: no-repeat;
   background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: -1;
+}
+
+#hedy {
+  background-image: url(../images/hedy4.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: -1;
+}
+
+
+#wearehedy {
+  background-image: url(../images/poster.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
   background-attachment: fixed;
   z-index: -1;
@@ -387,7 +427,7 @@
 #whatwedo {
   background-image: url(../images/loadingpage3.jpg);
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: center;
   background-size: cover;
   background-attachment: fixed;
   z-index: -1;

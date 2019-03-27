@@ -89,6 +89,30 @@
   font-size: 6vw;
 }
 
+.hedytexttiltinnovation3 {
+  transform: rotate(-10deg);
+  text-align: left;
+  position: absolute;
+  margin-top: -0.5vw;
+  margin-left: 12vw;
+  font-family: River Jade;
+  letter-spacing: 0;
+  color: #FE7E83;
+  font-size: 12vw;
+}
+
+.hedytexttiltservices3 {
+  transform: rotate(-10deg);
+  text-align: left;
+  position: absolute;
+  margin-top: -0.5vw;
+  margin-left: 19vw;
+  font-family: River Jade;
+  letter-spacing: 0;
+  color: #FE7E83;
+  font-size: 12vw;
+}
+
 .innovationteambox {
   position: relative;
   width: 70%;

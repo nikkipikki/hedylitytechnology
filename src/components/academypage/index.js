@@ -23,17 +23,27 @@ class Academypage extends React.Component {
 
         <div className="areasheader">
           <div className="headertextbox">
+          <p className="hedytexttiltservices3">Hedy</p>
+
             <h1>ACADEMY</h1>
-          <div className="headertextsmall">
-            <p>We close the gap between tech and business</p>
-            <p>With focus on modern leadership and technology,
+          <div className="headertextsmall2">
+            <h4>We close the gap between tech and business</h4>
+          </div>
+
+          <div className="justifycenter">
+          <div className="academytextthin" id="colorpink">
+
+            <h4>With focus on modern leadership and technology,
             Hedy builds and increases the competencies of people and
-            organizations to answer up to the requirements of the future.</p>
-            <p>We provide crash courses, intensive education
-            programs and seminars online as well as classroom based</p>
+            organizations to answer up to the requirements of the future.</h4>
+            <h4>We provide crash courses, intensive education
+            programs and seminars online as well as classroom based</h4>
           </div>
           </div>
-        </div>
+          </div>
+          </div>
+
+
 
         <Link
           style={{ textDecoration: "none", color: "black" }}
@@ -139,7 +149,7 @@ class Academypage extends React.Component {
         <div className="academyteambox" id="backgroundcolordarkbluepink">
 
         <div className="academytextthin2" id="colorwhite">
-          <h6 className="textboxheader" id="">TYPE OF COURSES</h6>
+          <h4 className="textboxheader" id="">TYPE OF COURSES</h4>
         <div className="bulletpoints">
         <ul>
           <li>Crash courses that will help you reach new levels of business and/or tech excellence</li>
@@ -152,11 +162,11 @@ class Academypage extends React.Component {
 
 
       <div className="academytextthin2" id="colorwhite">
-        <h6 className="textboxheader" id="">TARGET GROUP</h6>
+        <h4 className="textboxheader" id="">TARGET GROUP</h4>
       <div>
-      <h6 id="nomargin"> Driven fast learners, developers, board members, management team members,
+      <h4 id="nomargin"> Driven fast learners, developers, board members, management team members,
            people with a passion for tech who want to change industry, entrepreneurs, among others...
-      </h6>
+      </h4>
       </div>
       </div>
     </div>
@@ -216,10 +226,10 @@ class Academypage extends React.Component {
 
       <div className="academyteambox" id="backgroundcolordarkbluepink">
         <div className="academytextthin" id="colorwhite">
-          <h5 id="nomarginbottom">With focus on modern leadership and technology,
+          <h5 id="paddingleftright">With focus on modern leadership and technology,
           Hedy builds and increases the competencies of people and
-          organizations to answer up to the requirements of the future.</h5>
-          <h5 id="nomargintop">We provide crash courses, intensive education
+          organizations to answer up to the requirements of the future.
+          We provide crash courses, intensive education
           programs and seminars online as well as classroom based.</h5>
         </div>
         <div id="colorpink">
@@ -307,14 +317,14 @@ class Academypage extends React.Component {
 
                   <div className="academytextthin2" id="colorwhite">
                     <h6 className="textboxheader" id="nomargin">TYPE OF COURSES</h6>
-                  <div className="bulletpoints">
+                  <h6 className="bulletpoints" id="nomargintop">
                   <ul>
                     <li>Crash courses that will help you reach new levels of business and/or tech excellence</li>
                     <li>Intensive courses for programming that will introduce talents into the Tech industry</li>
                     <li>Specific courses that will take your business and your competence to the next level</li>
                     <li>Dedicated programs for continuous learning and/or targeted actions</li>
                   </ul>
-                </div>
+                </h6>
                 </div>
 
 

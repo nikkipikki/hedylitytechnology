@@ -13,7 +13,7 @@ class Aboutpage extends React.Component {
       <div className="mobile">
       <div className="pagemarginweb">
 
-        <div className="headertextbox">
+        <div className="headertextbox" id="flexboxcenter">
           <h1>ABOUT HEDY</h1>
         <div className="headertextsmall2">
           <p>We are Honest. We are Effectual. We are Devoted. We are Young & Witty. We are HEDY.</p>
@@ -49,19 +49,7 @@ class Aboutpage extends React.Component {
         </div>
 
 
-      <div className="textboxabout">
-        <h1 className="textboxheader">VALUES</h1>
-          <p><mark className="italic">Honest</mark> - We see opportunities in all situations,
-          we listen and openly share our opinions. We are humble and
-          take responsibility for our actions. We value equality - the best solutions are created together.</p>
-          <p><mark className="italic">Effectual</mark> - We deliver with quality, efficiency and heart. We take responsibility to think one step
-          further – with the customer, the team and the world in mind.</p>
-          <p><mark className="italic">Devoted</mark> - We have the courage to put our heart and soul in everything we do. We are problem solvers,
-          always adapting to instant changes and new challenges.</p>
-          <p><mark className="italic">Young & Witty</mark> - We are young at mind, eager to learn and constantly improving.
-          We love creativity and openly share our knowledge, new ideas and approaches.
-          We celebrate successes and failures – knowing we need them both to exceed!</p>
-      </div>
+
       </div>
 
 
@@ -115,19 +103,7 @@ class Aboutpage extends React.Component {
         </div>
 
 
-        <div className="textboxabout">
-          <h1 className="textboxheader">VALUES</h1>
-            <p><mark className="italic">Honest</mark> - We see opportunities in all situations,
-            we listen and openly share our opinions. We are humble and
-            take responsibility for our actions. We value equality - the best solutions are created together.</p>
-            <p><mark className="italic">Effectual</mark> - We deliver with quality, efficiency and heart. We take responsibility to think one step
-            further – with the customer, the team and the world in mind.</p>
-            <p><mark className="italic">Devoted</mark> - We have the courage to put our heart and soul in everything we do. We are problem solvers,
-            always adapting to instant changes and new challenges.</p>
-            <p><mark className="italic">Young & Witty</mark> - We are young at mind, eager to learn and constantly improving.
-            We love creativity and openly share our knowledge, new ideas and approaches.
-            We celebrate successes and failures – knowing we need them both to exceed!</p>
-        </div>
+        
 
 
 

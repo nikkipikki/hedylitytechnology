@@ -28,14 +28,14 @@ class Kotlin extends React.Component {
         <p>by Hedy Academy</p>
       </div>
       <div className="academytextthin" id="">
-        <h5>This course is formed as workshop were our
+        <h4>This course is formed as workshop were our
         highly skilled educator will lead you thru a
         fixed agenda to get as much knowledge as possible
         to you during this two days. The goal is for you
         to gain great knowledge and practical skills in how
         to program with Kotlin. Thus this an awesome way to
         add a tool to your profession and update your knowledge
-        for continuous learning.</h5>
+        for continuous learning.</h4>
       </div>
       </div>
       </div>
@@ -74,30 +74,30 @@ class Kotlin extends React.Component {
         <div className="academyteambox">
         <h1 id="nomarginbottom">OVERVIEW & PURPOSE</h1>
             <div className="academytextthin2">
-              <h6>Curious about the new language that changed the entire Android world?
-              That made Google take it under its own wings, that have Java Champions at Red Hat salute it.</h6>
-              <h6>
+              <h4>Curious about the new language that changed the entire Android world?
+              That made Google take it under its own wings, that have Java Champions at Red Hat salute it.</h4>
+              <h4>
               Kotlin is the modern language to be aware of, it’s rapidly growing and constantly
               improving and first of all - seamlessly integrated with Java - makes it stand out as
-              one of the top languages within a couple of years.</h6>
-              <h6>
-              This course will attempt to show you why.</h6>
-              <h6>
+              one of the top languages within a couple of years.</h4>
+              <h4>
+              This course will attempt to show you why.</h4>
+              <h4>
               Kotlin is one of the fastest growing programming languages in the world.
               It’s ability to seamlessly co-exist with Java makes it compatible with probably
-              the biggest code base available as well. In fact, one of the purposes of Kotlin was to build a better Java.</h6>
+              the biggest code base available as well. In fact, one of the purposes of Kotlin was to build a better Java.</h4>
             </div>
             <div className="academytextthin2">
-              <h6>
+              <h4>
               So you have a modern language that is easy to learn, concise, expressive, statically typed,
-              minimal boilerplate that soon also will be multiplatform (experimental so far).</h6>
-              <h6>
+              minimal boilerplate that soon also will be multiplatform (experimental so far).</h4>
+              <h4>
               Every Android developer how isn’t already on the train thinks about how it will affect them.
               And many backend java-developers out there has a great opportunity to learn and use a new language in a
-              familiar environment. </h6>
-              <h6>
+              familiar environment. </h4>
+              <h4>
               Last but not least, the IDEs is created by the same company as the language.
-              So you know you will have solid tools that are up to date with all features, be it experimental or stable.</h6>
+              So you know you will have solid tools that are up to date with all features, be it experimental or stable.</h4>
             </div>
             </div>
 
@@ -105,34 +105,34 @@ class Kotlin extends React.Component {
             <div className="academyteambox">
             <h1 id="nomargin">EDUCATION STANDARDS</h1>
                 <div className="academytextthin2">
-                <h5 id="nomarginbottom">ATTENDEES</h5>
-                <h6 id="nomargintop">You should have programming experience in some language,
+                <h4 id="nomarginbottom">ATTENDEES</h4>
+                <h4 id="nomargintop">You should have programming experience in some language,
                 preferably Java or similar. But any object-oriented (or OO featured) language will do.
                 This is not an introductory course to programming, it’s a course on Kotlin,
                 from an introduction to complex features. Although it will teach Kotlin from its fundamentals
-                it won’t describe what an if-statement, lambda or immutables are more than briefly. </h6>
+                it won’t describe what an if-statement, lambda or immutables are more than briefly. </h4>
                 </div>
                 <div className="academytextthin2">
-                <h5 id="nomarginbottom">PREREQUISITES</h5>
+                <h4 id="nomarginbottom">PREREQUISITES</h4>
                 <div>
-                  <h6 id="nomargin">Knowledge of the following concepts in any general programming language:</h6>
+                  <h4 id="nomargin">Knowledge of the following concepts in any general programming language:</h4>
                   <ul>
-                  <li id="fontsize1vw"> if, loops, class, instance, protocol/interface, functions, variable, null/nil, array/list, map/dictionary</li>
+                  <li id=""> if, loops, class, instance, protocol/interface, functions, variable, null/nil, array/list, map/dictionary</li>
                   </ul>
-                  <h6 id="nomargin">Preferred knowledge of these concepts and one of these languages:</h6>
+                  <h4 id="nomargin">Preferred knowledge of these concepts and one of these languages:</h4>
                   <ul>
-                  <li id="fontsize1vw"> concurrency, generics, lambda, debugging, static, Java, C#, JavaScript</li>
+                  <li id=""> concurrency, generics, lambda, debugging, static, Java, C#, JavaScript</li>
                   </ul>
                 </div>
                 </div>
 
 
                 <div className="academytextthin" id="paddingleftright">
-                  <h5 id="nomargin">TEMPO</h5>
-                  <h6 id="nomargintop">The course will keep a high tempo to slow down a bit during the second day
+                  <h4 id="nomargin">TEMPO</h4>
+                  <h4 id="nomargintop">The course will keep a high tempo to slow down a bit during the second day
                   when the complexity of the material increases. This is to be able to go through
                   all the concepts of Kotlin and for the attendees to be able to try them all out
-                  in the time frame of the course. </h6>
+                  in the time frame of the course. </h4>
                 </div>
               </div>
               </div>
@@ -140,9 +140,9 @@ class Kotlin extends React.Component {
               <div className="academyteambox" id="backgroundcolordarkbluepink">
 
               <div className="academytextthin2" id="colorwhite">
-                <h6 className="textboxheader" id="nomarginbottom">OBJECTIVES</h6>
+                <h4 className="textboxheader" id="nomarginbottom">OBJECTIVES</h4>
               <div>
-              <h6 id="nomargin1vw">After taking the course you should be able to.</h6>
+              <h4 id="nomargin1vw">After taking the course you should be able to.</h4>
 
               <div className="bulletpoints">
               <ul>
@@ -158,7 +158,7 @@ class Kotlin extends React.Component {
 
 
             <div className="academytextthin2" id="colorwhite">
-              <h6 className="textboxheader" id="nomarginbottom">REQUIREMENTS</h6>
+              <h4 className="textboxheader" id="nomarginbottom">REQUIREMENTS</h4>
             <div>
             <div className="bulletpoints">
             <ul>

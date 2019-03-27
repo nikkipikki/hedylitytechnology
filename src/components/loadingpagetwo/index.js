@@ -195,7 +195,7 @@ class Loadingpagetwo extends React.Component {
 
 
             <div>
-              <div className="whatwedotext2">
+              <div className="">
               <h3>Hedy focuses on making successful digitalization journeys
               with forefront technology, high-skilled people and an innovative environment.
               </h3>
@@ -208,7 +208,7 @@ class Loadingpagetwo extends React.Component {
 
                   <div id="whatwedo">
                   <div className="whatwedobox2">
-                    <h1 className="arcamajora3"> WHAT WE DO </h1>
+                    <h1 id="arcamajora"> WHAT WE DO </h1>
 
 
                   <div className="threeareas2">
@@ -220,16 +220,20 @@ class Loadingpagetwo extends React.Component {
                     <div className="opacity052">
                     <p className="hedytexttilt2">Hedy</p>
                     <h3>SERVICES</h3>
-                      <h6 className="title" id="margintoptrecommafem">
+                    <div id="futurathin">
+                      <h5 className="title" id="margintoptrecommafem">
                         <a href="#">
                         We support start-ups, mid- sized and larger
                         companies in their ambition to build a profitable
                         and successful business.
                         </a>
-                        </h6>
-                    </div>
-                      </Link>
+                        </h5>
+                        </div>
                       </div>
+                      </Link>
+                      <div className="button3 btn-3"><span><h6 id="nomargin">tell me more</h6></span></div>
+                      </div>
+
 
 
 
@@ -242,16 +246,19 @@ class Loadingpagetwo extends React.Component {
                         <div className="opacity052">
                         <p className="hedytexttilt2">Hedy</p>
                         <h3>ACADEMY</h3>
-                        <h6 className="title" id="margintoptrecommafem">
+                        <div id="futurathin">
+                        <h5 className="title" id="margintoptrecommafem">
                         <a href="#">
                         We provide high quality education to
                         close the gap between tech and business,
                         and build the skills we need to face a
                         future where technology will be the main actor.
                         </a>
-                        </h6>
+                        </h5>
+                        </div>
                       </div>
                       </Link>
+                      <div className="button3 btn-3"><span><h6 id="nomargin">tell me more</h6></span></div>
                       </div>
 
 
@@ -263,7 +270,8 @@ class Loadingpagetwo extends React.Component {
                         <div className="opacity052">
                         <p className="hedytexttilt2">Hedy</p>
                         <h3 id="nomarginbottom">INNOVATION STUDIO</h3>
-                        <h6 className="title" id="margintopnollcommafem">
+                        <div id="futurathin">
+                        <h5 className="title" id="margintopnollcommafem">
                         <a href="#">
                         We edge up our business model by investing
                         in tech innovations that make a difference
@@ -271,9 +279,11 @@ class Loadingpagetwo extends React.Component {
                         of the 17 sustainability goals set by the world’s
                         leaders for 2030.
                         </a>
-                        </h6>
+                        </h5>
+                        </div>
                       </div>
                       </Link>
+                      <div className="button3 btn-3"><span><h6 id="nomargin">tell me more</h6></span></div>
                       </div>
 
                   </div>
@@ -283,87 +293,69 @@ class Loadingpagetwo extends React.Component {
 
                 <div className="introdiv2">
 
+                <div className="hedypicturebox2" id="hedyhandsvartbeige"/>
                   <div className="missiondiv">
-                    <h4 className="title2" id="arcamajora">
-                      <a id="colorpink" href="#">Our mission is to make a tech imprint for a better world.</a>
-                    </h4>
+                    <h2 id="colorwhite">
+                      Our mission is to make a tech imprint for a better world.
+                    </h2>
                   </div>
-
-                  <div className="hedypicturebox2" id="hedyhandsvartbeige"/>
-
-                  <div className="missiondiv">
-                    <h4 className="title2" id="arcamajora">
-                      <a id="colorpink" href="#">We are in it for the long-run, are you?</a>
-                    </h4>
-                  </div>
-
                 </div>
 
+                  <div id="gettoknow">
+                    <div className="whatwedotext2" id="colorwhite">
+                      <h1 id="futurathin">
+                        <a>We are in it for the long-run, are you?</a>
+                      </h1>
+                    </div>
+                  </div>
 
+                  <div id="teampicture">
+                    <div className="gradient">
+                      <div className="whatwedotext5" id="arcamajora">
+                        <div className="button2 btn-3"><span><h4 id="nomargin">GET TO KNOW OUR TEAM</h4></span></div>
+                      </div>
+                      </div>
+                  </div>
 
                 <div id="wearehedy">
-                    <div className="whatwedotext2">
-                      <h1 id="colorpink">We are Honest. We are Effectual.
-                      We are Devoted. We are Young & Witty. We are HEDY.</h1>
+                    <div className="whatwedotext4" id="colorwhite">
+                      <h2>We are Honest. We are Effectual. We are Devoted. We are Young & Witty. We are <mark className="pink">HEDY.</mark></h2>
+                    <div className="button btn-3"><span><h6 id="nomargin">get to know us</h6></span></div>
                     </div>
                 </div>
 
-                <div id="gettoknow">
-                    <div className="whatwedotext2" onClick={this.myFunction}>
-                    {!this.state.isHidden && <Teamintro />}
-                      {this.state.isHidden && <h1>GET TO KNOW OUR TEAM</h1>}
-                    </div>
 
-                </div>
-
-                <div id="hedylamarrpicture">
                 <div className="introdiv3">
 
-                      <div className="whatwedotext4">
+                  <div className="whatwedotext3">
                     <h1 className="arcamajora"> HEDY LAMARR</h1>
                     <h2> Our muse & the woman behind the name</h2>
-                    </div>
-                      <div className="whatwedotext3">
+                  </div>
 
-                    <h5>Hedylity Technology is named after Hedy Lamarr,
+                  <div className="whatwedotext3" id="hedylamarrpicture">
+                  </div>
+
+                  <div className="whatwedotext3">
+                    <h6>Hedylity Technology is named after Hedy Lamarr,
                     the brain behind frequency hopping.
                     Her invention came from wanting to think of something to stop Hitler
-                    from taking over Europe during World War II.</h5>
-                    <h5>Frequency hopping is the basis for secure Wi-Fi, Bluetooth,
+                    from taking over Europe during World War II.</h6>
+                    <h6>Frequency hopping is the basis for secure Wi-Fi, Bluetooth,
                     cell phone, GPS and military technology –
-                    an invention that forms our whole society today!</h5>
-                    </div>
+                    an invention that forms our whole society today!</h6>
+                  </div>
 
-                    <div className="whatwedotext3">
-
-                    <h5>Hedy was a famous Hollywood actor and the inspiration behind the
+                  <div className="whatwedotext3">
+                    <h6>Hedy was a famous Hollywood actor and the inspiration behind the
                     look of Snow-white and Catwoman, she never got any share of
-                    her 30 billion dollar invention.</h5>
-                    <h5>Just as Hedy, Hedylity Technology wants to
-                    make a tech imprint for a better world</h5>
-                    </div>
-
-
+                    her 30 billion dollar invention.</h6>
+                    <h6>Just as Hedy, Hedylity Technology wants to
+                    make a tech imprint for a better world</h6>
+                  </div>
 
                 </div>
-                </div>
-                </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      </div>
       </div>
       </div>
       </HashRouter>

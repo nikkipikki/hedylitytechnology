@@ -1,8 +1,139 @@
+.button{
+  display: inline-block;
+  position: relative;
+  background: none;
+  border: none;
+  color: #fff;
+  font-family: Arca Majora3;
+  cursor: pointer;
+  /* margin: 20px 30px; */
+}
+span{
+  display: block;
+  padding: 1vw 4vw;
+}
+.button::before, .button::after{
+  content:"";
+  width: 0;
+  height: 2px;
+  position: absolute;
+  transition: all 0.2s linear;
+  background: #fff;
+}
+
+span::before, span::after{
+  content:"";
+  width:2px;
+  height:0;
+  position: absolute;
+  transition: all 0.2s linear;
+  background: #fff;
+}
+.button:hover::before, .button:hover::after{
+  width: 100%;
+}
+.button:hover span::before, .button:hover span::after{
+  height: 100%;
+}
+
+
+.btn-3::after{
+  left: 0;
+  bottom: 0;
+  transition-delay: 0.6s;
+}
+.btn-3 span::after{
+  transition-delay: 0.4s;
+  right: 0;
+  bottom: 0
+}
+.btn-3::before{
+  right: 0;
+  top: 0;
+  transition-delay: 0.2s;
+}
+.btn-3 span::before{
+  transition-delay: 0s;
+  left: 0;
+  top: 0;
+}
+
+.btn-3:hover::after{
+  transition-delay: 0s;
+}
+.btn-3:hover span::after{
+  transition-delay: 0.2s;
+}
+.btn-3:hover::before{
+  transition-delay: 0.4s;
+}
+.btn-3:hover span::before{
+  transition-delay: 0.6s;
+}
+
+
+
+.button2{
+  display: inline-block;
+  position: relative;
+  background: none;
+  border: none;
+  color: #fff;
+  font-family: Arca Majora3;
+  cursor: pointer;
+  margin-top: 5vw;
+}
+
+.button2::before, .button2::after{
+  content:"";
+  width: 0;
+  height: 2px;
+  position: absolute;
+  transition: all 0.2s linear;
+  background: #fff;
+}
+
+.button2:hover::before, .button2:hover::after{
+  width: 100%;
+}
+.button2:hover span::before, .button2:hover span::after{
+  height: 100%;
+}
+
+
+.button3{
+  display: inline-block;
+  position: relative;
+  background: rgb(241,136,138, 0.5);
+  border: none;
+  color: #fff;
+  font-family: Arca Majora3;
+  cursor: pointer;
+}
+
+.button3::before, .button3::after{
+  content:"";
+  width: 0;
+  height: 2px;
+  position: absolute;
+  transition: all 0.2s linear;
+  background: #fff;
+}
+
+.button3:hover::before, .button3:hover::after{
+  width: 100%;
+}
+.button3:hover span::before, .button3:hover span::after{
+  height: 100%;
+}
+
+
+
 /* h2 {
   display: table-cell;
 } */
 .title a {
-  background-image: linear-gradient(to right, rgba(241,136,138,0) 50%, #F1888A 50%);
+  background-image: linear-gradient(to right, rgb(3,49,64,0) 50%, #033140 50%);
   background-position: -0% 0;
   background-size: 200% auto;
   color: #ffffff;
@@ -20,6 +151,7 @@
   color: #ffffff;
   text-decoration: none;
   transition: background-position 1s ease-out;
+  font-family: Arca Majora3;
 }
 .title2 a:hover {
   background-position: -99.99% 0;
@@ -57,72 +189,103 @@
   transform: rotate(0deg);
 } */
 
-
-
-
-
-
-.arcamajora3 {
-  font-family: Arca Majora3;
-  /* margin-left: 20px; */
-  font-size: 50px;
-  text-align: center;
-  letter-spacing: 5;
-  /* background-image: linear-gradient(to left,
+.gradient {
+  background-image: linear-gradient(to left,
     transparent,
     transparent 50%,
-    #00c6ff 50%,
-    #00c6ff);
+    rgb(241,136,138, 0.5) 50%,
+    rgb(241,136,138, 0.5));
   background-position: 100% 0;
     background-size: 200% 100%;
-    transition: all .25s ease-in; */
+    transition: all .25s ease-in;
 }
 
-/* .arcamajora3:hover {
+.gradient:hover {
   background-position: 0 0;
-  color: pink;
-} */
+}
+
+
+
+
+
 
 .whatwedotext2 {
   width: 100%;
-  height: auto;
-  margin: auto;
-  color: white;
-  /* padding-top: 5vw; */
-
-  /* padding-top: 0.5vw; */
+  height: 30vw;
   padding-left: 10vw;
   padding-right: 10vw;
   padding-bottom: 15vw;
+  padding-top: 10%;
   font-family: Arca Majora3;
-  /* background-color: rgba(255,255,255, 0.3); */
+  text-align: center;
+  background-image: linear-gradient(to left,
+    transparent,
+    transparent 50%,
+    rgb(3,49,64, 0.5) 50%,
+    rgb(3,49,64, 0.5));
+  background-position: 100% 0;
+    background-size: 200% 100%;
+    transition: all .25s ease-in;
+}
+
+.whatwedotext2:hover {
+  color: #F1888A;
+  /* -webkit-transform: scale(1.05, 1.05);
+  transform: scale(1.05, 1.05); */
+  background-position: 0 0;
 }
 
 .whatwedotext3 {
   width: 50%;
   height: auto;
-  /* margin: auto; */
   color: white;
-  /* padding-top: 0.5vw; */
   padding-left: 10vw;
   padding-right: 10vw;
   padding-bottom: 11vw;
   font-family: Arca Majora3;
-  /* background-color: rgba(255,255,255, 0.3); */
 }
 
 .whatwedotext4 {
   width: 100%;
-  height: auto;
-  /* margin: auto; */
+  height: 30vw;
   color: white;
-  /* padding-top: 0.5vw; */
   padding-left: 10vw;
   padding-right: 10vw;
-  /* padding-bottom: 11vw; */
+  padding-bottom: 15vw;
+  padding-top: 5%;
   font-family: Arca Majora3;
-  /* background-color: rgba(255,255,255, 0.3); */
+  text-align: center;
+  background-image: linear-gradient(to left,
+    transparent,
+    transparent 50%,
+    rgb(3,49,64, 0.5) 50%,
+    rgb(3,49,64, 0.5));
+  background-position: 100% 0;
+    background-size: 200% 100%;
+    transition: all .25s ease-in;
 }
+
+.whatwedotext4:hover {
+  color: #F1888A;
+  /* -webkit-transform: scale(1.05, 1.05);
+  transform: scale(1.05, 1.05); */
+  background-position: 0 0;
+
+}
+
+
+.whatwedotext5 {
+  width: 100%;
+  height: 30vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-bottom: 15vw;
+  padding-top: 20%;
+  text-align: center;
+}
+
+
+
 
 
 .whatwedoflexbox {
@@ -137,19 +300,7 @@
   display: flex;
   flex-flow: wrap;
   background-color: white;
-  /* margin-left: 7vw; */
 }
-
-/* .whatwedounitright {
-  width: 50%;
-  display: flex;
-  flex-flow: wrap;
-  justify-content: flex-end;
-  margin-left: -7vw;
-  position: relative;
-} */
-
-
 
 .hedytexttiltleft{
   transform: rotate(-10deg);
@@ -183,6 +334,7 @@
   padding-right: 1vw;
   width: 100%;
   color: white;
+  text-align: center;
   /* transition: background 0.2s ease-in-out,
   width 1s ease-in,
   height 1s linear,
@@ -238,6 +390,12 @@
   text-align: left;
   font-family: Arca Majora3;
   letter-spacing: 5px;
+  transition: background 0.2s ease-in-out,
+  width 1s ease-in,
+  height 1s linear,
+  border-radius 1s ease-in-out;
+  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
   /* background-image: linear-gradient(to left,
     transparent,
     transparent 50%,
@@ -248,20 +406,28 @@
     transition: all .25s ease-in; */
 }
 
+
+
+.onearea2:hover {
+  box-shadow: 0 0 20px rgba(33,33,33,.2);
+  /* -webkit-transform: scale(1.05, 1.05);
+  transform: scale(1.05, 1.05); */
+}
+
 /* .onearea2:hover {
   background-position: 0 0;
 } */
 
 .opacity052 {
   color: white;
-  padding-bottom: 40px;
-  height: 450px;
+  /* padding-bottom: 40px; */
+  height: 400px;
 }
 
 .opacity052:hover {
   /* color: pink; */
-  padding-bottom: 40px;
-  height: 450px;
+  /* padding-bottom: 40px; */
+  height: 400px;
   /* background-color: rgba(255,255,255, 0.8); */
 }
 
@@ -291,11 +457,11 @@
 .introdiv2 {
   width: 100%;
   display: flex;
-  margin-top: 5vw;
+  /* margin-top: 5vw; */
   padding: 2vw;
 
   /* height: 500px; */
-  margin-bottom: 20vw;
+  /* margin-bottom: 20vw; */
   flex-flow: wrap;
   justify-content: center;
 }
@@ -303,9 +469,8 @@
 .introdiv3 {
   width: 100%;
   display: flex;
-
   flex-flow: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   background-image: linear-gradient(to left,
     transparent,
     transparent 50%,
@@ -317,7 +482,7 @@
 }
 
 .introdiv3:hover {
-  color: #F1888A;
+  /* color: #F1888A; */
   /* -webkit-transform: scale(1.05, 1.05);
   transform: scale(1.05, 1.05); */
   background-position: 0 0;
@@ -331,7 +496,8 @@
 
 .missiondiv {
   margin-top: 5vw;
-  width: 30%;
+  width: 70%;
+  font-family: Arca Majora3;
 }
 
 @media (max-width: 1000px) {
@@ -415,7 +581,6 @@
     padding-right: 10vw;
     padding-bottom: 11vw;
     font-family: Arca Majora3;
-    /* background-color: rgba(255,255,255, 0.3); */
   }
 
 

@@ -18,7 +18,10 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-size: 80%;
+  background-size: 90%;
+  /* background-attachment: fixed; */
+  background-color: white;
+  cursor: pointer;
   /* z-index: -1; */
 }
 

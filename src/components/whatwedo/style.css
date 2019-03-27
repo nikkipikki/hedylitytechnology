@@ -378,8 +378,8 @@
 #gettoknow {
   background-image: url(../images/loadingpage1.jpg);
   background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
+  background-position: center;
+  background-size: 100%;
   background-attachment: fixed;
   z-index: -1;
 }

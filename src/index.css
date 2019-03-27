@@ -12,6 +12,22 @@ a{
   50%,100% { opacity: 1; }
 }
 
+.underline {
+  margin-bottom: 2vw;
+  background-color: #F1888A;
+  display: inline-block;
+  height: 0.1vw;
+  -webkit-transform: scale(0, 1);
+  transform: scale(0, 1);
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.3s linear;
+  width: 50vw;
+}
+
+h1:hover+.underline {
+  transform: scale(1);
+}
+
 
 .fadeinclassfirstpage {
   animation-name: fadeinfirst;
@@ -179,10 +195,12 @@ body {
 
 #margintoptrecommafem {
   margin-top: 3.5vw;
+  margin-bottom: 0;
 }
 
 #margintopnollcommafem {
   margin-top: 0.5vw;
+  margin-bottom: 0;
 }
 
 #arcamajora {

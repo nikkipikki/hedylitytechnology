@@ -19,20 +19,23 @@ class Academypage extends React.Component {
         <ScrollToTopOnMount/>
 
       <div className="mobile">
-        <div className="">
+        <div id="academy3">
 
         <div className="areasheader">
           <div className="headertextbox">
-          <p className="hedytexttiltservices3">Hedy</p>
+          <p className="hedytexttiltacademy">Hedy</p>
 
             <h1 id="arcamajora">ACADEMY</h1>
           <div className="headertextsmall2">
             <h4>We close the gap between tech and business</h4>
           </div>
 
-          <div className="justifycenter">
-          <div className="academytextthin" id="colorpink">
 
+          </div>
+          </div>
+
+          <div className="academyteambox" id="backgroundcolordarkbluewhite">
+          <div className="academytextthin" id="">
             <h4>With focus on modern leadership and technology,
             Hedy builds and increases the competencies of people and
             organizations to answer up to the requirements of the future.</h4>
@@ -40,34 +43,37 @@ class Academypage extends React.Component {
             programs and seminars online as well as classroom based</h4>
           </div>
           </div>
+
+
+          <Link
+            style={{ textDecoration: "none", color: "#ffffff" }}
+            to="/kotlin">
+          <div className="displayflexwrap">
+          <div className="textbox2" id="backgroundcolorwhiteblack">
+          <div id="">
+          <div id="colorblack">
+          <h3 id="nomargintoplittlebottom">NEXT COURSE</h3>
           </div>
+          <div id="">
+            <div id="colorpink">
+              <h5 id="margintop0comma8vw">Succeed with Kotlin
+              </h5>
+            </div>
           </div>
-
-
-
-        <Link
-          style={{ textDecoration: "none", color: "black" }}
-          to="/kotlin">
-        <div className="displayflexwrap">
-        <div className="textbox2" id="colorwhite">
-        <div id="arcamajora" >
-        <h6 id="nomargin">NEXT COURSE</h6>
-        <div id="futurathin">
-          <div id="colorpink">
-          <h5 id="margintop0comma8vw">Succeed with Kotlin
-          </h5>
-          <h5 id="margintop0comma8vw">Dates: 24-25 April 2019</h5>
-          <h5 id="margintop0comma8vw">Time: 09.00–16.30</h5>
-          <h6 id="margintop0comma8vw">Location: Central Stockholm</h6>
-          <div>
+            <h6 id="nomarginbottom">Dates: 24-25 April 2019</h6>
+            <h6 id="margintop0comma8vw">Time: 09.00–16.30</h6>
+            <h6 id="margintop0comma8vw">Location: Central Stockholm</h6>
+          <div id="margintop0comma8vw">
             <Tellmemorebutton/>
           </div>
-        </div>
-        </div>
-        </div>
-        </div>
-        </div>
-          </Link>
+
+
+          </div>
+          </div>
+          </div>
+            </Link>
+
+
 
         <div className="teamboxweb">
 
@@ -78,7 +84,7 @@ class Academypage extends React.Component {
         <div id="kotlin2">
         <div className="coursesdiv">
           <div className="margin">
-                <p>Succeed with Kotlin</p>
+                <p id="arcamajoranospace">Succeed with Kotlin</p>
                 </div>
                 </div>
               <Link
@@ -95,7 +101,7 @@ class Academypage extends React.Component {
             <div id="academy">
             <div className="coursesdiv">
             <div className="margin2">
-              <p>Android development for beginners and advanced coders</p>
+              <p id="arcamajoranospace">Android development for beginners and advanced coders</p>
               </div>
               </div>
             <div>
@@ -108,7 +114,7 @@ class Academypage extends React.Component {
           <div id="academy">
         <div className="coursesdiv">
         <div className="margin">
-                <p>Growth hacking</p>
+                <p id="arcamajoranospace">Growth hacking</p>
                 </div>
                 </div>
               <div>
@@ -121,7 +127,7 @@ class Academypage extends React.Component {
             <div id="academy">
           <div className="coursesdiv">
           <div className="margin2">
-                  <p>Take digitalization and tech trends into the board room</p>
+                  <p id="arcamajoranospace">Take digitalization and tech trends into the board room</p>
                   </div>
                   </div>
                 <div>
@@ -136,7 +142,7 @@ class Academypage extends React.Component {
             <div id="academy">
               <div className="coursesdiv">
               <div className="margin">
-                    <p>Learn to code</p>
+                    <p id="arcamajoranospace">Learn to code</p>
                     </div>
                     </div>
                   <div>
@@ -146,7 +152,7 @@ class Academypage extends React.Component {
               </div>
         </div>
 
-        <div className="academyteambox" id="backgroundcolordarkbluepink">
+        <div className="academyteambox" id="backgroundcolordarkbluewhite">
 
         <div className="academytextthin2" id="colorwhite">
           <h4 className="textboxheader" id="">TYPE OF COURSES</h4>
@@ -161,7 +167,7 @@ class Academypage extends React.Component {
       </div>
 
 
-      <div className="academytextthin2" id="colorwhite">
+      <div className="academytextthin2" id="paddingbottom">
         <h4 className="textboxheader" id="">TARGET GROUP</h4>
       <div>
       <h4 id="nomargin"> Driven fast learners, developers, board members, management team members,
@@ -172,6 +178,8 @@ class Academypage extends React.Component {
     </div>
 
         </div>
+        <Contactbutton/>
+
       </div>
 
 
@@ -317,9 +325,9 @@ class Academypage extends React.Component {
             </div>
 
 
-                  <div className="academyteambox" id="backgroundcolordarkbluepink">
+                  <div className="academyteambox" id="backgroundcolordarkbluewhite">
 
-                  <div className="academytextthin2" id="colorwhite">
+                  <div className="academytextthin2" id="paddingbottom">
                     <h6 className="textboxheader" id="nomargin">TYPE OF COURSES</h6>
                   <h6 className="bulletpoints" id="nomargintop">
                   <ul>
@@ -332,7 +340,7 @@ class Academypage extends React.Component {
                 </div>
 
 
-                <div className="academytextthin2" id="colorwhite">
+                <div className="academytextthin2" id="paddingbottom">
                   <h6 className="textboxheader" id="nomargintoplittlebottom">TARGET GROUP</h6>
                 <div>
                 <h6 id="nomargin"> Driven fast learners, developers, board members, management team members,

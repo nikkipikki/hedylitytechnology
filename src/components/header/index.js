@@ -46,6 +46,16 @@ class Header extends React.Component {
 
         <div className="header">
 
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300">
+          <defs>
+            <filter id="glow-filter">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="4" />
+            </filter>
+          </defs>
+            <polyline className="line"></polyline>
+            <polyline className="line-glow"></polyline>
+        </svg>
+
         <div className="hedylitytechnologytext">
 
           <div className="marginminus">
@@ -57,7 +67,7 @@ class Header extends React.Component {
 
 
           <div className="fadeintext">
-            <h1 className="callushedytext" id="colorwhite">But you can call us <mark className="pink">Hedy</mark></h1>
+            <h1 className="callushedytext2" id="colorwhite">But you can call us <mark className="pink">Hedy</mark></h1>
           </div>
           </div>
           </div>
@@ -95,7 +105,7 @@ class Header extends React.Component {
 
         <div className="hedylitytechnologytext">
 
-          <div className="typewriter">
+          <div className="typewriter" id="colorwhite">
             <h1>WE ARE HEDYLITY TECHNOLOGY</h1>
           </div>
 

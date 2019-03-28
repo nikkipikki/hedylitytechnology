@@ -91,8 +91,8 @@
   position: relative;
   /* margin: 15px; */
 
-  background: #ffffff;
-  /* border-radius: 3px; */
+  background: #F1888A;
+  border-radius: 3px;
 
   z-index: 1;
 
@@ -114,7 +114,7 @@
 #menuToggle input:checked ~ span {
   opacity: 1;
   transform: rotate(50deg) translate(-0px, -0px);
-  background: #ffffff;
+  background: #F1888A;
 }
 
 #menuToggle input:checked ~ span:nth-last-child(3) {
@@ -131,6 +131,8 @@
   transform: scale(1.0, 1.0);
   opacity: 1;
 }
+
+
 
 
 
@@ -163,7 +165,6 @@
   width: 100px;
   height: 200px;
   z-index: 1000;
-  background-color: pink;
 }
 
 

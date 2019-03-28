@@ -595,21 +595,26 @@ transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
     width: 90%;
     display: flex;
     flex-flow: column;
-    justify-content: space-around;
+    justify-content: center;
     /* background-color: white; */
     padding-left: 0px;
     padding-right: 0px;
     padding-bottom: 0px;
     margin: auto;
+    text-align: center;
   }
 
   .onearea2 {
     width: 90%;
     height: auto;
-    padding: 2vw;
+    padding: 4vw;
     text-align: left;
     font-family: Arca Majora3;
     letter-spacing: 5px;
+    margin: auto;
+    margin-bottom: 5vw;
+
+    border: 1px solid white;
     /* background-image: linear-gradient(to left,
       transparent,
       transparent 50%,
@@ -650,7 +655,7 @@ transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
   }
 
   .whatwedotext3 {
-    width: 90%;
+    width: 70%;
     height: auto;
     /* margin: auto; */
     color: white;

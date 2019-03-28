@@ -15,11 +15,14 @@ class Innovationstudiopage extends React.Component {
 
         <div className="mobile">
 
+        <div id="innovation">
+        <div id="opacitydark">
+
         <div className="areasheader">
         <div className="pagemarginweb">
 
         <div className="headertextbox" id="">
-        <p className="hedytexttiltinnovation3">Hedy</p>
+        <p className="hedytexttiltinnovationlast">Hedy</p>
 
           <h1 id="arcamajora">INNOVATION STUDIO</h1>
         <div className="headertextsmall2">
@@ -45,10 +48,10 @@ class Innovationstudiopage extends React.Component {
 
       </div>
 
-      <div className="academyteambox2" id="backgroundcolordarkbluepink">
+      <div className="academyteambox2" id="backgroundcolordarkbluewhite">
 
 
-      <div className="academytextthin2" id="colorwhite">
+      <div className="academytextthin2" id="paddingbottom">
         <h4 className="textboxheader" id="">OUR OFFER</h4>
       <div id="marginbottom2">
         <div className="bulletpoints">
@@ -71,6 +74,8 @@ class Innovationstudiopage extends React.Component {
 <Getintouch/>
 
 
+      </div>
+      </div>
       </div>
 
 
@@ -108,13 +113,15 @@ class Innovationstudiopage extends React.Component {
 
           </div>
 
+
+
           <div className="academyteambox2" id="backgroundcolordarkbluepink">
 
-
+          <div id="paddingbottom">
           <div className="academytextthin2" id="colorwhite">
-            <h6 className="textboxheader" id="paddingleftright">OUR OFFER</h6>
+            <div className="textboxheader" id="paddingleftright"><h6 id="nomargintoplittlebottom">OUR OFFER</h6></div>
           <div id="paddingleftright">
-            <h6 className="bulletpoints">
+            <h6 className="bulletpoints" id="nomargintop">
             <ul>
             <li>Highly skilled board member</li>
             <li>A well-formed development team based on your needs</li>
@@ -127,6 +134,7 @@ class Innovationstudiopage extends React.Component {
           </div>
           </div>
 
+      </div>
       </div>
       </div>
 

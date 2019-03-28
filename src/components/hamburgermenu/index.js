@@ -58,14 +58,16 @@ class Hamburgermenu extends React.Component {
 
       <div className="web">
       <div className="webmenuboarddiv">
+
+      <div className="webhedylogotextbox">
       <Link
         style={{ textDecoration: "none", color: "black",  cursor:"pointer" }}
         to="/">
-      <div className="webhedylogotextbox">
       <div id="blackhylogo">
         </div>
+        </Link>
+
       </div>
-      </Link>
       <div className="menutext">
       <h5 id="arcamajora">MENU</h5>
       </div>

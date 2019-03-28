@@ -1,4 +1,4 @@
-@media (max-width: 1000px){
+@media (max-width: 1000px) {
 
 .typewriter {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -18,7 +18,7 @@
 
 .hedylitytechnologytext {
   margin-bottom: 0px;
-	padding-top: 100vw;
+	/* padding-top: 100vw; */
   display: flex;
   flex-flow: column;
   justify-content: space-around;
@@ -34,6 +34,7 @@
 .marginminus {
 	margin-top: -50vw;
 }
+
 
 }
 
@@ -92,20 +93,15 @@ svg {
 	transition: all 1s;
 } */
 
-
-.hedylitytechnologytext {
-  margin-bottom: 0px;
-  display: flex;
-  flex-flow: column;
-  justify-content: space-around;
-  height: 100px;
-  width: 100%;
-  font-family: Arca Majora3;
-  /* font-size: 20px; */
-  text-align: center;
-  letter-spacing: 5px;
-	color: white;
+.callushedytext2 {
+  margin-top: -50px;
+  font-family: River Jade;
+  letter-spacing: 0;
+  font-size: 10vw;
+  /* font-size: 50px; */
 }
+
+
 
 .callushedytext {
   margin-top: -50px;

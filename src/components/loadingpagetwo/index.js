@@ -50,8 +50,6 @@ class Loadingpagetwo extends React.Component {
 
       <div className="startdiv" id="colorwhite">
 
-        <div className="circledivmedium">
-        </div>
 
           <div className="startext" id="">
           <h4>Hedy focuses on making successful digitalization journeys
@@ -171,8 +169,6 @@ class Loadingpagetwo extends React.Component {
 
               <div className="startdiv" id="colorwhite">
 
-              <div className="circledivmedium">
-                </div>
                 <div className="startext" id="">
                   <h4>We want sustainable, win-win-win-win business relations where the end-customer,
                   the client/partner, Hedy and the world wins on the tech and business solutions
@@ -183,28 +179,41 @@ class Loadingpagetwo extends React.Component {
 
 
             <div id="wearehedy">
-                <div className="whatwedotext4" id="colorwhite">
-                  <h4>We are Honest. We are Effectual. We are Devoted. We are Young & Witty. We are <mark className="pink">HEDY.</mark></h4>
+            <Link
+            style={{ textDecoration: "none", color: "black" }}
+            to="/about">
+                <div className="whatwedotext4" id="opacitydark">
+                  <h4 id="colorwhite">We are Honest. We are Effectual. We are Devoted. We are Young & Witty. We are <mark className="pink">HEDY.</mark></h4>
                 <div className="button btn-3"><span><h6 id="nomargin">want to know more?</h6></span></div>
                 </div>
+            </Link>
             </div>
 
             <div id="teampicture">
+            <Link
+            style={{ textDecoration: "none", color: "black" }}
+            to="/team">
               <div className="gradient">
                 <div className="whatwedotext5" id="">
-                  <div className="button2 btn-3"><span><h4 id="nomargin">get to know our team</h4></span></div>
+                  <div id="backgroundcoloropacitypink" className="button2 btn-3"><span><h6 id="nomargin">get to know our team</h6></span></div>
                 </div>
                 </div>
+            </Link>
             </div>
 
             <div id="hedy">
-            <div className="introdiv3" id="opacity">
+            <Link
+            style={{ textDecoration: "none", color: "black" }}
+            to="/hedypage">
+            <div className="introdiv3" id="opacitydark">
               <div className="whatwedotext3">
-                  <h1 className="arcamajora"> HEDY LAMARR</h1>
-                  <h2> Our muse & the woman behind the name</h2>
+                  <h3 className="arcamajora"> HEDY LAMARR</h3>
+                  <h4> Our muse & the woman behind the name</h4>
                   <div className="button3 btn-3"><span><h6 id="nomargin">find out more</h6></span></div>
               </div>
             </div>
+            </Link>
+
             </div>
 
       </div>

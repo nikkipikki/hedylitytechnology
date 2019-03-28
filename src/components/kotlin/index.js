@@ -40,31 +40,32 @@ class Kotlin extends React.Component {
       </div>
       </div>
 
-      <Link
-      style={{ textDecoration: "none", color: "black" }}
-      to="/kotlin">
-      <div className="displayflexwrap">
-      <div className="textbox2" id="backgroundcolordarkbluepink">
-      <div id="arcamajora">
-      <h6 id="nomargin">DETAILS</h6>
-      <div id="futurathin">
-      <div id="backgroundcolordarkbluepink">
-      <h5 id="margintop0comma8vw">Dates: 24-25 April 2019</h5>
-      <h5 id="margintop0comma8vw">Time: 09.00–16.30</h5>
-      <h5 id="margintop0comma8vw">Location: Central Stockholm</h5>
-      <h5 id="margintop0comma8vw">Price: 18 900 SEK</h5>
-      <h5 id="margintop0comma8vw">Early bird 16 900 SEK excl. moms.</h5>
-      <h5 id="margintop0comma8vw">(Lunch and “Fika” is included)</h5>
 
-      <div>
-        <Tellmemorebutton/>
+      <Link
+        style={{ textDecoration: "none", color: "#ffffff" }}
+        to="/kotlin">
+      <div className="displayflexwrap">
+      <div className="textbox2" id="">
+      <div id="">
+      <div id="colorblack">
+      <h3 id="nomargintoplittlebottom">DETAILS</h3>
+      </div>
+        <h6 id="nomarginbottom">Dates: 24-25 April 2019</h6>
+        <h6 id="margintop0comma8vw">Time: 09.00–16.30</h6>
+        <h6 id="margintop0comma8vw">Location: Central Stockholm</h6>
+        <h6 id="margintop0comma8vw">Price: 18 900 SEK</h6>
+        <h6 id="margintop0comma8vw">(Lunch and “Fika” is included)</h6>
+      <div id="margintop0comma8vw">
+        <Apply/>
+      </div>
+
+
       </div>
       </div>
       </div>
-      </div>
-      </div>
-      </div>
-      </Link>
+        </Link>
+
+
 
       </div>
 
@@ -171,6 +172,8 @@ class Kotlin extends React.Component {
           </div>
           </div>
           </div>
+          <Apply/>
+
 
 
       </div>
@@ -204,26 +207,25 @@ class Kotlin extends React.Component {
     </div>
 
     <Link
-      style={{ textDecoration: "none", color: "black" }}
+      style={{ textDecoration: "none", color: "#ffffff" }}
       to="/kotlin">
     <div className="displayflexwrap">
-    <div className="textbox2" id="backgroundcolordarkbluepink">
-    <div id="arcamajora">
-    <h6 id="nomargin">DETAILS</h6>
-    <div id="futurathin">
-      <div id="backgroundcolordarkbluepink">
-      <h5 id="margintop0comma8vw">Dates: 24-25 April 2019</h5>
-      <h5 id="margintop0comma8vw">Time: 09.00–16.30</h5>
-      <h5 id="margintop0comma8vw">Location: Central Stockholm</h5>
-      <h5 id="margintop0comma8vw">Price: 18 900 SEK</h5>
-      <h5 id="margintop0comma8vw">Early bird 16 900 SEK</h5>
-      <h5 id="margintop0comma8vw">(Lunch and “Fika” is included)</h5>
+    <div className="textbox2" id="">
+    <div id="">
+    <div id="colorblack">
+    <h3 id="nomargintoplittlebottom">DETAILS</h3>
+    </div>
+      <h6 id="nomarginbottom">Dates: 24-25 April 2019</h6>
+      <h6 id="margintop0comma8vw">Time: 09.00–16.30</h6>
+      <h6 id="margintop0comma8vw">Location: Central Stockholm</h6>
+      <h6 id="margintop0comma8vw">Price: 18 900 SEK</h6>
+      <h6 id="margintop0comma8vw">(Lunch and “Fika” is included)</h6>
 
-      <div>
-        <Tellmemorebutton/>
-      </div>
+
+    <div id="margintop0comma8vw">
     </div>
-    </div>
+
+
     </div>
     </div>
     </div>
@@ -307,7 +309,7 @@ class Kotlin extends React.Component {
               <div>
               <h6 id="nomargin1vw">After taking the course you should be able to.</h6>
 
-              <div className="bulletpoints">
+              <h6 className="bulletpoints" id="nomargintop">
               <ul>
               <li>Understand the strengths of Kotlin.</li>
               <li>Start working professionally as a Kotlin developer.</li>
@@ -315,7 +317,7 @@ class Kotlin extends React.Component {
               <li>Lead discussions on migrating to Kotlin with strong arguments.</li>
               <li>Write Kotlin code for applications running on desktop/backend/frontend/mobile.</li>
               </ul>
-            </div>
+            </h6>
             </div>
             </div>
 
@@ -323,13 +325,13 @@ class Kotlin extends React.Component {
             <div className="academytextthin2" id="colorwhite">
               <h6 className="textboxheader" id="nomarginbottom">REQUIREMENTS</h6>
             <div>
-            <div className="bulletpoints">
+            <h6 className="bulletpoints" id="nomargintop">
             <ul>
             <li>A passion for programming and to learn Kotlin</li>
             <li>Your own laptop</li>
             <li>IntelliJ Community Edition + the Kotlin plugin. (Free software)</li>
             </ul>
-          </div>
+          </h6>
           </div>
           </div>
 

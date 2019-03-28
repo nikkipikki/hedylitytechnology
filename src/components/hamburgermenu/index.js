@@ -39,6 +39,11 @@ class Hamburgermenu extends React.Component {
                 </Link>
                 <Link
                   style={{ textDecoration: "none", color: "#ffffff" }}
+                  to="/team">
+                <p>TEAM</p>
+                </Link>
+                <Link
+                  style={{ textDecoration: "none", color: "#ffffff" }}
                   to="/about">
                 <p>ABOUT</p>
                 </Link>
@@ -57,12 +62,12 @@ class Hamburgermenu extends React.Component {
         style={{ textDecoration: "none", color: "black",  cursor:"pointer" }}
         to="/">
       <div className="webhedylogotextbox">
-        <div id="blackhylogo">
+      <div id="blackhylogo">
         </div>
       </div>
       </Link>
       <div className="menutext">
-      <h4>MENU</h4>
+      <h5 id="arcamajora">MENU</h5>
       </div>
         <div className="webboxbehindhamburger" id="webmenuToggle">
 
@@ -92,6 +97,11 @@ class Hamburgermenu extends React.Component {
                   style={{ textDecoration: "none", color: "#ffffff" }}
                   to="/innovationstudio">
                 <p>INNOVATION STUDIO</p>
+                </Link>
+                <Link
+                  style={{ textDecoration: "none", color: "#ffffff" }}
+                  to="/team">
+                <p>TEAM</p>
                 </Link>
                 <Link
                   style={{ textDecoration: "none", color: "#ffffff" }}

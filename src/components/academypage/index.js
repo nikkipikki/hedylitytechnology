@@ -25,7 +25,7 @@ class Academypage extends React.Component {
           <div className="headertextbox">
           <p className="hedytexttiltservices3">Hedy</p>
 
-            <h1>ACADEMY</h1>
+            <h1 id="arcamajora">ACADEMY</h1>
           <div className="headertextsmall2">
             <h4>We close the gap between tech and business</h4>
           </div>
@@ -191,7 +191,7 @@ class Academypage extends React.Component {
         <div className="headertextbox">
         <p className="hedytexttiltacademy">Hedy</p>
 
-          <h1>ACADEMY</h1>
+          <h1 id="arcamajora">ACADEMY</h1>
         <div className="headertextsmall2">
           <p>We close the gap between tech and business</p>
         </div>
@@ -199,24 +199,28 @@ class Academypage extends React.Component {
       </div>
 
       <Link
-        style={{ textDecoration: "none", color: "black" }}
+        style={{ textDecoration: "none", color: "#ffffff" }}
         to="/kotlin">
       <div className="displayflexwrap">
       <div className="textbox2" id="">
-      <div id="arcamajora">
-      <h6 id="nomargin">NEXT COURSE</h6>
-      <div id="futurathin">
-        <div id="">
-        <h5 id="margintop0comma8vw">Succeed with Kotlin
-        </h5>
-        <h5 id="margintop0comma8vw">Dates: 24-25 April 2019</h5>
-        <h5 id="margintop0comma8vw">Time: 09.00–16.30</h5>
-        <h6>Location: Central Stockholm</h6>
-        <div>
-          <Tellmemorebutton/>
+      <div id="">
+      <div id="colorblack">
+      <h3 id="nomargintoplittlebottom">NEXT COURSE</h3>
+      </div>
+      <div id="">
+        <div id="colorpink">
+          <h5 id="margintop0comma8vw">Succeed with Kotlin
+          </h5>
         </div>
       </div>
+        <h6 id="nomarginbottom">Dates: 24-25 April 2019</h6>
+        <h6 id="margintop0comma8vw">Time: 09.00–16.30</h6>
+        <h6 id="margintop0comma8vw">Location: Central Stockholm</h6>
+      <div id="margintop0comma8vw">
+        <Tellmemorebutton/>
       </div>
+
+
       </div>
       </div>
       </div>

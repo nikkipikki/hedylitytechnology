@@ -203,10 +203,19 @@ body {
   margin-bottom: 0;
 }
 
+#minusmargin {
+  margin-top: -1vw;
+}
+
 #arcamajora {
   font-family: Arca Majora3;
   letter-spacing: 5px;
 }
+
+#arcamajoranospace {
+  font-family: Arca Majora3;
+}
+
 
 #futuramediumitalic {
   font-family: Futura Medium Italic;
@@ -253,6 +262,16 @@ body {
   background-color: rgba(255,255,255, 0.8);
   color: black;
 }
+
+#backgroundcoloropacitywhite5 {
+  background-color: rgba(255,255,255, 0.5);
+  color: black;
+}
+
+#backgroundcoloropacitypink {
+  background-color: rgb(241,136,138, 0.5);
+}
+
 
 #backgroundcolorbluewhite {
   background-color: #033140;
@@ -307,6 +326,13 @@ body {
   justify-content: center;
 }
 
+#flexbox2 {
+  width: 50%;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+}
+
 #nopaddingtop {
   padding-top: 0;
 }
@@ -340,6 +366,22 @@ body {
   padding-right: 2vw;
 }
 
+#paddingbottom {
+  padding-bottom: 5vw;
+}
+
+#padding {
+  padding: 5vw;
+}
+
+#paddingtopbottom {
+  padding-top: 1vw;
+  padding-bottom: 3vw;
+}
+
+#paddingtop {
+  padding-top: 10vw;
+}
 
 
 
@@ -387,15 +429,30 @@ body {
 .hedytexttiltacademy {
   transform: rotate(-10deg);
   text-align: left;
-  padding-left: 250px;
+  margin-top: -1vw;
+  padding-left: 20vw;
   font-family: River Jade;
-  margin-bottom: -210px;
+  margin-bottom: -4vw;
   letter-spacing: 0;
   color: #FE7E83;
-  font-size: 100px;
+  font-size: 3em;
 }
 
-.hedytexttiltinnovation {
+.hedytexttiltinnovationlast {
+  transform: rotate(-10deg);
+  text-align: left;
+  margin-top: -5vw;
+  padding-left: 6vw;
+  font-family: River Jade;
+  margin-bottom: -1vw;
+  letter-spacing: 0;
+  color: #FE7E83;
+  font-size: 3em;
+}
+
+
+
+/* .hedytexttiltinnovation {
   transform: rotate(-10deg);
   text-align: left;
   padding-left: 60px;
@@ -404,8 +461,9 @@ body {
   letter-spacing: 0;
   color: #FE7E83;
   font-size: 100px;
+} */
 
-}
+
 
 
 mark.pink {
@@ -444,6 +502,18 @@ mark.italic {
 
 @media (max-width: 1000px) {
 
+  .hedytexttiltacademy {
+    transform: rotate(-10deg);
+    text-align: left;
+    margin-top: -1vw;
+    padding-left: 15vw;
+    font-family: River Jade;
+    margin-bottom: -4vw;
+    letter-spacing: 0;
+    color: #FE7E83;
+    font-size: 3em;
+  }
+
   .header {
     /* margin-top: -300px; */
     margin-bottom: 0px;
@@ -470,6 +540,36 @@ mark.italic {
 
     font-family: Futura Thin;
     background-color: rgba(255,255,255, 0.3);
+  }
+
+  .circledivsmall {
+    background-color: #FE7E83;
+    height: 15vw;
+    width: 15vw;
+    border-radius: 50%;
+    margin-bottom: -13vw;
+    margin-left: 56vw;
+  }
+
+  .circledivmedium {
+    background-color: #FE7E83;
+    height: 15vw;
+    width: 15vw;
+    border-radius: 50%;
+    margin-bottom: -14vw;
+    margin-left: 8vw;
+  }
+
+
+
+
+  .circledivlargebox {
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -597px;
   }
 
 

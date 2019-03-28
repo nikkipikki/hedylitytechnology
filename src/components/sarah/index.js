@@ -16,7 +16,7 @@ class Sarah extends React.Component {
         <div className="teammemberinside" id="backgroundcolorwhiteblack">
         <div className="aboutpersontextcenter">
           <h5 className="title3">
-            <a href="#">
+            <a>
             Sarah is all about finding, embracing and launching disruptive tech with positive social impact around the world.
             An authentic Global Citizen from the tender age of three, her true passion lies in empowering women and children.
             A tech geek, multicultural nerd and a fitness freak all rolled into one!
@@ -41,14 +41,14 @@ class Sarah extends React.Component {
         <div className="teammemberinside" id="backgroundcolorwhiteblack">
         <div className="aboutpersontextcenter">
           <h5 className="title3">
-            <a href="#">
+            <a>
             Sarah is all about finding, embracing and launching disruptive tech with positive social impact around the world.
             An authentic Global Citizen from the tender age of three, her true passion lies in empowering women and children.
             A tech geek, multicultural nerd and a fitness freak all rolled into one!
             </a>
           </h5>
         </div>
-          <p className="hashtagstext">#globalization #investmentenabler #salesmanagement #leadership #growthhacker #businessdevelopment #profitablegrowth</p>
+          <p id="minusmargin" className="hashtagstext">#globalization #investmentenabler #salesmanagement #leadership #growthhacker #businessdevelopment #profitablegrowth</p>
         </div>
 
 

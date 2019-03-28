@@ -162,6 +162,7 @@ span::before, span::after{
 }
 
 .title3 a {
+  cursor: pointer;
   background-image: linear-gradient(to right, rgba(241,136,138,0) 50%, #F1888A 50%);
   background-position: -0% 0;
   background-size: 200% auto;
@@ -197,8 +198,8 @@ span::before, span::after{
   background-image: linear-gradient(to left,
     transparent,
     transparent 50%,
-    rgb(241,136,138, 0.5) 50%,
-    rgb(241,136,138, 0.5));
+    rgb(3,49,64, 0.5) 50%,
+    rgb(3,49,64, 0.5));
   background-position: 100% 0;
     background-size: 200% 100%;
     transition: all .25s ease-in;

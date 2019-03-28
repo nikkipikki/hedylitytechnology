@@ -21,7 +21,7 @@ class Innovationstudiopage extends React.Component {
         <div className="headertextbox" id="">
         <p className="hedytexttiltinnovation3">Hedy</p>
 
-          <h1>INNOVATION STUDIO</h1>
+          <h1 id="arcamajora">INNOVATION STUDIO</h1>
         <div className="headertextsmall2">
           <p>We become your tech and/or business partner in exchange for equity</p>
         </div>
@@ -84,9 +84,9 @@ class Innovationstudiopage extends React.Component {
           <div className="pagemarginweb">
 
           <div className="headertextbox" id="">
-          <p className="hedytexttiltinnovation2">Hedy</p>
+          <p className="hedytexttiltinnovationlast">Hedy</p>
 
-            <h1>INNOVATION STUDIO</h1>
+            <h1 id="arcamajora">INNOVATION STUDIO</h1>
           <div className="headertextsmall2">
             <p>We become your tech and/or business partner in exchange for equity</p>
           </div>

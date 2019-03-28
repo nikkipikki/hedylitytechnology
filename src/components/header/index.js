@@ -72,6 +72,7 @@ class Header extends React.Component {
 
 
           <div className="web">
+          <div id="">
           <div id="headerpic">
           <div id="opacitydark">
 
@@ -104,6 +105,7 @@ class Header extends React.Component {
 
           <div className="fadeintext">
             <h1 className="callushedytext" id="colorwhite">But you can call us <mark className="pink">Hedy</mark></h1>
+          </div>
           </div>
           </div>
           </div>

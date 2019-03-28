@@ -16,7 +16,7 @@ class Nicole extends React.Component {
         <div className="teammemberinside" id="backgroundcolorwhiteblack">
         <div className="aboutpersontextcenter">
           <h5 className="title3">
-            <a href="#">
+            <a>
             Nicole is an creative and efficient product owner, with a passion for finding solutions
             with a broad view for the full picture. She has graphical skills and loves to create concepts
             that speaks companies true purpose.
@@ -39,7 +39,7 @@ class Nicole extends React.Component {
         <div className="teammemberinside" id="backgroundcolorwhiteblack">
         <div className="aboutpersontextcenter">
           <h5 className="title3">
-            <a href="#">
+            <a>
             Nicole is an creative and efficient product owner, with a passion for finding solutions
             with a broad view for the full picture. She has graphical skills and loves to create concepts
             that speaks companies true purpose.

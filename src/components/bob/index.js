@@ -16,7 +16,7 @@ class Bob extends React.Component {
         <div className="teammemberinside" id="backgroundcolorwhiteblack">
         <div className="aboutpersontextcenter">
           <h5 className="title3">
-            <a href="#">
+            <a>
             Bob is a hands on technical lead that is passionate
             about quality and to always improve his thinking and his
             perception of a problem. He is wicked at learning, always
@@ -41,7 +41,7 @@ class Bob extends React.Component {
         <div className="teammemberinside" id="backgroundcolorwhiteblack">
         <div className="aboutpersontextcenter">
           <h5 className="title3">
-            <a href="#">
+            <a>
             Bob is a hands on technical lead that is passionate
             about quality and to always improve his thinking and his
             perception of a problem. He is wicked at learning, always

@@ -37,6 +37,12 @@
 
 }
 
+.svgclass {
+  margin-top: -2vw;
+  margin-bottom: -35vw;
+}
+
+
 svg {
 	width: 100%;
 	height: auto;

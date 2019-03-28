@@ -85,8 +85,9 @@ class Loadingpagetwo extends React.Component {
                     </h5>
                     </div>
                   </div>
-                  </Link>
                   <div className="button3 btn-3"><span><h6 id="nomargin">tell me more</h6></span></div>
+                  </Link>
+
                   </div>
 
 
@@ -112,8 +113,9 @@ class Loadingpagetwo extends React.Component {
                     </h5>
                     </div>
                   </div>
-                  </Link>
                   <div className="button3 btn-3"><span><h6 id="nomargin">tell me more</h6></span></div>
+                  </Link>
+
                   </div>
 
 
@@ -137,8 +139,9 @@ class Loadingpagetwo extends React.Component {
                     </h5>
                     </div>
                   </div>
-                  </Link>
                   <div className="button3 btn-3"><span><h6 id="nomargin">tell me more</h6></span></div>
+                  </Link>
+
                   </div>
 
               </div>
@@ -232,10 +235,12 @@ class Loadingpagetwo extends React.Component {
 
                   <div className="threeareas2">
 
+
+
                     <div className="onearea2">
-                      <Link
-                      style={{ textDecoration: "none" }}
-                      to="/services">
+                    <Link
+                    style={{ textDecoration: "none" }}
+                    to="/services">
                     <div className="opacity052">
                     <p className="hedytexttilt2">Hedy</p>
                     <h3>SERVICES</h3>
@@ -249,8 +254,9 @@ class Loadingpagetwo extends React.Component {
                         </h5>
                         </div>
                       </div>
-                      </Link>
                       <div className="button3 btn-3"><span><h6 id="nomargin">tell me more</h6></span></div>
+                      </Link>
+
                       </div>
 
 
@@ -276,8 +282,9 @@ class Loadingpagetwo extends React.Component {
                         </h5>
                         </div>
                       </div>
-                      </Link>
                       <div className="button3 btn-3"><span><h6 id="nomargin">tell me more</h6></span></div>
+                      </Link>
+
                       </div>
 
 
@@ -301,8 +308,9 @@ class Loadingpagetwo extends React.Component {
                         </h5>
                         </div>
                       </div>
-                      </Link>
                       <div className="button3 btn-3"><span><h6 id="nomargin">tell me more</h6></span></div>
+                      </Link>
+
                       </div>
 
                   </div>
@@ -347,21 +355,32 @@ class Loadingpagetwo extends React.Component {
 
 
                 <div id="wearehedy">
+                <Link
+                style={{ textDecoration: "none", color: "black" }}
+                to="/about">
                     <div className="whatwedotext4" id="colorwhite">
                       <h2>We are Honest. We are Effectual. We are Devoted. We are Young & Witty. We are <mark className="pink">HEDY.</mark></h2>
-                    <div className="button btn-3"><span><h6 id="nomargin">want to know more?</h6></span></div>
+                    <div className="button btn-3"><span><h5 id="nomargin">want to know more?</h5></span></div>
                     </div>
+                </Link>
                 </div>
 
                 <div id="teampicture">
+                <Link
+                style={{ textDecoration: "none", color: "black" }}
+                to="/team">
                   <div className="gradient">
                     <div className="whatwedotext5" id="">
-                      <div className="button2 btn-3"><span><h4 id="nomargin">get to know our team</h4></span></div>
+                      <div id="backgroundcoloropacitypink" className="button2 btn-3"><span><h5 id="nomargin">get to know our team</h5></span></div>
                     </div>
                     </div>
+                </Link>
                 </div>
 
                 <div id="hedy">
+                <Link
+                style={{ textDecoration: "none", color: "black" }}
+                to="/hedypage">
                 <div className="introdiv3" id="opacity">
                   <div className="whatwedotext3">
                       <h1 className="arcamajora"> HEDY LAMARR</h1>
@@ -369,6 +388,7 @@ class Loadingpagetwo extends React.Component {
                       <div className="button3 btn-3"><span><h6 id="nomargin">find out more</h6></span></div>
                   </div>
                 </div>
+                </Link>
                 </div>
 
       </div>

@@ -16,7 +16,7 @@ class Emelie extends React.Component {
         <div className="teammemberinside" id="backgroundcolorwhiteblack">
         <div className="aboutpersontextcenter">
           <h5 className="title3">
-            <a href="#">
+            <a>
             Emelie has a skill for finding the key parameters to enable growth,
             business success and create efficient and successful teams.
             She is a strong leader who sets strategies and hands-on implement them
@@ -39,7 +39,7 @@ class Emelie extends React.Component {
         <div className="teammemberinside" id="backgroundcolorwhiteblack">
         <div className="aboutpersontextcenter">
           <h5 className="title3">
-            <a href="#">
+            <a>
             Emelie has a skill for finding the key parameters to enable growth,
             business success and create efficient and successful teams.
             She is a strong leader who sets strategies and hands-on implement them

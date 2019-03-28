@@ -14,9 +14,9 @@ class Servicespage extends React.Component {
 
         <div className="areasheader">
         <div className="headertextbox">
-        <p className="hedytexttiltservices3">Hedy</p>
+        <p className="hedytexttiltacademy">Hedy</p>
 
-            <h1>SERVICES</h1>
+            <h1 id="arcamajora">SERVICES</h1>
           <div className="headertextsmall2">
             <h4>Consultancy services within programming and management</h4>
           </div>
@@ -96,7 +96,7 @@ class Servicespage extends React.Component {
         <div className="headertextbox" id="colorwhite">
         <p className="hedytexttiltacademy">Hedy</p>
 
-          <h1>SERVICES</h1>
+          <h1 id="arcamajora">SERVICES</h1>
         <div className="headertextsmall2">
         <p>Consultancy services within programming and management</p>
         </div>

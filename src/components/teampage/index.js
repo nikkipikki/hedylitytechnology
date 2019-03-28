@@ -66,15 +66,15 @@ class Teampage extends React.Component {
 
       <div className="areasheader">
         <div className="headertextbox">
-          <h1>TEAM PHILOSOPHY</h1>
+          <h1 id="arcamajora">TEAM PHILOSOPHY</h1>
         <div className="headertextsmall">
-          <p>At Hedy we put continuous learning in the
+          <h5>At Hedy we put continuous learning in the
           forefront and share our knowledge to build
           a strong team and be able to take on complex
           challenges and create the future.
           We are gathering talents that are brilliant at what they do,
           role models within their area of expertise and who are
-          driven by constantly learning.</p>
+          driven by constantly learning.</h5>
         </div>
         </div>
       </div>
@@ -139,15 +139,15 @@ class Teampage extends React.Component {
 
           <div className="areasheader">
             <div className="headertextbox">
-              <h1>TEAM PHILOSOPHY</h1>
+              <h1 id="arcamajora">TEAM PHILOSOPHY</h1>
             <div className="headertextsmall">
-              <p>At Hedy we put continuous learning in the
+              <h5>At Hedy we put continuous learning in the
               forefront and share our knowledge to build
               a strong team and be able to take on complex
               challenges and create the future.
               We are gathering talents that are brilliant at what they do,
               role models within their area of expertise and who are
-              driven by constantly learning.</p>
+              driven by constantly learning.</h5>
             </div>
             </div>
           </div>

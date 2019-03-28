@@ -14,7 +14,7 @@ class Aboutpage extends React.Component {
       <div className="pagemarginweb">
 
         <div className="headertextbox" id="flexboxcenter">
-          <h1>ABOUT HEDY</h1>
+          <h1 id="arcamajora">ABOUT HEDY</h1>
         <div className="headertextsmall2">
           <p>We are Honest. We are Effectual. We are Devoted. We are Young & Witty. We are HEDY.</p>
         </div>
@@ -39,7 +39,7 @@ class Aboutpage extends React.Component {
           </div>
         </div>
 
-        <div className="textbox1about">
+        <div className="textbox1about" id="backgroundcoloropacitywhite">
           <h3 className="textboxheader">LEADERSHIP PHILOSOPHY</h3>
           <p>We believe that everyone is a leader.
             Leadership and personal development
@@ -63,10 +63,10 @@ class Aboutpage extends React.Component {
           <div className="areasheader">
 
             <div className="headertextbox">
-              <h1>ABOUT HEDY</h1>
+              <h1 id="arcamajora">ABOUT HEDY</h1>
               <div className="headertextsmall2">
-                <p>We are Honest. We are Effectual.
-                We are Devoted. We are Young & Witty. We are HEDY.</p>
+                <h6 id="arcamajoranospace">We are Honest. We are Effectual.
+                We are Devoted. We are Young & Witty. We are <mark className="pink">HEDY.</mark></h6>
             </div>
             </div>
           </div>
@@ -93,7 +93,7 @@ class Aboutpage extends React.Component {
 
 
 
-            <div className="textbox1about">
+            <div className="textbox1about" id="backgroundcoloropacitywhite">
               <h1 className="textboxheader">LEADERSHIP PHILOSOPHY</h1>
               <p>We believe that everyone is a leader.
                 Leadership and personal development
@@ -103,7 +103,7 @@ class Aboutpage extends React.Component {
         </div>
 
 
-        
+
 
 
 

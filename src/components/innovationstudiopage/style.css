@@ -86,7 +86,7 @@
   font-family: River Jade;
   letter-spacing: 0;
   color: #FE7E83;
-  font-size: 6vw;
+  font-size: 0.5em;
 }
 
 .hedytexttiltinnovation3 {
@@ -101,7 +101,7 @@
   font-size: 12vw;
 }
 
-.hedytexttiltservices3 {
+/* .hedytexttiltservices3 {
   transform: rotate(-10deg);
   text-align: left;
   position: absolute;
@@ -111,7 +111,7 @@
   letter-spacing: 0;
   color: #FE7E83;
   font-size: 12vw;
-}
+} */
 
 .innovationteambox {
   position: relative;

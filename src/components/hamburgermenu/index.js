@@ -3,6 +3,25 @@ import { Link } from "react-router-dom"
 import "./style.css"
 
 class Hamburgermenu extends React.Component {
+
+  componentDidMount() {
+    var menu = document.getElementById('menu');
+    menu.addEventListener('click', this.handleMenuClickMobile);
+
+    var webmenu = document.getElementById('webmenu');
+    webmenu.addEventListener('click', this.handleMenuClick);
+  }
+
+  handleMenuClickMobile = () => {
+    var closeIcon = document.getElementById("closeIconMobile");
+    closeIcon.checked = false;
+  }
+
+  handleMenuClick = () => {
+    var closeIcon = document.getElementById("closeIcon");
+    closeIcon.checked = false;
+  }
+
   render() {
     return (
       <div>
@@ -21,7 +40,7 @@ class Hamburgermenu extends React.Component {
         <div className="boxbehindhamburger" id="menuToggle">
           <nav role='navigation'>
             <div id="menuToggle">
-              <input type="checkbox" />
+              <input id="closeIconMobile" type="checkbox" />
               <span></span>
               <span></span>
               <span></span>
@@ -86,7 +105,7 @@ class Hamburgermenu extends React.Component {
 
             <div id="webmenuToggle">
 
-              <input type="checkbox" />
+              <input id="closeIcon" type="checkbox" />
 
               <ul id="webmenu">
               <Link

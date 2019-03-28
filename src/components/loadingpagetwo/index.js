@@ -72,18 +72,18 @@ class Loadingpagetwo extends React.Component {
                   to="/services">
                 <div className="opacity052">
                 <p className="hedytexttilt2">Hedy</p>
-                <h3>SERVICES</h3>
+                <h2 id="nomarginbottom">SERVICES</h2>
                 <div id="futurathin">
                   <h5 className="title" id="margintoptrecommafem">
-                    <a href="#">
+                    <div id="textalignleft">
                     We support start-ups, mid- sized and larger
                     companies in their ambition to build a profitable
                     and successful business.
-                    </a>
+                    </div>
                     </h5>
                     </div>
                   </div>
-                  <div className="button3 btn-3"><span><h6 id="nomargin">tell me more</h6></span></div>
+                  <div className="button3 btn-3"><span><h5 id="nomargin">tell me more</h5></span></div>
                   </Link>
 
                   </div>
@@ -99,19 +99,19 @@ class Loadingpagetwo extends React.Component {
                   to="/academy">
                     <div className="opacity052">
                     <p className="hedytexttilt2">Hedy</p>
-                    <h3>ACADEMY</h3>
+                    <h2 id="nomarginbottom">ACADEMY</h2>
                     <div id="futurathin">
                     <h5 className="title" id="margintoptrecommafem">
-                    <a href="#">
+                    <div id="textalignleft">
                     We provide high quality education to
                     close the gap between tech and business,
                     and build the skills we need to face a
                     future where technology will be the main actor.
-                    </a>
+                    </div>
                     </h5>
                     </div>
                   </div>
-                  <div className="button3 btn-3"><span><h6 id="nomargin">tell me more</h6></span></div>
+                  <div className="button3 btn-3"><span><h5 id="nomargin">tell me more</h5></span></div>
                   </Link>
 
                   </div>
@@ -124,20 +124,20 @@ class Loadingpagetwo extends React.Component {
                   to="/innovationstudio">
                     <div className="opacity052">
                     <p className="hedytexttilt3">Hedy</p>
-                    <h3 id="nomarginbottom">INNOVATION STUDIO</h3>
+                    <h2 id="nomarginbottom">INNOVATION STUDIO</h2>
                     <div id="futurathin">
                     <h5 className="title" id="margintopnollcommafem">
-                    <a href="#">
+                    <div id="textalignleft">
                     We edge up our business model by investing
                     in tech innovations that make a difference
                     and have the ambition to solve at least one
                     of the 17 sustainability goals set by the world’s
                     leaders for 2030.
-                    </a>
+                    </div>
                     </h5>
                     </div>
                   </div>
-                  <div className="button3 btn-3"><span><h6 id="nomargin">tell me more</h6></span></div>
+                  <div className="button3 btn-3"><span><h5 id="nomargin">tell me more</h5></span></div>
                   </Link>
 
                   </div>
@@ -184,7 +184,7 @@ class Loadingpagetwo extends React.Component {
             to="/about">
                 <div className="whatwedotext4" id="opacitydark">
                   <h4 id="colorwhite">We are Honest. We are Effectual. We are Devoted. We are Young & Witty. We are <mark className="pink">HEDY.</mark></h4>
-                <div className="button btn-3"><span><h6 id="nomargin">want to know more?</h6></span></div>
+                <div className="button btn-3"><span><h5 id="nomargin">want to know more?</h5></span></div>
                 </div>
             </Link>
             </div>
@@ -195,7 +195,7 @@ class Loadingpagetwo extends React.Component {
             to="/team">
               <div className="gradient">
                 <div className="whatwedotext5" id="">
-                  <div id="backgroundcoloropacitypink" className="button2 btn-3"><span><h6 id="nomargin">get to know our team</h6></span></div>
+                  <div id="backgroundcoloropacitypink" className="button2 btn-3"><span><h5 id="nomargin">get to know our team</h5></span></div>
                 </div>
                 </div>
             </Link>
@@ -209,7 +209,7 @@ class Loadingpagetwo extends React.Component {
               <div className="whatwedotext3">
                   <h3 className="arcamajora"> HEDY LAMARR</h3>
                   <h4> Our muse & the woman behind the name</h4>
-                  <div className="button3 btn-3"><span><h6 id="nomargin">find out more</h6></span></div>
+                  <div className="button3 btn-3"><span><h5 id="nomargin">find out more</h5></span></div>
               </div>
             </div>
             </Link>

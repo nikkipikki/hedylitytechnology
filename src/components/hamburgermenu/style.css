@@ -64,7 +64,7 @@
   display: block;
   position: absolute;
   width: 100%;
-  top: 1.5vw;
+  top: 2vw;
   /* left: 1vw; */
   /* right: 1vw; */
   z-index: 1;
@@ -95,7 +95,8 @@
   left: 85%;
   display: block;
   width: 10vw;
-  margin-bottom: 5px;
+  padding: 0.4vw;
+  margin-bottom: 2vw;
   position: relative;
   /* margin: 15px; */
 
@@ -120,19 +121,19 @@
 }
 
 #menuToggle input:checked ~ span {
-  opacity: 0;
-  transform: rotate(50deg) translate(-0px, -0px);
+  opacity: 1;
+  transform: rotate(-50deg) translate(-20px, 15px);
   background: #ffffff;
 }
 
 #menuToggle input:checked ~ span:nth-last-child(3) {
-  opacity: 1;
+  opacity: 0;
   transform: rotate(0deg) scale(0.8, 0.2);
 }
 
 #menuToggle input:checked ~ span:nth-last-child(2) {
-  opacity: 0;
-  transform: rotate(-50deg) translate(-0px, 0px);
+  opacity: 1;
+  transform: rotate(50deg) translate(-20px, -15px);
 }
 
 #menuToggle input:checked ~ ul {

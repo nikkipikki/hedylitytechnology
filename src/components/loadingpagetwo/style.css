@@ -526,21 +526,21 @@ transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
   .hedytexttilt2 {
     transform: rotate(-10deg);
     text-align: left;
-    margin-left: -1.5vw;
+    margin-left: 5vw;
     font-family: River Jade;
-    margin-bottom: -2.5vw;
+    margin-bottom: -8vw;
     letter-spacing: 0;
     color: #FE7E83;
-    font-size: 70px;
+    font-size: 18vw;
     margin-top: 0;
   }
 
   .hedytexttilt3 {
     transform: rotate(-10deg);
     text-align: left;
-    margin-left: -1.5vw;
+    margin-left: -2.5vw;
     font-family: River Jade;
-    margin-bottom: -2.5vw;
+    margin-bottom: -8vw;
     letter-spacing: 0;
     color: #FE7E83;
     font-size: 70px;
@@ -632,7 +632,7 @@ transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
     width: 90%;
     height: auto;
     padding: 4vw;
-    text-align: left;
+    text-align: center;
     font-family: Arca Majora3;
     letter-spacing: 5px;
     margin: auto;

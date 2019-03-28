@@ -14,6 +14,7 @@ class Innovationstudiopage extends React.Component {
         <ScrollToTopOnMount/>
 
         <div className="mobile">
+        
 
         <div id="innovation">
         <div id="opacitydark">

@@ -2,6 +2,8 @@ a{
   text-decoration: none;
 }
 
+
+
 .fadeinclass {
   animation-name: test;
   animation-duration: 5s;
@@ -337,6 +339,11 @@ body {
   padding-top: 0;
 }
 
+#nopaddingleft {
+  padding-left: 6vw;
+  margin-top: -2vw;
+}
+
 #colorwhite {
   color: white;
 }
@@ -503,6 +510,16 @@ mark.italic {
 
 @media (max-width: 1000px) {
 
+  #blackhylogo {
+    background-image: url(./components/images/vithy.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-size: 30%;
+    padding-top: 100px;
+    z-index: 10000;
+  }
+
   .hedytexttiltacademy {
     transform: rotate(-10deg);
     text-align: left;
@@ -529,9 +546,10 @@ mark.italic {
 
   .header {
     /* margin-top: -300px; */
+    padding-top: 7vw;
     margin-bottom: 0px;
 
-    height: auto;
+    height: 60vw;
     text-align: center;
     font-size: 25px;
     letter-spacing: 5px;

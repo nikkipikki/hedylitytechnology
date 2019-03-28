@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+.logohamburgermenu {
+  width: 50px;
+  height: 50px;
+  margin-left: 2vw;
+}
 
 .boxbehindhamburger {
   background-color: transparent;
@@ -19,7 +24,7 @@
   background-color: #051C26;
   width: 100%;
   height: 100px;
-  z-index: 1000;
+  z-index: 1;
 }
 
 
@@ -55,12 +60,13 @@
 
 #menuToggle {
   /* padding-left: 2vw; */
-  margin-top: 15px;
+  margin-top: 3vw;
   display: block;
-  /* position: absolute; */
+  position: absolute;
+  width: 100%;
   top: 1.5vw;
   /* left: 1vw; */
-  right: 1vw;
+  /* right: 1vw; */
   z-index: 1;
   -webkit-user-select: none;
   user-select: none;
@@ -68,11 +74,12 @@
 
 #menuToggle input {
   display: block;
-  width: 100%;
-  height: 10vw;
+  width: 40%;
+  left: 80%;
+  /* height: 10vw; */
   position: absolute;
   /* top: -7px; */
-  left: -5px;
+  /* left: -5px; */
 	margin: 0;
 
   cursor: pointer;
@@ -84,15 +91,16 @@
 }
 
 #menuToggle span {
-  margin: auto;
+  /* margin: auto; */
+  left: 85%;
   display: block;
   width: 10vw;
   margin-bottom: 5px;
   position: relative;
   /* margin: 15px; */
 
-  background: #F1888A;
-  border-radius: 3px;
+  background: #ffffff;
+  border-radius: 0px;
 
   z-index: 1;
 
@@ -112,18 +120,18 @@
 }
 
 #menuToggle input:checked ~ span {
-  opacity: 1;
+  opacity: 0;
   transform: rotate(50deg) translate(-0px, -0px);
-  background: #F1888A;
+  background: #ffffff;
 }
 
 #menuToggle input:checked ~ span:nth-last-child(3) {
-  opacity: 0;
-  transform: rotate(0deg) scale(0.2, 0.2);
+  opacity: 1;
+  transform: rotate(0deg) scale(0.8, 0.2);
 }
 
 #menuToggle input:checked ~ span:nth-last-child(2) {
-  opacity: 1;
+  opacity: 0;
   transform: rotate(-50deg) translate(-0px, 0px);
 }
 

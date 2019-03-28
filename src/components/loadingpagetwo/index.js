@@ -123,7 +123,7 @@ class Loadingpagetwo extends React.Component {
                   style={{ textDecoration: "none", color: "black" }}
                   to="/innovationstudio">
                     <div className="opacity052">
-                    <p className="hedytexttilt2">Hedy</p>
+                    <p className="hedytexttilt3">Hedy</p>
                     <h3 id="nomarginbottom">INNOVATION STUDIO</h3>
                     <div id="futurathin">
                     <h5 className="title" id="margintopnollcommafem">

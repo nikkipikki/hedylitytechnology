@@ -63,8 +63,8 @@ class Servicespage extends React.Component {
             <div className="academytextthin2" id="colorwhite">
               <h4 className="textboxheader" id="">TYPE OF SERVICES</h4>
             <div id="marginbottom">
-              <h4 className="">
-              <ul>
+              <h4>
+              <ul id="nopaddingleft">
                 <li>Inhouse projects delivered by a Hedy team</li>
                 <li>Consultancy service at client, where Hedy talent leads the work or is part of a team</li>
                 <li>Take the role as tech and/or business partner</li>

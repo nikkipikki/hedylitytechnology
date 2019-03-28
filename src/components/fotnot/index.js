@@ -22,6 +22,17 @@ class Fotnot extends React.Component {
       });
   }
 
+  updateLine2 = () => {
+      let data = this.generatePoints();
+      let color = '#F1888A'
+      TweenLite.ticker.fps(10);
+      TweenLite.to(['.line2', '.line-glow'], 1.5, {
+          attr: {'points': data, 'stroke': color },
+          ease: Linear.easeNone,
+          onComplete: this.updateLine
+      });
+  }
+
   generatePoints = () => {
       let freq = Math.random()*0.03,
           svgSize = {w: 800, h: 300},
@@ -36,12 +47,28 @@ class Fotnot extends React.Component {
       }
       return segments.join(' ');
   }
+
+
+
   render() {
     return (
       <div>
 
         <div className="menuboarddivfotnot">
 
+        <div className="mobile">
+        <svg className="svgclass" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300">
+          <defs>
+            <filter id="glow-filter">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="4" />
+            </filter>
+          </defs>
+            <polyline className="line2"></polyline>
+            <polyline className="line-glow"></polyline>
+        </svg>
+        </div>
+
+        <div className="web">
         <svg className="svgclass" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300">
           <defs>
             <filter id="glow-filter">
@@ -51,6 +78,7 @@ class Fotnot extends React.Component {
             <polyline className="line"></polyline>
             <polyline className="line-glow"></polyline>
         </svg>
+        </div>
 
           <div className="fotnotlogos">
 

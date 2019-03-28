@@ -55,7 +55,7 @@ class Innovationstudiopage extends React.Component {
         <h4 className="textboxheader" id="">OUR OFFER</h4>
       <div id="marginbottom2">
         <div className="bulletpoints">
-        <ul>
+        <ul id="nopaddingleft">
         <li>Highly skilled board member</li>
         <li>A well-formed development team based on your needs</li>
         <li>Business competency to execute strategies successfully and to scale up</li>

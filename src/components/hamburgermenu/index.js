@@ -6,9 +6,18 @@ class Hamburgermenu extends React.Component {
   render() {
     return (
       <div>
-      <div className="mobile">
-      <div className="pagemargin">
-      <div className="menuboarddiv">
+        <div className="mobile">
+        <div className="pagemargin">
+        <div className="menuboarddiv">
+
+        <Link
+          style={{ textDecoration: "none", color: "#ffffff" }}
+          to="/">
+        <div className="logohamburgermenu" id="blackhylogo">
+      </div>
+      </Link>
+
+
         <div className="boxbehindhamburger" id="menuToggle">
           <nav role='navigation'>
             <div id="menuToggle">

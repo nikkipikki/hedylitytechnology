@@ -523,6 +523,30 @@ transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 
 @media (max-width: 1000px) {
 
+  .hedytexttilt2 {
+    transform: rotate(-10deg);
+    text-align: left;
+    margin-left: -1.5vw;
+    font-family: River Jade;
+    margin-bottom: -2.5vw;
+    letter-spacing: 0;
+    color: #FE7E83;
+    font-size: 70px;
+    margin-top: 0;
+  }
+
+  .hedytexttilt3 {
+    transform: rotate(-10deg);
+    text-align: left;
+    margin-left: -1.5vw;
+    font-family: River Jade;
+    margin-bottom: -2.5vw;
+    letter-spacing: 0;
+    color: #FE7E83;
+    font-size: 70px;
+    margin-top: 0;
+  }
+
   .whatwedotext4 {
     width: 100%;
     height: 60vw;

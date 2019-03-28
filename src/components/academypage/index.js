@@ -157,7 +157,7 @@ class Academypage extends React.Component {
         <div className="academytextthin2" id="colorwhite">
           <h4 className="textboxheader" id="">TYPE OF COURSES</h4>
         <div className="bulletpoints">
-        <ul>
+        <ul id="nopaddingleft">
           <li>Crash courses that will help you reach new levels of business and/or tech excellence</li>
           <li>Intensive courses for programming that will introduce talents into the Tech industry</li>
           <li>Specific courses that will take your business and your competence to the next level</li>

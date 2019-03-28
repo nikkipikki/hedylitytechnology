@@ -14,7 +14,7 @@ class Header extends React.Component {
       let data = this.generatePoints();
       let color = '#F1888A'
       TweenLite.ticker.fps(10);
-      TweenLite.to(['.line', '.line-glow'], 1.5, {
+      TweenLite.to(['.line2', '.line-glow'], 1.5, {
           attr: {'points': data, 'stroke': color },
           ease: Linear.easeNone,
           onComplete: this.updateLine
@@ -52,19 +52,13 @@ class Header extends React.Component {
                 <feGaussianBlur in="SourceGraphic" stdDeviation="4" />
             </filter>
           </defs>
-            <polyline className="line"></polyline>
+            <polyline className="line2"></polyline>
             <polyline className="line-glow"></polyline>
         </svg>
 
         <div className="hedylitytechnologytext">
 
-          <div className="marginminus">
-            <h3>WE ARE HEDYLITY TECHNOLOGY</h3>
-          </div>
-
-
-
-
+            <div className="typewriter">WE ARE HEDYLITY TECHNOLOGY</div>
 
           <div className="fadeintext">
             <h1 className="callushedytext2" id="colorwhite">But you can call us <mark className="pink">Hedy</mark></h1>

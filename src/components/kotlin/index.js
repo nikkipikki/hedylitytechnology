@@ -114,7 +114,7 @@ class Kotlin extends React.Component {
                 it won’t describe what an if-statement, lambda or immutables are more than briefly. </h4>
                 </div>
                 <div className="academytextthin2">
-                <h4 id="nomarginbottom">PREREQUISITES</h4>
+                <h4 id="">PREREQUISITES</h4>
                 <div>
                   <h4 id="nomargin">Knowledge of the following concepts in any general programming language:</h4>
                   <ul>
@@ -143,10 +143,10 @@ class Kotlin extends React.Component {
               <div className="academytextthin2" id="colorwhite">
                 <h4 className="textboxheader" id="nomarginbottom">OBJECTIVES</h4>
               <div>
-              <h4 id="nomargin1vw">After taking the course you should be able to.</h4>
+              <h4 id="nomargintop">After taking the course you should be able to.</h4>
 
               <div className="bulletpoints">
-              <ul>
+              <ul id="nopaddingleft">
               <li>Understand the strengths of Kotlin.</li>
               <li>Start working professionally as a Kotlin developer.</li>
               <li>Create your own DSL.</li>
@@ -159,10 +159,10 @@ class Kotlin extends React.Component {
 
 
             <div className="academytextthin2" id="colorwhite">
-              <h4 className="textboxheader" id="nomarginbottom">REQUIREMENTS</h4>
+              <h4 className="textboxheader" id="">REQUIREMENTS</h4>
             <div>
             <div className="bulletpoints">
-            <ul>
+            <ul id="nopaddingleft">
             <li>A passion for programming and to learn Kotlin</li>
             <li>Your own laptop</li>
             <li>IntelliJ Community Edition + the Kotlin plugin. (Free software)</li>

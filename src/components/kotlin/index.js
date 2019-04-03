@@ -24,8 +24,12 @@ class Kotlin extends React.Component {
 
       <div className="headertextbox">
         <h1>SUCCEED WITH KOTLIN</h1>
-      <div className="headertextsmall2">
-        <p>by Hedy Academy</p>
+        <h2>by</h2>
+      <div className="headertextsmall2" id="negativemargin">
+
+      <p className="hedytexttiltacademy">Hedy</p>
+
+        <h1 id="arcamajora">ACADEMY</h1>
       </div>
       <div className="academytextthin" id="">
         <h4>This course is formed as workshop were our
@@ -50,10 +54,10 @@ class Kotlin extends React.Component {
       <div id="colorblack">
       <h3 id="nomargintoplittlebottom">DETAILS</h3>
       </div>
-        <h6 id="nomarginbottom">Dates: 24-25 April 2019</h6>
+        <h6 id="nomarginbottom">Dates: 23-24 May 2019</h6>
         <h6 id="margintop0comma8vw">Time: 09.00–16.30</h6>
         <h6 id="margintop0comma8vw">Location: Central Stockholm</h6>
-        <h6 id="margintop0comma8vw">Price: 18 900 SEK</h6>
+        <h6 id="margintop0comma8vw">Price: 15 900 SEK</h6>
         <h6 id="margintop0comma8vw">(Lunch and “Fika” is included)</h6>
       <div id="margintop0comma8vw">
         <Apply/>
@@ -218,10 +222,10 @@ class Kotlin extends React.Component {
     <div id="colorblack">
     <h3 id="nomargintoplittlebottom">DETAILS</h3>
     </div>
-      <h6 id="nomarginbottom">Dates: 24-25 April 2019</h6>
+      <h6 id="nomarginbottom">Dates: 23-24 May 2019</h6>
       <h6 id="margintop0comma8vw">Time: 09.00–16.30</h6>
       <h6 id="margintop0comma8vw">Location: Central Stockholm</h6>
-      <h6 id="margintop0comma8vw">Price: 18 900 SEK</h6>
+      <h6 id="margintop0comma8vw">Price: 15 900 SEK</h6>
       <h6 id="margintop0comma8vw">(Lunch and “Fika” is included)</h6>
 
 

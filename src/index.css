@@ -169,6 +169,10 @@ body {
   margin-top: 0;
 }
 
+#negativemargin {
+  margin-top: -15vw;
+}
+
 #nomarginbottom {
   margin-bottom: 0;
 }
@@ -420,8 +424,8 @@ body {
 
 .whatwedosmalltextcenter {
   font-family: Futura Medium Italic;
-  text-align: center;
-  padding-left: 100px;
+  text-align: left;
+  /* padding-left: 100px; */
   padding-right: 100px;
   font-size: 20px;
 }
@@ -446,10 +450,22 @@ body {
   font-size: 3em;
 }
 
+.hedytexttiltacademy2 {
+  transform: rotate(-10deg);
+  text-align: left;
+  margin-top: -1vw;
+  padding-left: 2vw;
+  font-family: River Jade;
+  margin-bottom: -2vw;
+  letter-spacing: 0;
+  color: #FE7E83;
+  font-size: 2vw;
+}
+
 .hedytexttiltkotlin {
   transform: rotate(-10deg);
   text-align: left;
-  margin-top: -4vw;
+  margin-top: -6vw;
   padding-left: 23vw;
   font-family: River Jade;
   margin-bottom: -3.5vw;
@@ -521,6 +537,18 @@ mark.italic {
 }
 
 @media (max-width: 1000px) {
+
+  .hedytexttiltacademy2 {
+    transform: rotate(-10deg);
+    text-align: left;
+    margin-top: -1vw;
+    padding-left: 19vw;
+    font-family: River Jade;
+    margin-bottom: -5vw;
+    letter-spacing: 0;
+    color: #FE7E83;
+    font-size: 10vw;
+  }
 
   #blackhylogo {
     background-image: url(./components/images/vithy.png);

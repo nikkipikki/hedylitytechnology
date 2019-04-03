@@ -11,6 +11,7 @@ import Newhamburger from "./newhamburger"
 import Fotnot from "./fotnot"
 import Kotlin from "./kotlin"
 import Bookingconditions from "./bookingconditions"
+import Privacypolicy from "./privacypolicy"
 import Hamburgermenu from "./hamburgermenu"
 import Loadingpagetwo from "./loadingpagetwo"
 
@@ -59,6 +60,9 @@ class App extends React.Component {
           <Route
             path="/bookingconditions"
             component={Bookingconditions} />
+          <Route
+            path="/privacypolicy"
+            component={Privacypolicy} />
           <Fotnot/>
         </div>
         </div>

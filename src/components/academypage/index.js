@@ -60,7 +60,7 @@ class Academypage extends React.Component {
               </h5>
             </div>
           </div>
-            <h6 id="nomarginbottom">Dates: 24-25 April 2019</h6>
+            <h6 id="nomarginbottom">Dates: 23-24 May 2019</h6>
             <h6 id="margintop0comma8vw">Time: 09.00–16.30</h6>
             <h6 id="margintop0comma8vw">Location: Central Stockholm</h6>
           <div id="margintop0comma8vw">
@@ -86,6 +86,8 @@ class Academypage extends React.Component {
           <div className="margin">
                 <p id="arcamajoranospace">Succeed with Kotlin</p>
                 </div>
+                <p className="hedytexttiltacademy2">Hedy</p>
+                  <h3 id="arcamajora">ACADEMY</h3>
                 </div>
               <Link
                 style={{ textDecoration: "none", color: "black" }}
@@ -101,8 +103,10 @@ class Academypage extends React.Component {
             <div id="academy">
             <div className="coursesdiv">
             <div className="margin2">
-              <p id="arcamajoranospace">Android development for beginners and advanced coders</p>
+              <p id="arcamajoranospace">Android development for beginners</p>
               </div>
+              <p className="hedytexttiltacademy2">Hedy</p>
+                <h3 id="arcamajora">ACADEMY</h3>
               </div>
             <div>
               <Comingsoon/>
@@ -112,10 +116,42 @@ class Academypage extends React.Component {
 
         <div className="picturedivcourse">
           <div id="academy">
+          <div className="coursesdiv">
+          <div className="margin2">
+            <p id="arcamajoranospace">Advanced Android development</p>
+            </div>
+            <p className="hedytexttiltacademy2">Hedy</p>
+              <h3 id="arcamajora">ACADEMY</h3>
+            </div>
+          <div>
+            <Comingsoon/>
+          </div>
+          </div>
+      </div>
+
+      <div className="picturedivcourse">
+        <div id="academy">
+        <div className="coursesdiv">
+        <div className="margin2">
+          <p id="arcamajoranospace">Android</p>
+          </div>
+          <p className="hedytexttiltacademy2">Hedy</p>
+            <h3 id="arcamajora">ACADEMY</h3>
+          </div>
+        <div>
+          <Comingsoon/>
+        </div>
+        </div>
+    </div>
+
+        <div className="picturedivcourse">
+          <div id="academy">
         <div className="coursesdiv">
         <div className="margin">
                 <p id="arcamajoranospace">Growth hacking</p>
                 </div>
+                <p className="hedytexttiltacademy2">Hedy</p>
+                  <h3 id="arcamajora">ACADEMY</h3>
                 </div>
               <div>
               <Comingsoon/>
@@ -129,6 +165,8 @@ class Academypage extends React.Component {
           <div className="margin2">
                   <p id="arcamajoranospace">Take digitalization and tech trends into the board room</p>
                   </div>
+                  <p className="hedytexttiltacademy2">Hedy</p>
+                    <h3 id="arcamajora">ACADEMY</h3>
                   </div>
                 <div>
                 <Comingsoon/>
@@ -144,6 +182,8 @@ class Academypage extends React.Component {
               <div className="margin">
                     <p id="arcamajoranospace">Learn to code</p>
                     </div>
+                    <p className="hedytexttiltacademy2">Hedy</p>
+                      <h3 id="arcamajora">ACADEMY</h3>
                     </div>
                   <div>
                   <Comingsoon/>
@@ -221,7 +261,7 @@ class Academypage extends React.Component {
           </h5>
         </div>
       </div>
-        <h6 id="nomarginbottom">Dates: 24-25 April 2019</h6>
+        <h6 id="nomarginbottom">Dates: 23-24 May 2019</h6>
         <h6 id="margintop0comma8vw">Time: 09.00–16.30</h6>
         <h6 id="margintop0comma8vw">Location: Central Stockholm</h6>
       <div id="margintop0comma8vw">
@@ -257,6 +297,8 @@ class Academypage extends React.Component {
         <div className="margin">
               <p>Succeed with Kotlin</p>
               </div>
+              <p className="hedytexttiltacademy2">Hedy</p>
+                <h3 id="arcamajora">ACADEMY</h3>
               </div>
             <Link
               style={{ textDecoration: "none", color: "black" }}
@@ -268,18 +310,53 @@ class Academypage extends React.Component {
         </div>
         </div>
 
-        <div className="picturedivcourse">
-          <div id="academy">
-          <div className="coursesdiv">
-          <div className="margin2">
-            <p>Android development for beginners and advanced coders</p>
-            </div>
-            </div>
-          <div>
-            <Comingsoon/>
+
+
+      <div className="picturedivcourse">
+        <div id="academy">
+        <div className="coursesdiv">
+        <div className="margin">
+          <p>Android development for beginners</p>
           </div>
+          <p className="hedytexttiltacademy2">Hedy</p>
+            <h3 id="arcamajora">ACADEMY</h3>
           </div>
+        <div>
+          <Comingsoon/>
+        </div>
+        </div>
+    </div>
+
+    <div className="picturedivcourse">
+      <div id="academy">
+      <div className="coursesdiv">
+      <div className="margin">
+        <p>Advanced Android development</p>
+        </div>
+        <p className="hedytexttiltacademy2">Hedy</p>
+          <h3 id="arcamajora">ACADEMY</h3>
+        </div>
+      <div>
+        <Comingsoon/>
       </div>
+      </div>
+  </div>
+
+  <div className="picturedivcourse">
+    <div id="academy">
+    <div className="coursesdiv">
+    <div className="margin">
+      <p>Android</p>
+      </div>
+      <p className="hedytexttiltacademy2">Hedy</p>
+        <h3 id="arcamajora">ACADEMY</h3>
+      </div>
+    <div>
+      <Comingsoon/>
+    </div>
+    </div>
+</div>
+
 
       <div className="picturedivcourse">
         <div id="academy">
@@ -287,6 +364,8 @@ class Academypage extends React.Component {
       <div className="margin">
               <p>Growth hacking</p>
               </div>
+              <p className="hedytexttiltacademy2">Hedy</p>
+                <h3 id="arcamajora">ACADEMY</h3>
               </div>
             <div>
             <Comingsoon/>
@@ -300,6 +379,8 @@ class Academypage extends React.Component {
         <div className="margin2">
                 <p>Take digitalization and tech trends into the board room</p>
                 </div>
+                <p className="hedytexttiltacademy2">Hedy</p>
+                  <h3 id="arcamajora">ACADEMY</h3>
                 </div>
               <div>
               <Comingsoon/>
@@ -315,6 +396,8 @@ class Academypage extends React.Component {
             <div className="margin">
                   <p>Learn to code</p>
                   </div>
+                  <p className="hedytexttiltacademy2">Hedy</p>
+                    <h3 id="arcamajora">ACADEMY</h3>
                   </div>
                 <div>
                 <Comingsoon/>

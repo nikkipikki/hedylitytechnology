@@ -446,6 +446,18 @@ body {
   font-size: 3em;
 }
 
+.hedytexttiltkotlin {
+  transform: rotate(-10deg);
+  text-align: left;
+  margin-top: -4vw;
+  padding-left: 23vw;
+  font-family: River Jade;
+  margin-bottom: -3.5vw;
+  letter-spacing: 0;
+  color: #FE7E83;
+  font-size: 5vw;
+}
+
 .hedytexttiltinnovationlast {
   transform: rotate(-10deg);
   text-align: left;

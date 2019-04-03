@@ -45,7 +45,7 @@ class Kotlin extends React.Component {
         style={{ textDecoration: "none", color: "#ffffff" }}
         to="/kotlin">
       <div className="displayflexwrap">
-      <div className="textbox2" id="">
+      <div className="textbox2" id="marginbottom">
       <div id="">
       <div id="colorblack">
       <h3 id="nomargintoplittlebottom">DETAILS</h3>
@@ -73,6 +73,39 @@ class Kotlin extends React.Component {
       <div className="justifycenter">
 
         <div className="academyteambox">
+
+        <div className="academytextthin2" id="">
+          <h4 className="textboxheader" id="nomarginbottom">OBJECTIVES</h4>
+        <div>
+        <h4 id="nomargintop">After taking the course you should be able to.</h4>
+
+        <div className="bulletpoints">
+        <ul id="nopaddingleft">
+        <li>Understand the strengths of Kotlin.</li>
+        <li>Start working professionally as a Kotlin developer.</li>
+        <li>Create your own DSL.</li>
+        <li>Lead discussions on migrating to Kotlin with strong arguments.</li>
+        <li>Write Kotlin code for applications running on desktop/backend/frontend/mobile.</li>
+        </ul>
+      </div>
+      </div>
+      </div>
+
+
+      <div className="academytextthin2" id="">
+        <h4 className="textboxheader" id="">REQUIREMENTS</h4>
+      <div>
+      <div className="bulletpoints">
+      <ul id="nopaddingleft">
+      <li>A passion for programming and to learn Kotlin</li>
+      <li>Your own laptop</li>
+      <li>IntelliJ Community Edition + the Kotlin plugin. (Free software)</li>
+      </ul>
+    </div>
+    </div>
+    </div>
+
+
         <h1 id="nomarginbottom">OVERVIEW & PURPOSE</h1>
             <div className="academytextthin2">
               <h4>Curious about the new language that changed the entire Android world?
@@ -138,39 +171,7 @@ class Kotlin extends React.Component {
               </div>
               </div>
 
-              <div className="academyteambox" id="backgroundcolordarkbluepink">
 
-              <div className="academytextthin2" id="colorwhite">
-                <h4 className="textboxheader" id="nomarginbottom">OBJECTIVES</h4>
-              <div>
-              <h4 id="nomargintop">After taking the course you should be able to.</h4>
-
-              <div className="bulletpoints">
-              <ul id="nopaddingleft">
-              <li>Understand the strengths of Kotlin.</li>
-              <li>Start working professionally as a Kotlin developer.</li>
-              <li>Create your own DSL.</li>
-              <li>Lead discussions on migrating to Kotlin with strong arguments.</li>
-              <li>Write Kotlin code for applications running on desktop/backend/frontend/mobile.</li>
-              </ul>
-            </div>
-            </div>
-            </div>
-
-
-            <div className="academytextthin2" id="colorwhite">
-              <h4 className="textboxheader" id="">REQUIREMENTS</h4>
-            <div>
-            <div className="bulletpoints">
-            <ul id="nopaddingleft">
-            <li>A passion for programming and to learn Kotlin</li>
-            <li>Your own laptop</li>
-            <li>IntelliJ Community Edition + the Kotlin plugin. (Free software)</li>
-            </ul>
-          </div>
-          </div>
-          </div>
-          </div>
           </div>
           <Apply/>
 
@@ -191,7 +192,9 @@ class Kotlin extends React.Component {
       <div className="headertextbox">
         <h1>SUCCEED WITH KOTLIN</h1>
       <div className="headertextsmall2">
-        <p>by Hedy Academy</p>
+      <h3>by</h3>
+      <p className="hedytexttiltkotlin">Hedy</p>
+        <h2 id="arcamajora">ACADEMY</h2>
       </div>
       <div className="academytextthin" id="">
         <h5>This course is formed as workshop were our
@@ -237,6 +240,40 @@ class Kotlin extends React.Component {
       <div className="justifycenter">
 
         <div className="academyteambox">
+
+        <div className="academytextthin2" id="">
+          <h6 className="textboxheader" id="nomarginbottom">OBJECTIVES</h6>
+        <div>
+        <h6 id="nomargin1vw">After taking the course you should be able to:</h6>
+
+        <h6 className="bulletpoints" id="nomargintop">
+        <ul>
+        <li>Understand the strengths of Kotlin.</li>
+        <li>Start working professionally as a Kotlin developer.</li>
+        <li>Create your own DSL.</li>
+        <li>Lead discussions on migrating to Kotlin with strong arguments.</li>
+        <li>Write Kotlin code for applications running on desktop/backend/frontend/mobile.</li>
+        </ul>
+      </h6>
+      </div>
+      </div>
+
+
+      <div className="academytextthin2" id="">
+        <h6 className="textboxheader" id="nomarginbottom">REQUIREMENTS</h6>
+      <div>
+      <h6 id="nomargin1vw">Before taking the course you shoud have:</h6>
+
+      <h6 className="bulletpoints" id="nomargintop">
+      <ul>
+      <li>A passion for programming and to learn Kotlin</li>
+      <li>Your own laptop</li>
+      <li>IntelliJ Community Edition + the Kotlin plugin. (Free software)</li>
+      </ul>
+    </h6>
+    </div>
+    </div>
+
         <h1 id="nomarginbottom">OVERVIEW & PURPOSE</h1>
             <div className="academytextthin2">
               <h6>Curious about the new language that changed the entire Android world?
@@ -302,47 +339,7 @@ class Kotlin extends React.Component {
               </div>
               </div>
 
-              <div className="academyteambox" id="backgroundcolordarkbluepink">
 
-              <div className="academytextthin2" id="colorwhite">
-                <h6 className="textboxheader" id="nomarginbottom">OBJECTIVES</h6>
-              <div>
-              <h6 id="nomargin1vw">After taking the course you should be able to.</h6>
-
-              <h6 className="bulletpoints" id="nomargintop">
-              <ul>
-              <li>Understand the strengths of Kotlin.</li>
-              <li>Start working professionally as a Kotlin developer.</li>
-              <li>Create your own DSL.</li>
-              <li>Lead discussions on migrating to Kotlin with strong arguments.</li>
-              <li>Write Kotlin code for applications running on desktop/backend/frontend/mobile.</li>
-              </ul>
-            </h6>
-            </div>
-            </div>
-
-
-            <div className="academytextthin2" id="colorwhite">
-              <h6 className="textboxheader" id="nomarginbottom">REQUIREMENTS</h6>
-            <div>
-            <h6 className="bulletpoints" id="nomargintop">
-            <ul>
-            <li>A passion for programming and to learn Kotlin</li>
-            <li>Your own laptop</li>
-            <li>IntelliJ Community Edition + the Kotlin plugin. (Free software)</li>
-            </ul>
-          </h6>
-          </div>
-          </div>
-
-
-
-
-
-
-
-
-      </div>
       <Apply/>
       </div>
 

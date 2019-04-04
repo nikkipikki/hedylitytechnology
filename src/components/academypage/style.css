@@ -26,24 +26,6 @@
   justify-content: center;
 }
 
-.bottomdiv {
-  width: 100%;
-  padding-top: 5vw;
-  z-index: 10000;
-  bottom: 0;
-  position: absolute;
-  padding-bottom: 5vw;
-  /* border: 3px solid #8AC007; */
-}
-
-#hedyacademytext {
-  background-image: url(../images/hedyacademy.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 50%;
-  /* background-attachment: fixed; */
-  /* z-index: 1000; */
-}
 
 
 .coursesdiv {
@@ -274,12 +256,42 @@ transform: scale(1.05, 1.05);
   font-size: 0.5em;
 } */
 
+
+#hedyacademytext {
+  background-image: url(../images/hedyacademy.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%;
+  /* background-attachment: fixed; */
+  /* z-index: 1000; */
+}
+
+.bottomdiv {
+  width: 100%;
+  padding-top: 5vw;
+  /* z-index: 10000; */
+  bottom: 0;
+  position: absolute;
+  padding-bottom: 5vw;
+  /* border: 3px solid #8AC007; */
+}
+
+
+
 @media (max-width: 1000px) {
+
+  #hedyacademytext {
+    background-image: url(../images/hedyacademy.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    /* background-attachment: fixed; */
+  }
+
 
   .bottomdiv {
     width: 100%;
     padding-top: 5vw;
-    z-index: 10000;
     bottom: 0;
     /* background-color: pink; */
     position: absolute;

@@ -84,10 +84,11 @@ class Academypage extends React.Component {
         <div id="kotlin2">
         <div className="coursesdiv">
           <div className="margin">
-                <p id="arcamajoranospace">Succeed with Kotlin</p>
+                <h2 id="arcamajoranospace">Succeed with Kotlin</h2>
                 </div>
-                <p className="hedytexttiltacademy2">Hedy</p>
-                  <h3 id="arcamajora">ACADEMY</h3>
+                <div className="bottomdiv" id="hedyacademytext">
+
+                </div>
                 </div>
               <Link
                 style={{ textDecoration: "none", color: "black" }}
@@ -102,11 +103,12 @@ class Academypage extends React.Component {
           <div className="picturedivcourse">
             <div id="academy">
             <div className="coursesdiv">
-            <div className="margin2">
-              <p id="arcamajoranospace">Android development for beginners</p>
+            <div className="margin">
+              <h2 id="arcamajoranospace">Android development for beginners</h2>
               </div>
-              <p className="hedytexttiltacademy2">Hedy</p>
-                <h3 id="arcamajora">ACADEMY</h3>
+              <div className="bottomdiv" id="hedyacademytext">
+
+              </div>
               </div>
             <div>
               <Comingsoon/>
@@ -117,11 +119,12 @@ class Academypage extends React.Component {
         <div className="picturedivcourse">
           <div id="academy">
           <div className="coursesdiv">
-          <div className="margin2">
-            <p id="arcamajoranospace">Advanced Android development</p>
+          <div className="margin">
+            <h2 id="arcamajoranospace">Advanced Android development</h2>
             </div>
-            <p className="hedytexttiltacademy2">Hedy</p>
-              <h3 id="arcamajora">ACADEMY</h3>
+            <div className="bottomdiv" id="hedyacademytext">
+
+            </div>
             </div>
           <div>
             <Comingsoon/>
@@ -132,11 +135,12 @@ class Academypage extends React.Component {
       <div className="picturedivcourse">
         <div id="academy">
         <div className="coursesdiv">
-        <div className="margin2">
-          <p id="arcamajoranospace">Android</p>
+        <div className="margin">
+          <h2 id="arcamajoranospace">Android Architecture</h2>
           </div>
-          <p className="hedytexttiltacademy2">Hedy</p>
-            <h3 id="arcamajora">ACADEMY</h3>
+          <div className="bottomdiv" id="hedyacademytext">
+
+          </div>
           </div>
         <div>
           <Comingsoon/>
@@ -148,10 +152,11 @@ class Academypage extends React.Component {
           <div id="academy">
         <div className="coursesdiv">
         <div className="margin">
-                <p id="arcamajoranospace">Growth hacking</p>
+                <h2 id="arcamajoranospace">Growth hacking</h2>
                 </div>
-                <p className="hedytexttiltacademy2">Hedy</p>
-                  <h3 id="arcamajora">ACADEMY</h3>
+                <div className="bottomdiv" id="hedyacademytext">
+
+                </div>
                 </div>
               <div>
               <Comingsoon/>
@@ -162,11 +167,12 @@ class Academypage extends React.Component {
           <div className="picturedivcourse">
             <div id="academy">
           <div className="coursesdiv">
-          <div className="margin2">
-                  <p id="arcamajoranospace">Take digitalization and tech trends into the board room</p>
+          <div className="margin">
+                  <h2 id="arcamajoranospace">Take digitalization and tech trends into the board room</h2>
                   </div>
-                  <p className="hedytexttiltacademy2">Hedy</p>
-                    <h3 id="arcamajora">ACADEMY</h3>
+                  <div className="bottomdiv" id="hedyacademytext">
+
+                  </div>
                   </div>
                 <div>
                 <Comingsoon/>
@@ -180,10 +186,11 @@ class Academypage extends React.Component {
             <div id="academy">
               <div className="coursesdiv">
               <div className="margin">
-                    <p id="arcamajoranospace">Learn to code</p>
+                    <h2 id="arcamajoranospace">Learn to code</h2>
                     </div>
-                    <p className="hedytexttiltacademy2">Hedy</p>
-                      <h3 id="arcamajora">ACADEMY</h3>
+                    <div className="bottomdiv" id="hedyacademytext">
+
+                    </div>
                     </div>
                   <div>
                   <Comingsoon/>
@@ -297,8 +304,9 @@ class Academypage extends React.Component {
         <div className="margin">
               <p>Succeed with Kotlin</p>
               </div>
-              <p className="hedytexttiltacademy2">Hedy</p>
-                <h3 id="arcamajora">ACADEMY</h3>
+              <div className="bottomdiv" id="hedyacademytext">
+
+              </div>
               </div>
             <Link
               style={{ textDecoration: "none", color: "black" }}
@@ -318,8 +326,9 @@ class Academypage extends React.Component {
         <div className="margin">
           <p>Android development for beginners</p>
           </div>
-          <p className="hedytexttiltacademy2">Hedy</p>
-            <h3 id="arcamajora">ACADEMY</h3>
+          <div className="bottomdiv" id="hedyacademytext">
+
+          </div>
           </div>
         <div>
           <Comingsoon/>
@@ -333,8 +342,9 @@ class Academypage extends React.Component {
       <div className="margin">
         <p>Advanced Android development</p>
         </div>
-        <p className="hedytexttiltacademy2">Hedy</p>
-          <h3 id="arcamajora">ACADEMY</h3>
+        <div className="bottomdiv" id="hedyacademytext">
+
+        </div>
         </div>
       <div>
         <Comingsoon/>
@@ -346,11 +356,12 @@ class Academypage extends React.Component {
     <div id="academy">
     <div className="coursesdiv">
     <div className="margin">
-      <p>Android</p>
+      <p>Android Architecture</p>
       </div>
-      <p className="hedytexttiltacademy2">Hedy</p>
-        <h3 id="arcamajora">ACADEMY</h3>
+        <div className="bottomdiv" id="hedyacademytext">
+
       </div>
+        </div>
     <div>
       <Comingsoon/>
     </div>
@@ -364,8 +375,9 @@ class Academypage extends React.Component {
       <div className="margin">
               <p>Growth hacking</p>
               </div>
-              <p className="hedytexttiltacademy2">Hedy</p>
-                <h3 id="arcamajora">ACADEMY</h3>
+              <div className="bottomdiv" id="hedyacademytext">
+
+              </div>
               </div>
             <div>
             <Comingsoon/>
@@ -376,11 +388,12 @@ class Academypage extends React.Component {
         <div className="picturedivcourse">
           <div id="academy">
         <div className="coursesdiv">
-        <div className="margin2">
+        <div className="margin">
                 <p>Take digitalization and tech trends into the board room</p>
                 </div>
-                <p className="hedytexttiltacademy2">Hedy</p>
-                  <h3 id="arcamajora">ACADEMY</h3>
+                <div className="bottomdiv" id="hedyacademytext">
+
+                </div>
                 </div>
               <div>
               <Comingsoon/>
@@ -396,8 +409,9 @@ class Academypage extends React.Component {
             <div className="margin">
                   <p>Learn to code</p>
                   </div>
-                  <p className="hedytexttiltacademy2">Hedy</p>
-                    <h3 id="arcamajora">ACADEMY</h3>
+                  <div className="bottomdiv" id="hedyacademytext">
+
+                  </div>
                   </div>
                 <div>
                 <Comingsoon/>

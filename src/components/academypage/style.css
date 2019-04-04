@@ -26,15 +26,33 @@
   justify-content: center;
 }
 
+.bottomdiv {
+  width: 100%;
+  padding-top: 5vw;
+  z-index: 10000;
+  bottom: 0;
+  position: absolute;
+  padding-bottom: 5vw;
+  /* border: 3px solid #8AC007; */
+}
+
+#hedyacademytext {
+  background-image: url(../images/hedyacademy.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%;
+  /* background-attachment: fixed; */
+  /* z-index: 1000; */
+}
+
+
 .coursesdiv {
   width: 100%;
-  /* margin: 10px; */
+  position: relative;
   height: 250px;
   background-color: rgba(255,255,255, 0.6);
-  /* border: 1px solid black; */
-  padding: 10px;
-  padding: 30px;
-  /* border-radius: 20px; */
+  padding: 0.1vw;
+
   font-family: Arca Majora3;
   text-align: center;
   font-size: 20px;
@@ -257,6 +275,19 @@ transform: scale(1.05, 1.05);
 } */
 
 @media (max-width: 1000px) {
+
+  .bottomdiv {
+    width: 100%;
+    padding-top: 5vw;
+    z-index: 10000;
+    bottom: 0;
+    /* background-color: pink; */
+    position: absolute;
+    padding-bottom: 20vw;
+    margin-left: -3vw;
+    /* border: 3px solid #8AC007; */
+  }
+
   .picturedivcourse {
     width: 100%;
     /* margin: 10px; */

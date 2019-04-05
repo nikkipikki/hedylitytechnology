@@ -23,7 +23,7 @@ class Kotlin extends React.Component {
 
 
       <div className="headertextbox">
-        <h1>SUCCEED WITH KOTLIN</h1>
+        <h1 id="arcamajora">SUCCEED WITH KOTLIN</h1>
         <h2>by</h2>
       <div className="headertextsmall2" id="negativemargin">
 
@@ -191,7 +191,7 @@ class Kotlin extends React.Component {
 
 
       <div className="headertextbox">
-        <h1>SUCCEED WITH KOTLIN</h1>
+        <h1 id="arcamajora">SUCCEED WITH KOTLIN</h1>
       <div className="headertextsmall2">
       <h3>by</h3>
       <p className="hedytexttiltkotlin">Hedy</p>

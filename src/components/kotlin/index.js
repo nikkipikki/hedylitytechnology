@@ -213,7 +213,6 @@ class Kotlin extends React.Component {
     <Link
       style={{ textDecoration: "none", color: "#ffffff" }}
       to="/kotlin">
-    <div className="displayflexwrap">
     <div className="textbox2" id="">
     <div id="">
     <div id="colorblack">
@@ -232,7 +231,7 @@ class Kotlin extends React.Component {
 
     </div>
     </div>
-    </div>
+
       </Link>
 
     </div>

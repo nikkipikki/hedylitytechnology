@@ -1,13 +1,13 @@
 import React from "react"
 import "./style.css"
 
-class Apply extends React.Component {
+class Interest extends React.Component {
   render() {
     return (
       <div>
         <a href="https://goo.gl/forms/TArPukMZ80uK1Nt73">
           <div className="contactbuttonbox">
-            <button className="contactbutton">APPLY</button>
+            <button className="contactbutton">INTEREST INQUIRY</button>
           </div>
             </a>
       </div>
@@ -16,4 +16,4 @@ class Apply extends React.Component {
 
 }
 
-export default Apply
+export default Interest

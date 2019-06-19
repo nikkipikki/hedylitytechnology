@@ -45,36 +45,6 @@ class Academypage extends React.Component {
           </div>
 
 
-          <Link
-            style={{ textDecoration: "none", color: "#ffffff" }}
-            to="/kotlin">
-          <div className="displayflexwrap">
-          <div className="textbox2" id="backgroundcolorwhiteblack">
-          <div id="">
-          <div id="colorblack">
-          <h3 id="nomargintoplittlebottom">NEXT COURSE</h3>
-          </div>
-          <div id="">
-            <div id="colorpink">
-              <h5 id="margintop0comma8vw">Succeed with Kotlin
-              </h5>
-            </div>
-          </div>
-            <h6 id="nomarginbottom">Dates: 23-24 May 2019</h6>
-            <h6 id="margintop0comma8vw">Time: 09.00–16.30</h6>
-            <h6 id="margintop0comma8vw">Location: Central Stockholm</h6>
-          <div id="margintop0comma8vw">
-            <Tellmemorebutton/>
-          </div>
-
-
-          </div>
-          </div>
-          </div>
-            </Link>
-
-
-
         <div className="teamboxweb">
 
         <h1 id="colorwhite">CURRENT COURSES</h1>
@@ -253,33 +223,7 @@ class Academypage extends React.Component {
         </div>
       </div>
 
-      <Link
-        style={{ textDecoration: "none", color: "#ffffff" }}
-        to="/kotlin">
-      <div className="displayflexwrap">
-      <div className="textbox2" id="">
-      <div id="">
-      <div id="colorblack">
-      <h3 id="nomargintoplittlebottom">NEXT COURSE</h3>
-      </div>
-      <div id="">
-        <div id="colorpink">
-          <h5 id="margintop0comma8vw">Succeed with Kotlin
-          </h5>
-        </div>
-      </div>
-        <h6 id="nomarginbottom">Dates: 23-24 May 2019</h6>
-        <h6 id="margintop0comma8vw">Time: 09.00–16.30</h6>
-        <h6 id="margintop0comma8vw">Location: Central Stockholm</h6>
-      <div id="margintop0comma8vw">
-        <Tellmemorebutton/>
-      </div>
 
-
-      </div>
-      </div>
-      </div>
-        </Link>
 
       <div className="justifycenter">
 

@@ -106,15 +106,6 @@
   /* z-index: -1; */
 }
 
-#nicole {
-  background-image: url(../images/nicole_1.png);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-  background-size: 70%;
-  /* z-index: -1; */
-}
-
 #oden {
   background-image: url(../images/oden_1.png);
   background-repeat: no-repeat;
@@ -133,6 +124,16 @@
   /* z-index: -1; */
 }
 
+.teamboxweb2 {
+  padding-left: 15vw;
+  padding-right: 15vw;
+  margin: auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: wrap;
+}
+
 .teamboxweb {
   padding-left: 15vw;
   padding-right: 15vw;
@@ -143,6 +144,8 @@
   flex-flow: wrap;
   justify-content: space-between;
 }
+
+
 
 .pictureboxweb2 {
   display: block;
@@ -157,7 +160,7 @@
   background-color: white;
   padding-top: 4vw;
   width: 30%;
-  margin-bottom: 2vw;
+  margin: 1vw;
   transition: background 0.2s ease-in-out,
   width 1s ease-in,
   height 1s linear,

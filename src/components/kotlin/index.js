@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "react-router-dom"
 import "./style.css"
-import Apply from "../apply"
+import Interest from "../interest"
 import ScrollToTopOnMount from "../scrolltotoponmount"
 import Tellmemorebutton from "../tellmemorebutton"
 
@@ -43,30 +43,6 @@ class Kotlin extends React.Component {
       </div>
       </div>
       </div>
-
-
-
-      <div className="displayflexwrap">
-      <div className="textbox3" id="marginbottom">
-      <div id="">
-      <div id="colorblack">
-      <h3 id="nomargintoplittlebottom">DETAILS</h3>
-      </div>
-        <h6 id="nomarginbottom">Dates: 23-24 May 2019</h6>
-        <h6 id="margintop0comma8vw">Time: 09.00–16.30</h6>
-        <h6 id="margintop0comma8vw">Location: Central Stockholm</h6>
-        <h6 id="margintop0comma8vw">Price: 15 900 SEK</h6>
-        <h6 id="margintop0comma8vw">(Lunch and “Fika” is included)</h6>
-      <div id="margintop0comma8vw">
-        <Apply/>
-      </div>
-
-
-      </div>
-      </div>
-      </div>
-
-
 
       </div>
 
@@ -174,7 +150,7 @@ class Kotlin extends React.Component {
 
 
           </div>
-          <Apply/>
+          <Interest/>
 
 
 
@@ -209,30 +185,6 @@ class Kotlin extends React.Component {
       </div>
       </div>
     </div>
-
-    <Link
-      style={{ textDecoration: "none", color: "#ffffff" }}
-      to="/kotlin">
-    <div className="textbox2" id="">
-    <div id="">
-    <div id="colorblack">
-    <h3 id="nomargintoplittlebottom">DETAILS</h3>
-    </div>
-      <h6 id="nomarginbottom">Dates: 23-24 May 2019</h6>
-      <h6 id="margintop0comma8vw">Time: 09.00–16.30</h6>
-      <h6 id="margintop0comma8vw">Location: Central Stockholm</h6>
-      <h6 id="margintop0comma8vw">Price: 15 900 SEK</h6>
-      <h6 id="margintop0comma8vw">(Lunch and “Fika” is included)</h6>
-
-
-    <div id="margintop0comma8vw">
-    </div>
-
-
-    </div>
-    </div>
-
-      </Link>
 
     </div>
 
@@ -340,7 +292,7 @@ class Kotlin extends React.Component {
               </div>
 
 
-      <Apply/>
+      <Interest/>
       </div>
 
       </div>

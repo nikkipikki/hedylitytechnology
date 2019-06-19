@@ -5,7 +5,6 @@ import Getintouch from "../getintouch"
 import Bob from "../bob"
 import Emelie from "../emelie"
 import Hanna from "../hanna"
-import Nicole from "../nicole"
 import Oden from "../oden"
 import Sarah from "../sarah"
 
@@ -103,13 +102,6 @@ class Teampage extends React.Component {
     </div>
 
     <div className="teammemberdiv">
-      <div className="pictureboxweb" id="nicole" onClick={this.myFunction4}>
-        {this.state.isHiddenFourth && <h5 className="headernametext" id="arcamajora">NICOLE PEHAR</h5>}
-        {!this.state.isHiddenFourth && <Nicole />}
-      </div>
-    </div>
-
-    <div className="teammemberdiv">
       <div className="pictureboxweb" id="oden" onClick={this.myFunction5}>
         {this.state.isHiddenFifth && <h5 className="headernametext" id="arcamajora">ODEN LOBELL</h5>}
         {!this.state.isHiddenFifth && <Oden />}
@@ -152,7 +144,7 @@ class Teampage extends React.Component {
             </div>
           </div>
 
-        <div className="teamboxweb">
+        <div className="teamboxweb2">
 
         <div className="teammemberdiv">
           <div className="pictureboxweb" id="bob" onClick={this.myFunction1}>
@@ -172,13 +164,6 @@ class Teampage extends React.Component {
           <div className="pictureboxweb" id="hanna" onClick={this.myFunction3}>
             {this.state.isHiddenThird && <h5 className="headernametext" id="arcamajora">HANNA MOISANDER</h5>}
             {!this.state.isHiddenThird && <Hanna />}
-          </div>
-        </div>
-
-        <div className="teammemberdiv">
-          <div className="pictureboxweb" id="nicole" onClick={this.myFunction4}>
-            {this.state.isHiddenFourth && <h5 className="headernametext" id="arcamajora">NICOLE PEHAR</h5>}
-            {!this.state.isHiddenFourth && <Nicole />}
           </div>
         </div>
 
